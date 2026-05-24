@@ -1,0 +1,32 @@
+# Entornos locales
+.venv/
+venv/
+.env
+
+# Cache Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Datos y salidas generadas
+data/raw/
+data/interim/
+data/processed/
+outputs/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+/codex
