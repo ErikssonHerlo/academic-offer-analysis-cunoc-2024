@@ -13,6 +13,7 @@ from collections.abc import Callable
 
 PIPELINE_MODULES: tuple[str, ...] = (
     "src.data.validate_data",
+    "src.data.clean_data",
     "src.features.build_derived_datasets",
     "src.analysis.eda",
     "src.analysis.statistical_tests",
