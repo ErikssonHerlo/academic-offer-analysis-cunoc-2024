@@ -1,0 +1,9 @@
+grupo_area,periodo_academico,descripcion_periodo,total_cursos_catalogo,cursos_ofertados,cursos_no_ofertados,porcentaje_cursos_ofertados
+Area comun,S1,Primer semestre 2024,41,26,15,0.6341463414634146
+Area profesional,S1,Primer semestre 2024,49,25,24,0.5102040816326531
+Area comun,V1,Escuela de vacaciones junio 2024,41,14,27,0.34146341463414637
+Area profesional,V1,Escuela de vacaciones junio 2024,49,3,46,0.061224489795918366
+Area comun,S2,Segundo semestre 2024,41,25,16,0.6097560975609756
+Area profesional,S2,Segundo semestre 2024,49,23,26,0.46938775510204084
+Area comun,V2,Escuela de vacaciones diciembre 2024,41,13,28,0.3170731707317073
+Area profesional,V2,Escuela de vacaciones diciembre 2024,49,3,46,0.061224489795918366

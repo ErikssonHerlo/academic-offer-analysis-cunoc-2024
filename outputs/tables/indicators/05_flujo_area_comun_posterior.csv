@@ -1,0 +1,31 @@
+grupo_area,area_academica,codigo_curso,nombre_curso,curso_etiqueta,semestre_pensum,curso_bloqueante,cantidad_cursos_dependientes,nivel_bloqueo_curricular,perdidas_definitivas,perdidas_con_oferta_posterior_2024,recursamientos_observables,recursamientos_con_resultado,aprobaciones_posteriores,perdidas_sin_oferta_posterior_2024,tasa_perdidas_con_oferta_posterior,tasa_perdidas_sin_oferta_posterior,tasa_recursamiento_observable,tasa_aprobacion_al_recursar,tasa_aprobacion_posterior_sobre_perdidas
+Area comun,Ciencias Basicas y Complementarias,72,Fisica Basica,72 - Fisica Basica,2,Si,1,medio,30,15,15,15,10,15,0.5,0.5,0.5,0.6666666666666666,0.3333333333333333
+Area comun,Ciencias Basicas y Complementarias,2667,Tecnicas de Investigacion y Estudio,2667 - Tecnicas de Investigacion y Estudio,2,Si,1,medio,20,10,10,10,6,10,0.5,0.5,0.5,0.6,0.3
+Area comun,Ciencias Basicas y Complementarias,119,Tecnica Complementaria 1,119 - Tecnica Complementaria 1,1,No,0,bajo,10,0,0,0,0,10,0.0,1.0,0.0,,0.0
+Area comun,Ciencias Basicas y Complementarias,28,Social Humanistica 1,28 - Social Humanistica 1,1,Si,1,medio,8,0,0,0,0,8,0.0,1.0,0.0,,0.0
+Area comun,Ciencias Basicas y Complementarias,29,Social Humanistica 2,29 - Social Humanistica 2,2,Si,2,medio,8,0,0,0,0,8,0.0,1.0,0.0,,0.0
+Area comun,Ciencias Basicas y Complementarias,85,Logica,85 - Logica,4,No,0,bajo,20,13,12,12,7,7,0.65,0.35,0.6,0.5833333333333334,0.35
+Area comun,Ciencias Basicas y Complementarias,216,Quimica 1,216 - Quimica 1,1,Si,1,medio,16,9,9,9,5,7,0.5625,0.4375,0.5625,0.5555555555555556,0.3125
+Area comun,Ciencias Basicas y Complementarias,2837,Seminario de Investigacion,2837 - Seminario de Investigacion,10,No,0,bajo,7,3,3,3,2,4,0.42857142857142855,0.5714285714285714,0.42857142857142855,0.6666666666666666,0.2857142857142857
+Area comun,Ciencias Basicas y Complementarias,2666,Orientacion y Liderazgo,2666 - Orientacion y Liderazgo,1,No,0,bajo,9,6,6,6,3,3,0.6666666666666666,0.3333333333333333,0.6666666666666666,0.5,0.3333333333333333
+Area comun,Ciencias Basicas y Complementarias,674,Matematica Aplicada 3,674 - Matematica Aplicada 3,5,Si,1,medio,8,5,5,5,1,3,0.625,0.375,0.625,0.2,0.125
+Area comun,Ciencias Basicas y Complementarias,77,Filosofia de la Ciencia,77 - Filosofia de la Ciencia,5,No,0,bajo,3,0,0,0,0,3,0.0,1.0,0.0,,0.0
+Area comun,Ciencias Basicas y Complementarias,177,Deportes 1,177 - Deportes 1,1,Si,1,medio,3,0,0,0,0,3,0.0,1.0,0.0,,0.0
+Area comun,Ciencias Basicas y Complementarias,178,Deportes 2,178 - Deportes 2,2,No,0,bajo,3,0,0,0,0,3,0.0,1.0,0.0,,0.0
+Area comun,Ciencias Basicas y Complementarias,2570,Etica Profesional,2570 - Etica Profesional,9,No,0,bajo,3,0,0,0,0,3,0.0,1.0,0.0,,0.0
+Area comun,Ciencias Basicas y Complementarias,670,Ingenieria Electrica 1,670 - Ingenieria Electrica 1,6,No,0,bajo,4,2,2,2,2,2,0.5,0.5,0.5,1.0,0.5
+Area comun,Ciencias Basicas y Complementarias,919,Contabilidad 3,919 - Contabilidad 3,7,No,0,bajo,4,2,2,2,0,2,0.5,0.5,0.5,0.0,0.0
+Area comun,Ciencias Basicas y Complementarias,779,Contabilidad 2,779 - Contabilidad 2,6,Si,1,medio,1,0,0,0,0,1,0.0,1.0,0.0,,0.0
+Area comun,Ciencias Basicas y Complementarias,169,Matematica Basica 1,169 - Matematica Basica 1,1,Si,2,medio,65,65,65,65,48,0,1.0,0.0,1.0,0.7384615384615385,0.7384615384615385
+Area comun,Ciencias Basicas y Complementarias,290,Matematica Intermedia 1,290 - Matematica Intermedia 1,3,Si,5,alto,55,55,53,53,34,0,1.0,0.0,0.9636363636363636,0.6415094339622641,0.6181818181818182
+Area comun,Ciencias Basicas y Complementarias,170,Matematica Basica 2,170 - Matematica Basica 2,2,Si,6,alto,34,34,34,34,16,0,1.0,0.0,1.0,0.47058823529411764,0.47058823529411764
+Area comun,Ciencias Basicas y Complementarias,147,Fisica 2,147 - Fisica 2,4,Si,3,medio,30,30,30,30,21,0,1.0,0.0,1.0,0.7,0.7
+Area comun,Ciencias Basicas y Complementarias,146,Fisica 1,146 - Fisica 1,3,Si,1,medio,29,29,29,29,17,0,1.0,0.0,1.0,0.5862068965517241,0.5862068965517241
+Area comun,Ciencias Basicas y Complementarias,291,Matematica Intermedia 2,291 - Matematica Intermedia 2,4,Si,2,medio,16,16,13,13,7,0,1.0,0.0,0.8125,0.5384615384615384,0.4375
+Area comun,Ciencias Basicas y Complementarias,292,Matematica Intermedia 3,292 - Matematica Intermedia 3,4,Si,3,medio,15,15,11,11,4,0,1.0,0.0,0.7333333333333333,0.36363636363636365,0.26666666666666666
+Area comun,Ciencias Basicas y Complementarias,690,Ingenieria Economica 1,690 - Ingenieria Economica 1,8,Si,2,medio,11,11,11,11,9,0,1.0,0.0,1.0,0.8181818181818182,0.8181818181818182
+Area comun,Ciencias Basicas y Complementarias,673,Matematica Aplicada 1,673 - Matematica Aplicada 1,5,Si,3,medio,7,7,7,7,3,0,1.0,0.0,1.0,0.42857142857142855,0.42857142857142855
+Area comun,Ciencias Basicas y Complementarias,94,Ecologia,94 - Ecologia,5,Si,1,medio,6,6,6,6,4,0,1.0,0.0,1.0,0.6666666666666666,0.6666666666666666
+Area comun,Ciencias Basicas y Complementarias,694,Contabilidad 1,694 - Contabilidad 1,5,Si,1,medio,4,4,4,4,0,0,1.0,0.0,1.0,0.0,0.0
+Area comun,Ciencias Basicas y Complementarias,909,Preparacion y Evaluacion de Proyectos 1,909 - Preparacion y Evaluacion de Proyectos 1,10,No,0,bajo,4,4,4,4,3,0,1.0,0.0,1.0,0.75,0.75
+Area comun,Ciencias Basicas y Complementarias,912,Planeamiento,912 - Planeamiento,10,No,0,bajo,2,2,2,2,1,0,1.0,0.0,1.0,0.5,0.5

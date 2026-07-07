@@ -1,0 +1,6 @@
+area_academica,registros_modelables,estudiantes_en_riesgo_retraso_curricular,estudiantes_en_riesgo_retraso_amplio,perdida_definitiva,necesidad_recuperacion,tasa_riesgo_retraso_curricular,tasa_riesgo_retraso_amplio,tasa_perdida_definitiva
+Ciencias Basicas y Complementarias,1703,150,215,497,316,0.08807985907222549,0.1262477980035232,0.2918379330593071
+Desarrollo de Software,339,116,121,129,97,0.3421828908554572,0.35693215339233036,0.3805309734513274
+Ciencias de la Computacion,328,85,102,102,90,0.25914634146341464,0.31097560975609756,0.31097560975609756
+Metodologia de Sistemas,295,47,63,81,63,0.15932203389830507,0.2135593220338983,0.2745762711864407
+EPS,61,13,18,18,13,0.21311475409836064,0.29508196721311475,0.29508196721311475

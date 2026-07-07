@@ -1,0 +1,5 @@
+periodo_academico,registros_modelables,estudiantes_en_riesgo_retraso_curricular,estudiantes_en_riesgo_retraso_amplio,perdida_definitiva,necesidad_recuperacion,tasa_riesgo_retraso_curricular,tasa_riesgo_retraso_amplio,tasa_perdida_definitiva
+S1,1244,195,243,355,310,0.1567524115755627,0.19533762057877813,0.2853697749196141
+V1,249,0,5,95,0,0.0,0.020080321285140562,0.3815261044176707
+S2,1047,147,198,304,269,0.14040114613180515,0.18911174785100288,0.2903533906399236
+V2,186,69,73,73,0,0.3709677419354839,0.3924731182795699,0.3924731182795699
