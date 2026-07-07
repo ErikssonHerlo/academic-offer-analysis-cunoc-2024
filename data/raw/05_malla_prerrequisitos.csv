@@ -1,0 +1,137 @@
+codigo_curso,nombre_curso,codigo_prerrequisito,nombre_prerrequisito,tipo_requisito,es_obligatorio,semestre_curso,semestre_prerrequisito
+029,Social Humanistica 2,028,Social Humanistica 1,prerrequisito,Si,2,1
+072,Fisica Basica,169,Matematica Basica 1,prerrequisito,Si,2,1
+170,Matematica Basica 2,169,Matematica Basica 1,prerrequisito,Si,2,1
+178,Deportes 2,177,Deportes 1,prerrequisito,Si,2,1
+2793,Idioma Tecnico 2,2792,Idioma Tecnico 1,prerrequisito,Si,2,1
+146,Fisica 1,170,Matematica Basica 2,prerrequisito,Si,3,2
+146,Fisica 1,072,Fisica Basica,prerrequisito,Si,3,2
+2794,Idioma Tecnico 3,2793,Idioma Tecnico 2,prerrequisito,Si,3,2
+2795,Matematica de Computo 1,170,Matematica Basica 2,prerrequisito,Si,3,2
+2795,Matematica de Computo 1,,33 creditos aprobados,creditos,Si,3,
+2796,Introduccion a la Programacion y Computacion 1,170,Matematica Basica 2,prerrequisito,Si,3,2
+2796,Introduccion a la Programacion y Computacion 1,,33 creditos aprobados,creditos,Si,3,
+2797,Logica de Sistemas,170,Matematica Basica 2,prerrequisito,Si,3,2
+2797,Logica de Sistemas,,33 creditos aprobados,creditos,Si,3,
+290,Matematica Intermedia 1,170,Matematica Basica 2,prerrequisito,Si,3,2
+085,Logica,029,Social Humanistica 2,prerrequisito,Si,4,2
+147,Fisica 2,290,Matematica Intermedia 1,prerrequisito,Si,4,3
+147,Fisica 2,146,Fisica 1,prerrequisito,Si,4,3
+2798,Lenguajes Formales y de Programacion,2796,Introduccion a la Programacion y Computacion 1,prerrequisito,Si,4,3
+2798,Lenguajes Formales y de Programacion,2795,Matematica de Computo 1,prerrequisito,Si,4,3
+2798,Lenguajes Formales y de Programacion,2797,Logica de Sistemas,prerrequisito,Si,4,3
+2799,Matematica de Computo 2,2795,Matematica de Computo 1,prerrequisito,Si,4,3
+2799,Matematica de Computo 2,2796,Introduccion a la Programacion y Computacion 1,prerrequisito,Si,4,3
+2799,Matematica de Computo 2,2797,Logica de Sistemas,prerrequisito,Si,4,3
+2800,Introduccion a la Programacion y Computacion 2,2796,Introduccion a la Programacion y Computacion 1,prerrequisito,Si,4,3
+2800,Introduccion a la Programacion y Computacion 2,2795,Matematica de Computo 1,prerrequisito,Si,4,3
+2800,Introduccion a la Programacion y Computacion 2,2797,Logica de Sistemas,prerrequisito,Si,4,3
+2800,Introduccion a la Programacion y Computacion 2,290,Matematica Intermedia 1,prerrequisito,Si,4,3
+2801,Idioma Tecnico 4,2794,Idioma Tecnico 3,prerrequisito,Si,4,3
+291,Matematica Intermedia 2,290,Matematica Intermedia 1,prerrequisito,Si,4,3
+292,Matematica Intermedia 3,290,Matematica Intermedia 1,prerrequisito,Si,4,3
+949,Estadistica 1,290,Matematica Intermedia 1,prerrequisito,Si,4,3
+949,Estadistica 1,2667,Tecnicas de Investigacion y Estudio,prerrequisito,Si,4,2
+077,Filosofia de la Ciencia,029,Social Humanistica 2,prerrequisito,Si,5,2
+077,Filosofia de la Ciencia,,90 creditos aprobados,creditos,Si,5,
+094,Ecologia,,90 creditos aprobados,creditos,Si,5,
+2802,Analisis Probabilistico,949,Estadistica 1,prerrequisito,Si,5,4
+2803,Organizacion de Lenguajes y Compiladores 1,2798,Lenguajes Formales y de Programacion,prerrequisito,Si,5,4
+2803,Organizacion de Lenguajes y Compiladores 1,2799,Matematica de Computo 2,prerrequisito,Si,5,4
+2803,Organizacion de Lenguajes y Compiladores 1,2800,Introduccion a la Programacion y Computacion 2,prerrequisito,Si,5,4
+2804,Organizacion Computacional,147,Fisica 2,prerrequisito,Si,5,4
+2804,Organizacion Computacional,2799,Matematica de Computo 2,prerrequisito,Si,5,4
+2804,Organizacion Computacional,2800,Introduccion a la Programacion y Computacion 2,prerrequisito,Si,5,4
+2805,Estructura de Datos,2798,Lenguajes Formales y de Programacion,prerrequisito,Si,5,4
+2805,Estructura de Datos,2799,Matematica de Computo 2,prerrequisito,Si,5,4
+2805,Estructura de Datos,2800,Introduccion a la Programacion y Computacion 2,prerrequisito,Si,5,4
+2806,Principios De Metrologia,147,Fisica 2,prerrequisito,Si,5,4
+2806,Principios De Metrologia,216,Quimica 1,prerrequisito,Si,5,1
+2806,Principios De Metrologia,949,Estadistica 1,prerrequisito,Si,5,4
+2807,Practica Inicial TI,170,Matematica Basica 2,prerrequisito,Si,5,2
+2807,Practica Inicial TI,2796,Introduccion a la Programacion y Computacion 1,prerrequisito,Si,5,3
+673,Matematica Aplicada 1,291,Matematica Intermedia 2,prerrequisito,Si,5,4
+673,Matematica Aplicada 1,292,Matematica Intermedia 3,prerrequisito,Si,5,4
+674,Matematica Aplicada 3,291,Matematica Intermedia 2,prerrequisito,Si,5,4
+674,Matematica Aplicada 3,292,Matematica Intermedia 3,prerrequisito,Si,5,4
+694,Contabilidad 1,,90 creditos aprobados,creditos,Si,5,
+2670,Gestion de Desastres,094,Ecologia,prerrequisito,Si,6,5
+2808,Teoria de Sistemas 1,949,Estadistica 1,prerrequisito,Si,6,4
+2808,Teoria de Sistemas 1,674,Matematica Aplicada 3,prerrequisito,Si,6,5
+2808,Teoria de Sistemas 1,673,Matematica Aplicada 1,prerrequisito,Si,6,5
+2808,Teoria de Sistemas 1,2805,Estructura de Datos,prerrequisito,Si,6,5
+2809,Economia,949,Estadistica 1,prerrequisito,Si,6,4
+2810,Organizacion de Lenguajes y Compiladores 2,2803,Organizacion de Lenguajes y Compiladores 1,prerrequisito,Si,6,5
+2810,Organizacion de Lenguajes y Compiladores 2,2805,Estructura de Datos,prerrequisito,Si,6,5
+2811,Arquitectura de Computadores y Ensambladores 1,2803,Organizacion de Lenguajes y Compiladores 1,prerrequisito,Si,6,5
+2811,Arquitectura de Computadores y Ensambladores 1,2805,Estructura de Datos,prerrequisito,Si,6,5
+2812,Manejo e Implementacion de Archivos,2798,Lenguajes Formales y de Programacion,prerrequisito,Si,6,4
+2812,Manejo e Implementacion de Archivos,2803,Organizacion de Lenguajes y Compiladores 1,prerrequisito,Si,6,5
+670,Ingenieria Electrica 1,292,Matematica Intermedia 3,prerrequisito,Si,6,4
+670,Ingenieria Electrica 1,147,Fisica 2,prerrequisito,Si,6,4
+685,Investigacion de Operaciones 1,949,Estadistica 1,prerrequisito,Si,6,4
+685,Investigacion de Operaciones 1,2800,Introduccion a la Programacion y Computacion 2,prerrequisito,Si,6,4
+779,Contabilidad 2,694,Contabilidad 1,prerrequisito,Si,6,5
+904,Matematica Aplicada 2,673,Matematica Aplicada 1,prerrequisito,Si,6,5
+905,Matematica Aplicada 4,673,Matematica Aplicada 1,prerrequisito,Si,6,5
+2813,Teoria de Sistemas 2,685,Investigacion de Operaciones 1,prerrequisito,Si,7,6
+2813,Teoria de Sistemas 2,2802,Analisis Probabilistico,prerrequisito,Si,7,5
+2813,Teoria de Sistemas 2,2808,Teoria de Sistemas 1,prerrequisito,Si,7,6
+2814,Sistemas Operativos 1,2800,Introduccion a la Programacion y Computacion 2,prerrequisito,Si,7,4
+2814,Sistemas Operativos 1,2811,Arquitectura de Computadores y Ensambladores 1,prerrequisito,Si,7,6
+2815,Arquitectura de Computadores y Ensambladores 2,2811,Arquitectura de Computadores y Ensambladores 1,prerrequisito,Si,7,6
+2816,Redes de Computadoras 1,2811,Arquitectura de Computadores y Ensambladores 1,prerrequisito,Si,7,6
+2816,Redes de Computadoras 1,2812,Manejo e Implementacion de Archivos,prerrequisito,Si,7,6
+2817,Sistemas de Bases de Datos 1,2803,Organizacion de Lenguajes y Compiladores 1,prerrequisito,Si,7,5
+2817,Sistemas de Bases de Datos 1,2807,Practica Inicial TI,prerrequisito,Si,7,5
+2817,Sistemas de Bases de Datos 1,2811,Arquitectura de Computadores y Ensambladores 1,prerrequisito,Si,7,6
+2817,Sistemas de Bases de Datos 1,2812,Manejo e Implementacion de Archivos,prerrequisito,Si,7,6
+2818,Practica Intemedia TI,2803,Organizacion de Lenguajes y Compiladores 1,prerrequisito,Si,7,5
+2818,Practica Intemedia TI,2807,Practica Inicial TI,prerrequisito,Si,7,5
+2818,Practica Intemedia TI,2811,Arquitectura de Computadores y Ensambladores 1,prerrequisito,Si,7,6
+2818,Practica Intemedia TI,2812,Manejo e Implementacion de Archivos,prerrequisito,Si,7,6
+795,Investigacion de Operaciones 2,685,Investigacion de Operaciones 1,prerrequisito,Si,7,6
+919,Contabilidad 3,779,Contabilidad 2,prerrequisito,Si,7,6
+943,Administracion de Empresas 1,,150 creditos aprobados,creditos,Si,7,
+950,Estadistica 2,685,Investigacion de Operaciones 1,prerrequisito,Si,7,6
+950,Estadistica 2,2802,Analisis Probabilistico,prerrequisito,Si,7,5
+950,Estadistica 2,2808,Teoria de Sistemas 1,prerrequisito,Si,7,6
+2819,Sistemas Operativos 2,2814,Sistemas Operativos 1,prerrequisito,Si,8,7
+2820,Redes de Computadoras 2,2816,Redes de Computadoras 1,prerrequisito,Si,8,7
+2821,Sistemas de Bases de Datos 2,2814,Sistemas Operativos 1,prerrequisito,Si,8,7
+2821,Sistemas de Bases de Datos 2,2817,Sistemas de Bases de Datos 1,prerrequisito,Si,8,7
+2822,Analisis y Diseño de Sistemas 1,2817,Sistemas de Bases de Datos 1,prerrequisito,Si,8,7
+2823,Seminario de Sistemas 1,2813,Teoria de Sistemas 2,prerrequisito,Si,8,7
+2823,Seminario de Sistemas 1,,170 creditos aprobados,creditos,Si,8,
+690,Ingenieria Economica 1,949,Estadistica 1,prerrequisito,Si,8,4
+2570,Etica Profesional,,200 creditos aprobados,creditos,Si,9,
+2672,Introduccion a la Evaluacion de Impacto Ambiental,,190 creditos aprobados,creditos,Si,9,
+2824,Modelacion y Simulacion 1,795,Investigacion de Operaciones 2,prerrequisito,Si,9,7
+2824,Modelacion y Simulacion 1,2813,Teoria de Sistemas 2,prerrequisito,Si,9,7
+2825,Sistemas Organizacionales y Gerenciales 1,2813,Teoria de Sistemas 2,prerrequisito,Si,9,7
+2825,Sistemas Organizacionales y Gerenciales 1,2822,Analisis y Diseño de Sistemas 1,prerrequisito,Si,9,8
+2826,Inteligencia Artificial 1,2810,Organizacion de Lenguajes y Compiladores 2,prerrequisito,Si,9,6
+2826,Inteligencia Artificial 1,2813,Teoria de Sistemas 2,prerrequisito,Si,9,7
+2826,Inteligencia Artificial 1,2821,Sistemas de Bases de Datos 2,prerrequisito,Si,9,8
+2827,Analisis y Diseño de Sistemas 2,2822,Analisis y Diseño de Sistemas 1,prerrequisito,Si,9,8
+2828,Seminario de Sistemas 2,2823,Seminario de Sistemas 1,prerrequisito,Si,9,8
+2828,Seminario de Sistemas 2,,190 creditos aprobados,creditos,Si,9,
+2829,Practica Final,2818,Practica Intemedia TI,prerrequisito,Si,9,7
+2829,Practica Final,,200 creditos aprobados,creditos,Si,9,
+2831,Seguridad y Auditorias de Redes,2822,Analisis y Diseño de Sistemas 1,prerrequisito,Si,9,8
+2833,Bases de Datos Avanzadas,2821,Sistemas de Bases de Datos 2,prerrequisito,Si,9,8
+922,Ingenieria Economica 2,690,Ingenieria Economica 1,prerrequisito,Si,9,8
+2834,Sistemas Organizacionales y Gerenciales 2,2825,Sistemas Organizacionales y Gerenciales 1,prerrequisito,Si,10,9
+2835,Modelacion y Simulacion 2,2824,Modelacion y Simulacion 1,prerrequisito,Si,10,9
+2836,Software Avanzado,2827,Analisis y Diseño de Sistemas 2,prerrequisito,Si,10,9
+2837,Seminario de Investigacion,2828,Seminario de Sistemas 2,prerrequisito,Si,10,9
+2837,Seminario de Investigacion,,220 creditos aprobados,creditos,Si,10,
+2838,Inteligencia Artificial 2,2826,Inteligencia Artificial 1,prerrequisito,Si,10,9
+2839,Redes de Nueva Generacion,2820,Redes de Computadoras 2,prerrequisito,Si,10,8
+2840,Sistemas Aplicados 2,2827,Analisis y Diseño de Sistemas 2,prerrequisito,Si,10,9
+2840,Sistemas Aplicados 2,2832,Sistemas Aplicados 1,prerrequisito,Si,10,9
+2841,Auditoria de Proyectos de Software,2827,Analisis y Diseño de Sistemas 2,prerrequisito,Si,10,9
+2842,Seminario de Investigacion EPS,,225 creditos aprobados,creditos,Si,10,
+909,Preparacion y Evaluacion de Proyectos 1,690,Ingenieria Economica 1,prerrequisito,Si,10,8
+909,Preparacion y Evaluacion de Proyectos 1,,190 creditos aprobados,creditos,Si,10,
+912,Planeamiento,,190 creditos aprobados,creditos,Si,10,

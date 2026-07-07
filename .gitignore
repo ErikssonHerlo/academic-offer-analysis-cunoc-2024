@@ -13,16 +13,6 @@ __pycache__/
 # Notebooks
 .ipynb_checkpoints/
 
-# Datos y salidas generadas
-data/raw/
-data/interim/
-data/processed/
-outputs/
-*.csv
-*.xlsx
-*.xls
-*.parquet
-
 # Sistema operativo y editores
 .DS_Store
 Thumbs.db

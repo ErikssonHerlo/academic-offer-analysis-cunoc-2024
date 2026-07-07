@@ -1,0 +1,91 @@
+codigo_curso,nombre_curso,area_academica,tipo_curso_configurado,requiere_laboratorio,componente_practico,curso_obligatorio,curso_base,curso_bloqueante,cantidad_cursos_dependientes,nivel_bloqueo_curricular,observaciones
+028,Social Humanistica 1,Ciencias Basicas y Complementarias,teorico,No,bajo,Si,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+119,Tecnica Complementaria 1,Ciencias Basicas y Complementarias,teorico,No,bajo,Si,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+169,Matematica Basica 1,Ciencias Basicas y Complementarias,teorico,No,bajo,Si,Si,Si,2,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+177,Deportes 1,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+216,Quimica 1,Ciencias Basicas y Complementarias,teorico,Si,bajo,Si,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2666,Orientacion y Liderazgo,Ciencias Basicas y Complementarias,teorico,No,bajo,Si,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2792,Idioma Tecnico 1,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+029,Social Humanistica 2,Ciencias Basicas y Complementarias,teorico,No,bajo,Si,Si,Si,2,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+072,Fisica Basica,Ciencias Basicas y Complementarias,teorico,Si,bajo,Si,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+170,Matematica Basica 2,Ciencias Basicas y Complementarias,teorico,No,bajo,Si,Si,Si,6,alto,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+178,Deportes 2,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2667,Tecnicas de Investigacion y Estudio,Ciencias Basicas y Complementarias,teorico,No,bajo,Si,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2793,Idioma Tecnico 2,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+146,Fisica 1,Ciencias Basicas y Complementarias,teorico,Si,bajo,Si,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+290,Matematica Intermedia 1,Ciencias Basicas y Complementarias,teorico,No,bajo,Si,Si,Si,5,alto,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2794,Idioma Tecnico 3,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2795,Matematica de Computo 1,Ciencias de la Computacion,teorico,No,bajo,Si,Si,Si,3,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2796,Introduccion a la Programacion y Computacion 1,Desarrollo de Software,mixto,Si,alto,Si,Si,Si,4,alto,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2797,Logica de Sistemas,Metodologia de Sistemas,mixto,No,medio,Si,Si,Si,3,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+085,Logica,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+147,Fisica 2,Ciencias Basicas y Complementarias,teorico,Si,bajo,Si,Si,Si,3,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+291,Matematica Intermedia 2,Ciencias Basicas y Complementarias,teorico,No,bajo,Si,Si,Si,2,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+292,Matematica Intermedia 3,Ciencias Basicas y Complementarias,teorico,No,bajo,Si,Si,Si,3,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+949,Estadistica 1,Metodologia de Sistemas,teorico,No,bajo,Si,Si,Si,6,alto,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2798,Lenguajes Formales y de Programacion,Ciencias de la Computacion,mixto,Si,alto,Si,Si,Si,3,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2799,Matematica de Computo 2,Ciencias de la Computacion,teorico,No,bajo,Si,Si,Si,3,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2800,Introduccion a la Programacion y Computacion 2,Desarrollo de Software,mixto,Si,alto,Si,Si,Si,5,alto,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2801,Idioma Tecnico 4,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+077,Filosofia de la Ciencia,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+094,Ecologia,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+673,Matematica Aplicada 1,Ciencias Basicas y Complementarias,teorico,No,bajo,Si,Si,Si,3,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+674,Matematica Aplicada 3,Ciencias Basicas y Complementarias,teorico,No,bajo,Si,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+694,Contabilidad 1,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2802,Analisis Probabilistico,Metodologia de Sistemas,mixto,No,medio,Si,Si,Si,2,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2803,Organizacion de Lenguajes y Compiladores 1,Ciencias de la Computacion,mixto,Si,alto,Si,Si,Si,5,alto,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2804,Organizacion Computacional,Ciencias de la Computacion,mixto,No,medio,Si,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2805,Estructura de Datos,Desarrollo de Software,teorico,No,bajo,Si,Si,Si,3,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2806,Principios De Metrologia,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2807,Practica Inicial TI,EPS,practico,No,alto,Si,Si,Si,2,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+670,Ingenieria Electrica 1,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+685,Investigacion de Operaciones 1,Metodologia de Sistemas,teorico,No,bajo,Si,Si,Si,3,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+779,Contabilidad 2,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+904,Matematica Aplicada 2,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+905,Matematica Aplicada 4,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2670,Gestion de Desastres,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2808,Teoria de Sistemas 1,Metodologia de Sistemas,mixto,No,medio,Si,Si,Si,2,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2809,Economia,Metodologia de Sistemas,teorico,No,bajo,Si,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2810,Organizacion de Lenguajes y Compiladores 2,Ciencias de la Computacion,mixto,Si,alto,Si,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2811,Arquitectura de Computadores y Ensambladores 1,Ciencias de la Computacion,mixto,No,medio,Si,Si,Si,5,alto,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2812,Manejo e Implementacion de Archivos,Desarrollo de Software,teorico,No,bajo,Si,Si,Si,3,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+795,Investigacion de Operaciones 2,Metodologia de Sistemas,teorico,No,bajo,Si,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+919,Contabilidad 3,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+943,Administracion de Empresas 1,Desarrollo de Software,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+950,Estadistica 2,Metodologia de Sistemas,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2813,Teoria de Sistemas 2,Metodologia de Sistemas,mixto,No,medio,Si,Si,Si,4,alto,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2814,Sistemas Operativos 1,Ciencias de la Computacion,mixto,No,medio,Si,Si,Si,2,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2815,Arquitectura de Computadores y Ensambladores 2,Ciencias de la Computacion,mixto,No,medio,Si,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2816,Redes de Computadoras 1,Ciencias de la Computacion,mixto,Si,alto,Si,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2817,Sistemas de Bases de Datos 1,Desarrollo de Software,mixto,No,medio,Si,Si,Si,2,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2818,Practica Intemedia TI,EPS,practico,No,alto,Si,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+690,Ingenieria Economica 1,Ciencias Basicas y Complementarias,teorico,No,bajo,No,Si,Si,2,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2819,Sistemas Operativos 2,Ciencias de la Computacion,mixto,No,medio,Si,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2820,Redes de Computadoras 2,Ciencias de la Computacion,mixto,Si,alto,Si,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2821,Sistemas de Bases de Datos 2,Desarrollo de Software,mixto,No,medio,Si,Si,Si,2,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2822,Analisis y Diseño de Sistemas 1,Desarrollo de Software,mixto,No,medio,Si,Si,Si,3,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2823,Seminario de Sistemas 1,Desarrollo de Software,practico,No,alto,Si,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+922,Ingenieria Economica 2,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2570,Etica Profesional,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2672,Introduccion a la Evaluacion de Impacto Ambiental,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2824,Modelacion y Simulacion 1,Metodologia de Sistemas,teorico,No,bajo,Si,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2825,Sistemas Organizacionales y Gerenciales 1,Metodologia de Sistemas,mixto,No,medio,Si,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2826,Inteligencia Artificial 1,Ciencias de la Computacion,teorico,No,bajo,Si,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2827,Analisis y Diseño de Sistemas 2,Desarrollo de Software,mixto,No,medio,Si,Si,Si,3,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2828,Seminario de Sistemas 2,Desarrollo de Software,practico,No,alto,Si,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2829,Practica Final,EPS,practico,No,alto,Si,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2830,Emprendedores de Negocios Informaticos,Metodologia de Sistemas,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2831,Seguridad y Auditorias de Redes,Ciencias de la Computacion,mixto,Si,alto,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2832,Sistemas Aplicados 1,Desarrollo de Software,mixto,No,medio,No,No,Si,1,medio,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.
+2833,Bases de Datos Avanzadas,Desarrollo de Software,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+909,Preparacion y Evaluacion de Proyectos 1,Ciencias Basicas y Complementarias,practico,No,alto,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+912,Planeamiento,Ciencias Basicas y Complementarias,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2834,Sistemas Organizacionales y Gerenciales 2,Metodologia de Sistemas,mixto,No,medio,Si,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2835,Modelacion y Simulacion 2,Metodologia de Sistemas,teorico,No,bajo,Si,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2836,Software Avanzado,Desarrollo de Software,mixto,Si,alto,Si,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2837,Seminario de Investigacion,Ciencias Basicas y Complementarias,practico,No,alto,Si,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2838,Inteligencia Artificial 2,Ciencias de la Computacion,teorico,No,bajo,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2839,Redes de Nueva Generacion,Ciencias de la Computacion,mixto,Si,alto,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2840,Sistemas Aplicados 2,Desarrollo de Software,mixto,No,medio,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2841,Auditoria de Proyectos de Software,Desarrollo de Software,practico,Si,alto,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
+2842,Seminario de Investigacion EPS,Ciencias Basicas y Complementarias,practico,No,alto,No,No,No,0,bajo,Sin cursos dependientes identificados en el pensum PDF.
