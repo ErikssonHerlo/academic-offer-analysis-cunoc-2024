@@ -1,0 +1,9 @@
+target,valor,conteo,porcentaje
+necesito_recuperacion,False,2147,78.76
+necesito_recuperacion,True,579,21.24
+perdida_definitiva,False,1899,69.66
+perdida_definitiva,True,827,30.34
+riesgo_retraso_potencial,False,2315,84.92
+riesgo_retraso_potencial,True,411,15.08
+riesgo_retraso_potencial_amplio,False,2207,80.96
+riesgo_retraso_potencial_amplio,True,519,19.04

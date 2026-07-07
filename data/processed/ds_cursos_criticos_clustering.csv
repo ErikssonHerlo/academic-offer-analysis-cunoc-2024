@@ -1,0 +1,91 @@
+codigo_curso,nombre_curso,area_academica,curso_base,curso_bloqueante,nivel_bloqueo_curricular,tasa_perdida_definitiva_2024,tasa_recuperacion_2024,indice_continuidad_oferta,estudiantes_sin_oportunidad_inmediata_2024,estudiantes_en_riesgo_retraso_curricular_2024,cantidad_cursos_dependientes,tasa_ocupacion_promedio_2024,total_estudiantes_asignados_2024,total_estudiantes_con_nota_2024
+028,Social Humanistica 1,Ciencias Basicas y Complementarias,No,Si,medio,0.32,0.24,0.25,8.0,8.0,1,0.20833333333333334,25.0,25.0
+029,Social Humanistica 2,Ciencias Basicas y Complementarias,Si,Si,medio,0.25,0.1875,0.25,8.0,8.0,2,0.4375,35.0,32.0
+072,Fisica Basica,Ciencias Basicas y Complementarias,No,Si,medio,0.2830188679245283,0.25471698113207547,0.5,30.0,30.0,1,0.6547368421052631,110.0,106.0
+077,Filosofia de la Ciencia,Ciencias Basicas y Complementarias,No,No,bajo,0.2,0.26666666666666666,0.25,3.0,0.0,0,0.6,18.0,15.0
+085,Logica,Ciencias Basicas y Complementarias,No,No,bajo,0.2564102564102564,0.23076923076923078,0.5,20.0,0.0,0,0.7264957264957266,82.0,78.0
+094,Ecologia,Ciencias Basicas y Complementarias,No,Si,medio,0.32,0.12,1.0,2.0,2.0,1,0.325,26.0,25.0
+119,Tecnica Complementaria 1,Ciencias Basicas y Complementarias,No,No,bajo,0.2777777777777778,0.3055555555555556,0.25,10.0,0.0,0,0.36,36.0,36.0
+146,Fisica 1,Ciencias Basicas y Complementarias,No,Si,medio,0.3302752293577982,0.1559633027522936,1.0,7.0,7.0,1,0.5889194139194139,119.0,109.0
+147,Fisica 2,Ciencias Basicas y Complementarias,Si,Si,medio,0.3364485981308411,0.19626168224299065,1.0,6.0,6.0,3,0.6488461538461539,112.0,107.0
+169,Matematica Basica 1,Ciencias Basicas y Complementarias,Si,Si,medio,0.29118773946360155,0.15708812260536398,1.0,11.0,11.0,2,0.6715832943743182,269.0,261.0
+170,Matematica Basica 2,Ciencias Basicas y Complementarias,Si,Si,alto,0.2896551724137931,0.15862068965517243,1.0,8.0,8.0,6,0.6697916666666667,151.0,145.0
+177,Deportes 1,Ciencias Basicas y Complementarias,No,Si,medio,0.2727272727272727,0.0,0.25,3.0,3.0,1,0.1375,11.0,11.0
+178,Deportes 2,Ciencias Basicas y Complementarias,No,No,bajo,0.3333333333333333,0.2222222222222222,0.25,3.0,0.0,0,0.16666666666666666,10.0,9.0
+216,Quimica 1,Ciencias Basicas y Complementarias,No,Si,medio,0.35555555555555557,0.26666666666666666,0.5,16.0,16.0,1,0.22916666666666669,45.0,45.0
+2570,Etica Profesional,Ciencias Basicas y Complementarias,No,No,bajo,0.2727272727272727,0.09090909090909091,0.25,3.0,0.0,0,0.6,12.0,11.0
+2666,Orientacion y Liderazgo,Ciencias Basicas y Complementarias,No,No,bajo,0.3,0.23333333333333334,0.5,9.0,0.0,0,0.35,30.0,30.0
+2667,Tecnicas de Investigacion y Estudio,Ciencias Basicas y Complementarias,No,Si,medio,0.23809523809523808,0.23809523809523808,0.5,20.0,20.0,1,0.625,90.0,84.0
+2670,Gestion de Desastres,Ciencias Basicas y Complementarias,No,No,bajo,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+2672,Introduccion a la Evaluacion de Impacto Ambiental,Ciencias Basicas y Complementarias,No,No,bajo,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+2792,Idioma Tecnico 1,Ciencias Basicas y Complementarias,No,Si,medio,0.0,0.0,0.0,0.0,0.0,1,0.0,0.0,0.0
+2793,Idioma Tecnico 2,Ciencias Basicas y Complementarias,No,Si,medio,0.0,0.0,0.0,0.0,0.0,1,0.0,0.0,0.0
+2794,Idioma Tecnico 3,Ciencias Basicas y Complementarias,No,Si,medio,0.0,0.0,0.0,0.0,0.0,1,0.0,0.0,0.0
+2795,Matematica de Computo 1,Ciencias de la Computacion,Si,Si,medio,0.24489795918367346,0.20408163265306123,0.25,12.0,12.0,3,0.8333333333333334,50.0,49.0
+2796,Introduccion a la Programacion y Computacion 1,Desarrollo de Software,Si,Si,alto,0.4305555555555556,0.3194444444444444,0.5,62.0,62.0,4,0.9783333333333333,157.0,147.0
+2797,Logica de Sistemas,Metodologia de Sistemas,Si,Si,medio,0.2608695652173913,0.2391304347826087,0.25,12.0,12.0,3,0.8,48.0,46.0
+2798,Lenguajes Formales y de Programacion,Ciencias de la Computacion,Si,Si,medio,0.38235294117647056,0.35294117647058826,0.25,13.0,13.0,3,0.8,36.0,34.0
+2799,Matematica de Computo 2,Ciencias de la Computacion,Si,Si,medio,0.26666666666666666,0.23333333333333334,0.25,8.0,8.0,3,0.7111111111111111,32.0,30.0
+2800,Introduccion a la Programacion y Computacion 2,Desarrollo de Software,Si,Si,alto,0.3939393939393939,0.3333333333333333,0.5,13.0,13.0,5,0.6666666666666666,40.0,35.0
+2801,Idioma Tecnico 4,Ciencias Basicas y Complementarias,No,No,bajo,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+2802,Analisis Probabilistico,Metodologia de Sistemas,Si,Si,medio,0.28,0.2,0.25,7.0,7.0,2,0.5777777777777777,26.0,25.0
+2803,Organizacion de Lenguajes y Compiladores 1,Ciencias de la Computacion,Si,Si,alto,0.2962962962962963,0.4444444444444444,0.5,8.0,8.0,5,0.6416666666666666,31.0,29.0
+2804,Organizacion Computacional,Ciencias de la Computacion,No,No,bajo,0.2777777777777778,0.2222222222222222,0.25,5.0,0.0,0,0.6,18.0,18.0
+2805,Estructura de Datos,Desarrollo de Software,Si,Si,medio,0.3888888888888889,0.2222222222222222,0.25,7.0,7.0,3,0.6333333333333333,19.0,18.0
+2806,Principios De Metrologia,Ciencias Basicas y Complementarias,No,No,bajo,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+2807,Practica Inicial TI,EPS,Si,Si,medio,0.2631578947368421,0.21052631578947367,0.25,5.0,5.0,2,0.7333333333333333,22.0,19.0
+2808,Teoria de Sistemas 1,Metodologia de Sistemas,Si,Si,medio,0.23529411764705882,0.23529411764705882,0.25,4.0,4.0,2,0.6666666666666666,20.0,17.0
+2809,Economia,Metodologia de Sistemas,No,No,bajo,0.23076923076923078,0.23076923076923078,0.25,6.0,0.0,0,0.5777777777777777,26.0,26.0
+2810,Organizacion de Lenguajes y Compiladores 2,Ciencias de la Computacion,No,Si,medio,0.23076923076923078,0.38461538461538464,0.25,3.0,3.0,1,0.5333333333333333,16.0,15.0
+2811,Arquitectura de Computadores y Ensambladores 1,Ciencias de la Computacion,Si,Si,alto,0.2916666666666667,0.2916666666666667,0.25,7.0,7.0,5,0.8,24.0,24.0
+2812,Manejo e Implementacion de Archivos,Desarrollo de Software,Si,Si,medio,0.3333333333333333,0.2222222222222222,0.25,6.0,6.0,3,0.7333333333333333,22.0,18.0
+2813,Teoria de Sistemas 2,Metodologia de Sistemas,Si,Si,alto,0.2692307692307692,0.2692307692307692,0.25,7.0,7.0,4,0.6222222222222222,28.0,26.0
+2814,Sistemas Operativos 1,Ciencias de la Computacion,Si,Si,medio,0.38461538461538464,0.23076923076923078,0.25,10.0,10.0,2,0.6,27.0,26.0
+2815,Arquitectura de Computadores y Ensambladores 2,Ciencias de la Computacion,No,No,bajo,0.23076923076923078,0.23076923076923078,0.25,3.0,0.0,0,0.65,13.0,13.0
+2816,Redes de Computadoras 1,Ciencias de la Computacion,No,Si,medio,0.4166666666666667,0.2222222222222222,0.5,15.0,15.0,1,0.6,39.0,36.0
+2817,Sistemas de Bases de Datos 1,Desarrollo de Software,Si,Si,medio,0.39285714285714285,0.35714285714285715,0.25,11.0,11.0,2,0.6666666666666666,30.0,28.0
+2818,Practica Intemedia TI,EPS,No,Si,medio,0.2962962962962963,0.25925925925925924,0.25,8.0,8.0,1,0.6222222222222222,28.0,27.0
+2819,Sistemas Operativos 2,Ciencias de la Computacion,No,No,bajo,0.375,0.375,0.25,9.0,0.0,0,0.5777777777777777,26.0,24.0
+2820,Redes de Computadoras 2,Ciencias de la Computacion,No,Si,medio,0.35294117647058826,0.17647058823529413,0.25,6.0,6.0,1,0.6,18.0,17.0
+2821,Sistemas de Bases de Datos 2,Desarrollo de Software,Si,Si,medio,0.4,0.3,0.25,4.0,4.0,2,0.55,11.0,10.0
+2822,Analisis y Diseño de Sistemas 1,Desarrollo de Software,Si,Si,medio,0.37037037037037035,0.25925925925925924,0.5,4.0,4.0,3,0.55,28.0,27.0
+2823,Seminario de Sistemas 1,Desarrollo de Software,No,Si,medio,0.2857142857142857,0.21428571428571427,0.25,4.0,4.0,1,0.5666666666666667,17.0,14.0
+2824,Modelacion y Simulacion 1,Metodologia de Sistemas,No,Si,medio,0.0,0.0,0.0,0.0,0.0,1,0.0,0.0,0.0
+2825,Sistemas Organizacionales y Gerenciales 1,Metodologia de Sistemas,No,Si,medio,0.21428571428571427,0.2857142857142857,0.25,3.0,3.0,1,0.75,15.0,14.0
+2826,Inteligencia Artificial 1,Ciencias de la Computacion,No,Si,medio,0.23076923076923078,0.3076923076923077,0.25,3.0,3.0,1,0.65,13.0,13.0
+2827,Analisis y Diseño de Sistemas 2,Desarrollo de Software,Si,Si,medio,0.2727272727272727,0.45454545454545453,0.25,3.0,3.0,3,0.65,13.0,11.0
+2828,Seminario de Sistemas 2,Desarrollo de Software,No,Si,medio,0.4,0.0,0.25,2.0,2.0,1,0.35,7.0,7.0
+2829,Practica Final,EPS,No,No,bajo,0.3333333333333333,0.13333333333333333,0.5,5.0,0.0,0,0.375,15.0,15.0
+2830,Emprendedores de Negocios Informaticos,Metodologia de Sistemas,No,No,bajo,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+2831,Seguridad y Auditorias de Redes,Ciencias de la Computacion,No,No,bajo,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+2832,Sistemas Aplicados 1,Desarrollo de Software,No,Si,medio,0.0,0.0,0.0,0.0,0.0,1,0.0,0.0,0.0
+2833,Bases de Datos Avanzadas,Desarrollo de Software,No,No,bajo,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+2834,Sistemas Organizacionales y Gerenciales 2,Metodologia de Sistemas,No,No,bajo,0.23076923076923078,0.15384615384615385,0.25,3.0,0.0,0,0.75,15.0,13.0
+2835,Modelacion y Simulacion 2,Metodologia de Sistemas,No,No,bajo,0.5,0.0,0.25,3.0,0.0,0,0.45,9.0,6.0
+2836,Software Avanzado,Desarrollo de Software,No,No,bajo,0.2857142857142857,0.21428571428571427,0.25,4.0,0.0,0,0.7,14.0,14.0
+2837,Seminario de Investigacion,Ciencias Basicas y Complementarias,No,No,bajo,0.35,0.15,0.5,4.0,0.0,0,0.525,21.0,20.0
+2838,Inteligencia Artificial 2,Ciencias de la Computacion,No,No,bajo,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+2839,Redes de Nueva Generacion,Ciencias de la Computacion,No,No,bajo,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+2840,Sistemas Aplicados 2,Desarrollo de Software,No,No,bajo,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+2841,Auditoria de Proyectos de Software,Desarrollo de Software,No,No,bajo,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+2842,Seminario de Investigacion EPS,Ciencias Basicas y Complementarias,No,No,bajo,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+290,Matematica Intermedia 1,Ciencias Basicas y Complementarias,Si,Si,alto,0.3033175355450237,0.1943127962085308,1.0,9.0,9.0,5,0.6677692307692308,222.0,211.0
+291,Matematica Intermedia 2,Ciencias Basicas y Complementarias,Si,Si,medio,0.273972602739726,0.1780821917808219,1.0,4.0,4.0,2,0.565,77.0,73.0
+292,Matematica Intermedia 3,Ciencias Basicas y Complementarias,Si,Si,medio,0.2903225806451613,0.14516129032258066,1.0,3.0,3.0,3,0.54375,67.0,62.0
+670,Ingenieria Electrica 1,Ciencias Basicas y Complementarias,No,No,bajo,0.2222222222222222,0.16666666666666666,0.5,4.0,0.0,0,0.45,18.0,18.0
+673,Matematica Aplicada 1,Ciencias Basicas y Complementarias,Si,Si,medio,0.3125,0.15625,1.0,3.0,3.0,3,0.4,32.0,32.0
+674,Matematica Aplicada 3,Ciencias Basicas y Complementarias,No,Si,medio,0.2962962962962963,0.2222222222222222,0.75,3.0,3.0,1,0.4666666666666666,28.0,27.0
+685,Investigacion de Operaciones 1,Metodologia de Sistemas,Si,Si,medio,0.2916666666666667,0.125,0.75,2.0,2.0,3,0.4666666666666666,28.0,24.0
+690,Ingenieria Economica 1,Ciencias Basicas y Complementarias,Si,Si,medio,0.2413793103448276,0.15517241379310345,1.0,3.0,3.0,2,0.5916666666666667,62.0,58.0
+694,Contabilidad 1,Ciencias Basicas y Complementarias,No,Si,medio,0.28,0.16,0.75,5.0,5.0,1,0.4166666666666667,25.0,25.0
+779,Contabilidad 2,Ciencias Basicas y Complementarias,No,Si,medio,0.25,0.25,0.5,1.0,1.0,1,0.1,4.0,4.0
+795,Investigacion de Operaciones 2,Metodologia de Sistemas,No,Si,medio,0.22727272727272727,0.18181818181818182,0.5,5.0,5.0,1,0.6,24.0,22.0
+904,Matematica Aplicada 2,Ciencias Basicas y Complementarias,No,No,bajo,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+905,Matematica Aplicada 4,Ciencias Basicas y Complementarias,No,No,bajo,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+909,Preparacion y Evaluacion de Proyectos 1,Ciencias Basicas y Complementarias,No,No,bajo,0.3157894736842105,0.10526315789473684,0.75,4.0,0.0,0,0.3333333333333333,20.0,19.0
+912,Planeamiento,Ciencias Basicas y Complementarias,No,No,bajo,0.23076923076923078,0.07692307692307693,1.0,1.0,0.0,0,0.1625,13.0,13.0
+919,Contabilidad 3,Ciencias Basicas y Complementarias,No,No,bajo,0.3333333333333333,0.0,0.5,4.0,0.0,0,0.35,14.0,12.0
+922,Ingenieria Economica 2,Ciencias Basicas y Complementarias,No,No,bajo,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+943,Administracion de Empresas 1,Desarrollo de Software,No,No,bajo,0.3,0.1,0.75,1.0,0.0,0,0.18333333333333335,11.0,10.0
+949,Estadistica 1,Metodologia de Sistemas,Si,Si,alto,0.30303030303030304,0.24242424242424243,0.75,7.0,7.0,6,0.6014814814814815,69.0,66.0
+950,Estadistica 2,Metodologia de Sistemas,No,No,bajo,0.4,0.1,0.5,4.0,0.0,0,0.25,10.0,10.0

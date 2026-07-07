@@ -1,0 +1,7 @@
+dataset,archivo,filas,columnas,conclusion
+ds_estudiante_curso_resultado_2024,data/processed/ds_estudiante_curso_resultado_2024.csv,2879,58,Unidad estudiante-curso-periodo construida desde asignaciones y actas.
+ds_resumen_curso_periodo_2024,data/processed/ds_resumen_curso_periodo_2024.csv,132,42,Unidad curso-periodo lista para indicadores y regresion agregada.
+ds_continuidad_oferta_2024,data/processed/ds_continuidad_oferta_2024.csv,90,24,Unidad curso anual lista para analizar continuidad de oferta.
+ds_cursos_criticos_clustering,data/processed/ds_cursos_criticos_clustering.csv,90,15,Dataset numerico y contextual preparado para clustering.
+ds_modelo_clasificacion,data/processed/ds_modelo_clasificacion.csv,2726,21,Dataset de modelado sin desasignados ni variables prohibidas por fuga.
+ds_reglas_asociacion,data/processed/ds_reglas_asociacion.csv,2726,44,Matriz transaccional codificada para reglas de asociacion.
