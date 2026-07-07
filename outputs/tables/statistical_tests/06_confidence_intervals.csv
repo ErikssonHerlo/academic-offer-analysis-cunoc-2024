@@ -1,0 +1,9 @@
+indicador,grupo_area,exitos,n,proporcion,ic_95_inferior,ic_95_superior,denominador
+perdida_definitiva,Area comun,497,1703,0.2918379330593071,0.27073439132998683,0.31387846399058367,registros modelables con resultado final
+riesgo_retraso_potencial,Area comun,150,1703,0.08807985907222549,0.07552978328463245,0.10248408979683518,registros modelables con resultado final
+recursamiento_observable,Area comun,333,435,0.7655172413793103,0.7234855050749182,0.8029004945997026,perdidas definitivas con ventana posterior observable en 2024
+aprobacion_al_recursar,Area comun,203,333,0.6096096096096096,0.5562478201455587,0.6604713457658413,recursamientos con resultado posterior observable
+perdida_definitiva,Area profesional,330,1023,0.3225806451612903,0.29464468820675066,0.3518440692525578,registros modelables con resultado final
+riesgo_retraso_potencial,Area profesional,261,1023,0.25513196480938416,0.22936871281556537,0.28272734086794293,registros modelables con resultado final
+recursamiento_observable,Area profesional,85,319,0.2664576802507837,0.22093070154392122,0.31754245322287583,perdidas definitivas con ventana posterior observable en 2024
+aprobacion_al_recursar,Area profesional,39,85,0.4588235294117647,0.35697131819019406,0.5642366393003748,recursamientos con resultado posterior observable
