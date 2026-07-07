@@ -1,0 +1,7 @@
+severidad,dataset,regla,columna,hallazgo,cantidad,detalle
+alto,oferta_academica,duplicados_llave,periodo_academico + codigo_curso + seccion,Existen registros con llave principal duplicada.,10,
+medio,oferta_academica,nulos_criticos,jornada,La columna requerida tiene valores vacios no esperados.,5,
+medio,oferta_academica,nulos_criticos,horario,La columna requerida tiene valores vacios no esperados.,5,
+info,actas_notas,valores_especiales,nota_total,Conteo de valor especial `EQ`.,11,Valor conservado para analisis posterior.
+info,actas_notas,valores_especiales,resultado,Conteo de valor especial `NSP`.,113,Valor conservado para analisis posterior.
+info,asignaciones,valores_especiales,estado_asignacion,Conteo de valor especial `desasignado`.,153,Valor conservado para analisis posterior.
