@@ -1,0 +1,8 @@
+revision,estado,detalle
+variables_prohibidas,ok,No se encontraron variables prohibidas como predictoras.
+variables_predictoras,ok,15 variables predictoras disponibles.
+variables_contexto_posterior_excluidas,ok,Columnas excluidas como predictores por representar oferta posterior o componentes cercanos a targets de riesgo: curso_abierto_periodo_siguiente; curso_abierto_siguiente_periodo.
+necesito_recuperacion,ok,"clases=2; minimo_clase=579; distribucion={False: 2147, True: 579}"
+perdida_definitiva,ok,"clases=2; minimo_clase=827; distribucion={False: 1899, True: 827}"
+riesgo_retraso_potencial,ok,"clases=2; minimo_clase=411; distribucion={False: 2315, True: 411}"
+riesgo_retraso_potencial_amplio,ok,"clases=2; minimo_clase=519; distribucion={False: 2207, True: 519}"

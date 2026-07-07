@@ -1,0 +1,13 @@
+modelo,modelo_nombre,target,target_descripcion,verdaderos_negativos,falsos_positivos,falsos_negativos,verdaderos_positivos
+logistic_regression,Regresion logistica,necesito_recuperacion,Necesidad observada de recuperacion,343,194,48,97
+logistic_regression,Regresion logistica,perdida_definitiva,Perdida definitiva observada,305,170,80,127
+logistic_regression,Regresion logistica,riesgo_retraso_potencial,Riesgo de retraso academico potencial,433,146,13,90
+logistic_regression,Regresion logistica,riesgo_retraso_potencial_amplio,Riesgo potencial amplio,394,158,27,103
+decision_tree,Arbol de decision,necesito_recuperacion,Necesidad observada de recuperacion,249,288,5,140
+decision_tree,Arbol de decision,perdida_definitiva,Perdida definitiva observada,388,87,111,96
+decision_tree,Arbol de decision,riesgo_retraso_potencial,Riesgo de retraso academico potencial,422,157,10,93
+decision_tree,Arbol de decision,riesgo_retraso_potencial_amplio,Riesgo potencial amplio,361,191,16,114
+random_forest,Random Forest,necesito_recuperacion,Necesidad observada de recuperacion,287,250,21,124
+random_forest,Random Forest,perdida_definitiva,Perdida definitiva observada,248,227,68,139
+random_forest,Random Forest,riesgo_retraso_potencial,Riesgo de retraso academico potencial,433,146,12,91
+random_forest,Random Forest,riesgo_retraso_potencial_amplio,Riesgo potencial amplio,371,181,15,115
