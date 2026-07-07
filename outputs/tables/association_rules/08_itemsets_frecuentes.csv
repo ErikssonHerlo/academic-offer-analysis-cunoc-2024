@@ -1,0 +1,2127 @@
+itemset,tamano_itemset,soporte,conteo
+curso_obligatorio,1,0.8833455612619222,2408
+sin_riesgo_retraso,1,0.8492296404988995,2315
+sin_recuperacion,1,0.7876008804108584,2147
+no_requiere_laboratorio,1,0.7454145267791636,2032
+aprobo,1,0.6966250917094644,1899
+ocupacion_media,1,0.6625091709464417,1806
+area_ciencias_basicas_y_complementarias,1,0.6247248716067498,1703
+curso_base,1,0.6199559794570799,1690
+no_abierto_siguiente,1,0.6078503301540719,1657
+bloqueo_medio,1,0.599046221570066,1633
+zona_media,1,0.5407190022010272,1474
+periodo_s1,1,0.45634629493763756,1244
+abierto_siguiente,1,0.3921496698459281,1069
+periodo_s2,1,0.38407923697725604,1047
+curso_no_base,1,0.38004402054292,1036
+perdio,1,0.3033749082905356,827
+ocupacion_baja,1,0.2835656639765224,773
+requiere_laboratorio,1,0.2545854732208364,694
+bloqueo_alto,1,0.2505502567865004,683
+zona_alta,1,0.2450476889214967,668
+recuperacion,1,0.2123991195891416,579
+zona_baja,1,0.21019809244314014,573
+semestre_3,1,0.20616287600880412,562
+semestre_4,1,0.17791636096845195,485
+riesgo_retraso,1,0.15077035950110051,411
+bloqueo_bajo,1,0.1504035216434336,410
+semestre_1,1,0.1496698459280998,408
+semestre_2,1,0.13793103448275862,376
+area_desarrollo_de_software,1,0.1243580337490829,339
+area_ciencias_de_la_computacion,1,0.12032281731474688,328
+curso_no_obligatorio,1,0.11665443873807776,318
+area_metodologia_de_sistemas,1,0.1082171680117388,295
+periodo_v1,1,0.09134262655906089,249
+semestre_5,1,0.08547322083639032,233
+semestre_7,1,0.07703595011005136,210
+periodo_v2,1,0.06823184152604549,186
+semestre_8,1,0.055025678650036686,150
+ocupacion_alta,1,0.05392516507703595,147
+semestre_6,1,0.05355832721936904,146
+curso_obligatorio + sin_riesgo_retraso,2,0.7377109317681585,2011
+sin_recuperacion + sin_riesgo_retraso,2,0.6969919295671313,1900
+aprobo + sin_riesgo_retraso,2,0.6966250917094644,1899
+curso_obligatorio + sin_recuperacion,2,0.6892883345561261,1879
+no_requiere_laboratorio + sin_riesgo_retraso,2,0.6603081438004402,1800
+curso_obligatorio + no_requiere_laboratorio,2,0.6287600880410859,1714
+aprobo + curso_obligatorio,2,0.611518708730741,1667
+curso_obligatorio + ocupacion_media,2,0.6093176815847395,1661
+aprobo + sin_recuperacion,2,0.6008804108584006,1638
+curso_base + curso_obligatorio,2,0.5986793837123991,1632
+no_requiere_laboratorio + sin_recuperacion,2,0.5979457079970653,1630
+ocupacion_media + sin_riesgo_retraso,2,0.5719002201027146,1559
+area_ciencias_basicas_y_complementarias + sin_riesgo_retraso,2,0.5696991929567131,1553
+bloqueo_medio + curso_obligatorio,2,0.5539251650770359,1510
+aprobo + no_requiere_laboratorio,2,0.5308143800440206,1447
+curso_obligatorio + no_abierto_siguiente,2,0.5278796771826852,1439
+curso_base + sin_riesgo_retraso,2,0.5220102714600147,1423
+no_requiere_laboratorio + ocupacion_media,2,0.5194424064563463,1416
+ocupacion_media + sin_recuperacion,2,0.5194424064563463,1416
+area_ciencias_basicas_y_complementarias + curso_obligatorio,2,0.5154071900220103,1405
+area_ciencias_basicas_y_complementarias + sin_recuperacion,2,0.5088041085840058,1387
+bloqueo_medio + sin_riesgo_retraso,2,0.4926632428466618,1343
+curso_base + no_requiere_laboratorio,2,0.49082905355832723,1338
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio,2,0.4900953778429934,1336
+curso_base + sin_recuperacion,2,0.4871606749816581,1328
+bloqueo_medio + sin_recuperacion,2,0.4768892149669846,1300
+curso_obligatorio + zona_media,2,0.47248716067498164,1288
+no_abierto_siguiente + sin_recuperacion,2,0.471019809244314,1284
+aprobo + ocupacion_media,2,0.4699192956713133,1281
+curso_base + ocupacion_media,2,0.46368305209097577,1264
+no_abierto_siguiente + sin_riesgo_retraso,2,0.4570799706529714,1246
+sin_riesgo_retraso + zona_media,2,0.4486426999266324,1223
+aprobo + area_ciencias_basicas_y_complementarias,2,0.44240645634629494,1206
+aprobo + curso_base,2,0.4277329420396185,1166
+bloqueo_medio + no_requiere_laboratorio,2,0.42699926632428464,1164
+area_ciencias_basicas_y_complementarias + ocupacion_media,2,0.421496698459281,1149
+no_abierto_siguiente + no_requiere_laboratorio,2,0.421496698459281,1149
+aprobo + bloqueo_medio,2,0.4203961848862803,1146
+aprobo + no_abierto_siguiente,2,0.417461482024945,1138
+bloqueo_medio + ocupacion_media,2,0.4156272927366104,1133
+no_requiere_laboratorio + zona_media,2,0.4115920763022744,1122
+curso_obligatorio + periodo_s1,2,0.40425531914893614,1102
+sin_recuperacion + zona_media,2,0.40425531914893614,1102
+area_ciencias_basicas_y_complementarias + bloqueo_medio,2,0.3983859134262656,1086
+abierto_siguiente + sin_riesgo_retraso,2,0.3921496698459281,1069
+periodo_s1 + sin_riesgo_retraso,2,0.3848129126925899,1049
+bloqueo_medio + curso_base,2,0.3694057226705796,1007
+no_abierto_siguiente + ocupacion_media,2,0.363536316947909,991
+abierto_siguiente + area_ciencias_basicas_y_complementarias,2,0.3631694790902421,990
+area_ciencias_basicas_y_complementarias + curso_base,2,0.3598679383712399,981
+ocupacion_media + zona_media,2,0.3587674247982392,978
+abierto_siguiente + curso_obligatorio,2,0.35546588407923696,969
+aprobo + zona_media,2,0.35546588407923696,969
+bloqueo_medio + no_abierto_siguiente,2,0.34776228906823187,948
+no_requiere_laboratorio + periodo_s1,2,0.34702861335289803,946
+curso_base + zona_media,2,0.3437270726338958,937
+periodo_s1 + sin_recuperacion,2,0.34262655906089506,934
+curso_obligatorio + periodo_s2,2,0.34115920763022745,930
+area_ciencias_basicas_y_complementarias + zona_media,2,0.33565663976522375,915
+abierto_siguiente + curso_base,2,0.330520909757887,901
+periodo_s2 + sin_riesgo_retraso,2,0.3301540719002201,900
+ocupacion_media + periodo_s1,2,0.32978723404255317,899
+curso_no_base + sin_riesgo_retraso,2,0.3272193690388848,892
+no_abierto_siguiente + zona_media,2,0.3268525311812179,891
+aprobo + periodo_s1,2,0.3261188554658841,889
+abierto_siguiente + no_requiere_laboratorio,2,0.32391782831988264,883
+bloqueo_medio + zona_media,2,0.32281731474688186,880
+curso_no_base + no_abierto_siguiente,2,0.31841526045487895,868
+abierto_siguiente + sin_recuperacion,2,0.3165810711665444,863
+curso_no_base + sin_recuperacion,2,0.3004402054292003,819
+abierto_siguiente + ocupacion_media,2,0.29897285399853263,815
+no_abierto_siguiente + periodo_s1,2,0.2978723404255319,812
+curso_base + no_abierto_siguiente,2,0.28943506969919297,789
+periodo_s2 + sin_recuperacion,2,0.28539985326485695,778
+curso_no_base + curso_obligatorio,2,0.2846661775495231,776
+abierto_siguiente + aprobo,2,0.2791636096845194,761
+bloqueo_medio + periodo_s1,2,0.27292736610418195,744
+aprobo + periodo_s2,2,0.27256052824651505,743
+curso_base + periodo_s1,2,0.2721936903888481,742
+curso_obligatorio + perdio,2,0.2718268525311812,741
+aprobo + curso_no_base,2,0.2688921496698459,733
+no_requiere_laboratorio + periodo_s2,2,0.2677916360968452,730
+area_ciencias_basicas_y_complementarias + curso_no_base,2,0.2648569332355099,722
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente,2,0.2615553925165077,713
+area_ciencias_basicas_y_complementarias + periodo_s1,2,0.25605282465150403,698
+curso_no_base + no_requiere_laboratorio,2,0.2545854732208364,694
+curso_obligatorio + requiere_laboratorio,2,0.2545854732208364,694
+abierto_siguiente + bloqueo_medio,2,0.2512839325018342,685
+bloqueo_alto + curso_base,2,0.2505502567865004,683
+bloqueo_alto + curso_obligatorio,2,0.2505502567865004,683
+ocupacion_baja + sin_riesgo_retraso,2,0.24614820249449743,671
+periodo_s1 + zona_media,2,0.24614820249449743,671
+sin_recuperacion + zona_alta,2,0.2450476889214967,668
+sin_riesgo_retraso + zona_alta,2,0.24284666177549524,662
+ocupacion_media + periodo_s2,2,0.24247982391782832,661
+aprobo + zona_alta,2,0.23991195891415995,654
+no_abierto_siguiente + periodo_s2,2,0.23771093176815847,648
+ocupacion_baja + sin_recuperacion,2,0.23110785033015407,630
+bloqueo_medio + curso_no_base,2,0.22964049889948643,626
+area_ciencias_basicas_y_complementarias + periodo_s2,2,0.22780630961115186,621
+curso_base + periodo_s2,2,0.22707263389581805,619
+no_requiere_laboratorio + ocupacion_baja,2,0.22597212032281733,616
+curso_obligatorio + ocupacion_baja,2,0.22010271460014674,600
+bloqueo_medio + periodo_s2,2,0.2193690388848129,598
+curso_obligatorio + zona_alta,2,0.21790168745414526,594
+no_requiere_laboratorio + perdio,2,0.21460014673514308,585
+abierto_siguiente + zona_media,2,0.21386647101980924,583
+periodo_s2 + zona_media,2,0.20763022743947177,566
+bloqueo_alto + sin_riesgo_retraso,2,0.20616287600880412,562
+curso_obligatorio + semestre_3,2,0.20616287600880412,562
+area_ciencias_basicas_y_complementarias + ocupacion_baja,2,0.20322817314746883,554
+curso_no_base + ocupacion_media,2,0.1988261188554659,542
+curso_no_base + zona_media,2,0.19699192956713132,537
+aprobo + ocupacion_baja,2,0.19552457813646368,533
+curso_obligatorio + recuperacion,2,0.19405722670579603,529
+ocupacion_media + perdio,2,0.19258987527512839,525
+curso_base + perdio,2,0.1922230374174615,524
+bloqueo_alto + sin_recuperacion,2,0.19075568598679385,520
+no_abierto_siguiente + ocupacion_baja,2,0.19038884812912693,519
+no_abierto_siguiente + perdio,2,0.19038884812912693,519
+no_requiere_laboratorio + zona_alta,2,0.19002201027146,518
+requiere_laboratorio + sin_recuperacion,2,0.1896551724137931,517
+curso_obligatorio + zona_baja,2,0.18892149669845928,515
+requiere_laboratorio + sin_riesgo_retraso,2,0.18892149669845928,515
+perdio + sin_recuperacion,2,0.1867204695524578,509
+no_abierto_siguiente + requiere_laboratorio,2,0.1863536316947909,508
+perdio + zona_media,2,0.18525311812179016,505
+curso_no_base + periodo_s1,2,0.18415260454878943,502
+bloqueo_medio + ocupacion_baja,2,0.18341892883345562,500
+area_ciencias_basicas_y_complementarias + perdio,2,0.1823184152604549,497
+curso_no_base + ocupacion_baja,2,0.18121790168745414,494
+bloqueo_medio + perdio,2,0.17865003668378576,487
+bloqueo_alto + ocupacion_media,2,0.17828319882611884,486
+bloqueo_alto + no_requiere_laboratorio,2,0.1731474688187821,472
+bloqueo_medio + requiere_laboratorio,2,0.17204695524578137,469
+aprobo + bloqueo_alto,2,0.16874541452677916,460
+semestre_3 + sin_riesgo_retraso,2,0.16874541452677916,460
+curso_base + semestre_3,2,0.16617754952311078,453
+aprobo + requiere_laboratorio,2,0.16581071166544387,452
+ocupacion_media + zona_alta,2,0.16581071166544387,452
+area_ciencias_basicas_y_complementarias + zona_alta,2,0.16140865737344093,440
+semestre_3 + sin_recuperacion,2,0.1603081438004402,437
+abierto_siguiente + periodo_s1,2,0.15847395451210564,432
+semestre_4 + sin_riesgo_retraso,2,0.15810711665443875,431
+curso_no_base + periodo_s2,2,0.15700660308143802,428
+sin_riesgo_retraso + zona_baja,2,0.1537050623624358,419
+perdio + sin_riesgo_retraso,2,0.15260454878943508,416
+recuperacion + sin_riesgo_retraso,2,0.15223771093176816,415
+ocupacion_baja + zona_media,2,0.15187087307410124,414
+ocupacion_media + semestre_4,2,0.15187087307410124,414
+no_abierto_siguiente + riesgo_retraso,2,0.15077035950110051,411
+perdio + riesgo_retraso,2,0.15077035950110051,411
+bloqueo_bajo + curso_no_base,2,0.1504035216434336,410
+bloqueo_bajo + sin_riesgo_retraso,2,0.1504035216434336,410
+area_ciencias_basicas_y_complementarias + semestre_1,2,0.1496698459280998,408
+bloqueo_medio + zona_alta,2,0.14930300807043287,407
+curso_base + semestre_4,2,0.14930300807043287,407
+curso_obligatorio + semestre_4,2,0.14930300807043287,407
+no_requiere_laboratorio + recuperacion,2,0.1474688187820983,402
+abierto_siguiente + periodo_s2,2,0.14636830520909758,399
+curso_obligatorio + riesgo_retraso,2,0.14563462949376377,397
+curso_obligatorio + semestre_1,2,0.14563462949376377,397
+bloqueo_bajo + no_requiere_laboratorio,2,0.14526779163609685,396
+curso_base + zona_alta,2,0.144534115920763,394
+no_abierto_siguiente + zona_alta,2,0.14343360234776228,391
+no_requiere_laboratorio + zona_baja,2,0.14306676449009537,390
+ocupacion_media + recuperacion,2,0.14306676449009537,390
+ocupacion_media + requiere_laboratorio,2,0.14306676449009537,390
+bloqueo_bajo + no_abierto_siguiente,2,0.13939838591342626,380
+semestre_4 + sin_recuperacion,2,0.13866471019809246,378
+aprobo + semestre_3,2,0.13793103448275862,376
+area_ciencias_basicas_y_complementarias + semestre_2,2,0.13793103448275862,376
+bloqueo_alto + zona_media,2,0.1371973587674248,374
+no_abierto_siguiente + recuperacion,2,0.1368305209097579,373
+ocupacion_media + zona_baja,2,0.1368305209097579,373
+recuperacion + zona_media,2,0.13646368305209097,372
+semestre_1 + sin_riesgo_retraso,2,0.13573000733675716,370
+area_ciencias_basicas_y_complementarias + requiere_laboratorio,2,0.1346294937637564,367
+curso_obligatorio + semestre_2,2,0.1346294937637564,367
+sin_recuperacion + zona_baja,2,0.13426265590608952,366
+no_abierto_siguiente + zona_baja,2,0.13352898019075568,364
+no_requiere_laboratorio + semestre_1,2,0.13316214233308876,363
+curso_base + recuperacion,2,0.13279530447542187,362
+bloqueo_alto + semestre_3,2,0.13132795304475423,358
+area_ciencias_basicas_y_complementarias + bloqueo_alto,2,0.1305942773294204,356
+perdio + periodo_s1,2,0.1302274394717535,355
+abierto_siguiente + bloqueo_alto,2,0.12986060161408658,354
+curso_base + requiere_laboratorio,2,0.12912692589875274,352
+curso_base + zona_baja,2,0.12912692589875274,352
+requiere_laboratorio + zona_media,2,0.12912692589875274,352
+ocupacion_media + semestre_3,2,0.12876008804108585,351
+area_ciencias_basicas_y_complementarias + zona_baja,2,0.1276595744680851,348
+bloqueo_medio + semestre_1,2,0.12545854732208364,342
+bloqueo_medio + zona_baja,2,0.12545854732208364,342
+curso_no_base + requiere_laboratorio,2,0.12545854732208364,342
+aprobo + semestre_4,2,0.12362435803374908,337
+bloqueo_medio + recuperacion,2,0.12215700660308144,333
+semestre_1 + sin_recuperacion,2,0.12142333088774762,331
+area_desarrollo_de_software + curso_obligatorio,2,0.1206896551724138,329
+bloqueo_alto + no_abierto_siguiente,2,0.1206896551724138,329
+ocupacion_baja + periodo_s2,2,0.1206896551724138,329
+area_ciencias_de_la_computacion + curso_obligatorio,2,0.12032281731474688,328
+area_ciencias_de_la_computacion + no_abierto_siguiente,2,0.12032281731474688,328
+bloqueo_bajo + sin_recuperacion,2,0.11995597945707998,327
+area_ciencias_basicas_y_complementarias + semestre_3,2,0.11738811445341159,320
+area_ciencias_basicas_y_complementarias + semestre_4,2,0.11738811445341159,320
+semestre_3 + zona_media,2,0.11702127659574468,319
+curso_no_obligatorio + no_requiere_laboratorio,2,0.11665443873807776,318
+perdio + recuperacion,2,0.11665443873807776,318
+periodo_s2 + requiere_laboratorio,2,0.11628760088041086,317
+area_ciencias_basicas_y_complementarias + recuperacion,2,0.11592076302274394,316
+area_desarrollo_de_software + no_abierto_siguiente,2,0.11592076302274394,316
+bloqueo_alto + periodo_s1,2,0.1144534115920763,312
+ocupacion_media + semestre_2,2,0.11408657373440939,311
+periodo_s1 + recuperacion,2,0.11371973587674249,310
+semestre_2 + sin_riesgo_retraso,2,0.11371973587674249,310
+no_requiere_laboratorio + semestre_4,2,0.11335289801907557,309
+abierto_siguiente + perdio,2,0.11298606016140866,308
+perdio + zona_baja,2,0.11298606016140866,308
+bloqueo_medio + semestre_4,2,0.11225238444607484,306
+no_requiere_laboratorio + semestre_3,2,0.11225238444607484,306
+periodo_s1 + zona_alta,2,0.11188554658840792,305
+curso_no_obligatorio + sin_riesgo_retraso,2,0.11151870873074102,304
+perdio + periodo_s2,2,0.11151870873074102,304
+curso_no_base + perdio,2,0.1111518708730741,303
+periodo_s1 + semestre_3,2,0.1107850330154072,302
+area_ciencias_basicas_y_complementarias + curso_no_obligatorio,2,0.10931768158473955,298
+periodo_s1 + requiere_laboratorio,2,0.10931768158473955,298
+semestre_2 + sin_recuperacion,2,0.10931768158473955,298
+area_metodologia_de_sistemas + no_requiere_laboratorio,2,0.1082171680117388,295
+area_desarrollo_de_software + curso_base,2,0.1078503301540719,294
+aprobo + bloqueo_bajo,2,0.10748349229640498,293
+bloqueo_medio + riesgo_retraso,2,0.10638297872340426,290
+aprobo + semestre_1,2,0.10491562729273661,286
+area_metodologia_de_sistemas + curso_obligatorio,2,0.1045487894350697,285
+abierto_siguiente + semestre_3,2,0.10344827586206896,282
+no_abierto_siguiente + semestre_3,2,0.10271460014673514,280
+curso_base + ocupacion_baja,2,0.10234776228906824,279
+abierto_siguiente + zona_alta,2,0.10161408657373441,277
+curso_no_base + zona_alta,2,0.10051357300073367,274
+aprobo + semestre_2,2,0.10014673514306677,273
+area_ciencias_de_la_computacion + ocupacion_media,2,0.10014673514306677,273
+no_requiere_laboratorio + semestre_2,2,0.09904622157006603,270
+periodo_s2 + recuperacion,2,0.09867938371239912,269
+curso_no_obligatorio + sin_recuperacion,2,0.0983125458547322,268
+curso_base + riesgo_retraso,2,0.0979457079970653,267
+aprobo + zona_baja,2,0.09721203228173148,265
+bloqueo_alto + periodo_s2,2,0.09684519442406456,264
+periodo_s1 + zona_baja,2,0.09611151870873075,262
+aprobo + recuperacion,2,0.09574468085106383,261
+area_ciencias_basicas_y_complementarias + bloqueo_bajo,2,0.09574468085106383,261
+curso_base + semestre_1,2,0.09574468085106383,261
+curso_no_base + curso_no_obligatorio,2,0.09537784299339692,260
+requiere_laboratorio + semestre_3,2,0.09391049156272928,256
+ocupacion_baja + periodo_s1,2,0.09354365370506236,255
+abierto_siguiente + ocupacion_baja,2,0.09317681584739546,254
+periodo_s2 + zona_alta,2,0.09317681584739546,254
+no_abierto_siguiente + semestre_2,2,0.09207630227439471,251
+riesgo_retraso + zona_media,2,0.09207630227439471,251
+periodo_v1 + sin_recuperacion,2,0.09134262655906089,249
+periodo_v1 + sin_riesgo_retraso,2,0.09134262655906089,249
+area_metodologia_de_sistemas + sin_riesgo_retraso,2,0.09097578870139399,248
+abierto_siguiente + semestre_4,2,0.09060895084372707,247
+ocupacion_media + riesgo_retraso,2,0.09060895084372707,247
+riesgo_retraso + sin_recuperacion,2,0.09060895084372707,247
+ocupacion_media + semestre_1,2,0.09024211298606016,246
+semestre_4 + zona_media,2,0.09024211298606016,246
+area_ciencias_de_la_computacion + sin_riesgo_retraso,2,0.08914159941305942,243
+area_desarrollo_de_software + sin_recuperacion,2,0.08877476155539252,242
+perdio + requiere_laboratorio,2,0.08877476155539252,242
+ocupacion_baja + perdio,2,0.0880410858400587,240
+area_metodologia_de_sistemas + no_abierto_siguiente,2,0.08767424798239179,239
+abierto_siguiente + periodo_v1,2,0.08730741012472487,238
+area_ciencias_de_la_computacion + sin_recuperacion,2,0.08730741012472487,238
+no_abierto_siguiente + semestre_4,2,0.08730741012472487,238
+abierto_siguiente + semestre_1,2,0.0851063829787234,232
+aprobo + curso_no_obligatorio,2,0.0851063829787234,232
+area_metodologia_de_sistemas + sin_recuperacion,2,0.0851063829787234,232
+no_requiere_laboratorio + riesgo_retraso,2,0.0851063829787234,232
+aprobo + area_ciencias_de_la_computacion,2,0.08290535583272193,226
+curso_obligatorio + periodo_v1,2,0.08253851797505503,225
+area_ciencias_basicas_y_complementarias + periodo_v1,2,0.0818048422597212,223
+area_desarrollo_de_software + sin_riesgo_retraso,2,0.0818048422597212,223
+bloqueo_alto + perdio,2,0.0818048422597212,223
+bloqueo_bajo + ocupacion_baja,2,0.0818048422597212,223
+bloqueo_medio + semestre_2,2,0.08143800440205429,222
+periodo_s2 + zona_baja,2,0.08143800440205429,222
+curso_no_base + zona_baja,2,0.08107116654438738,221
+semestre_1 + zona_media,2,0.08107116654438738,221
+area_ciencias_de_la_computacion + bloqueo_medio,2,0.08070432868672046,220
+bloqueo_bajo + zona_media,2,0.08070432868672046,220
+curso_no_obligatorio + no_abierto_siguiente,2,0.07997065297138664,218
+curso_no_base + recuperacion,2,0.07960381511371974,217
+bloqueo_bajo + curso_obligatorio,2,0.07887013939838591,215
+aprobo + area_metodologia_de_sistemas,2,0.07850330154071901,214
+no_requiere_laboratorio + periodo_v1,2,0.07776962582538519,212
+bloqueo_alto + requiere_laboratorio,2,0.07740278796771827,211
+periodo_s2 + semestre_4,2,0.07740278796771827,211
+aprobo + area_desarrollo_de_software,2,0.07703595011005136,210
+abierto_siguiente + zona_baja,2,0.07666911225238444,209
+periodo_s1 + semestre_1,2,0.07593543653705062,207
+recuperacion + zona_baja,2,0.07593543653705062,207
+abierto_siguiente + recuperacion,2,0.07556859867938372,206
+no_abierto_siguiente + semestre_7,2,0.0752017608217168,205
+area_metodologia_de_sistemas + curso_base,2,0.0748349229640499,204
+bloqueo_medio + semestre_3,2,0.0748349229640499,204
+no_requiere_laboratorio + semestre_5,2,0.0748349229640499,204
+curso_no_base + semestre_2,2,0.07300073367571533,199
+curso_base + periodo_v1,2,0.07263389581804842,198
+area_ciencias_de_la_computacion + no_requiere_laboratorio,2,0.0722670579603815,197
+area_desarrollo_de_software + requiere_laboratorio,2,0.0719002201027146,196
+area_metodologia_de_sistemas + ocupacion_media,2,0.0719002201027146,196
+semestre_2 + zona_media,2,0.0719002201027146,196
+bloqueo_bajo + curso_no_obligatorio,2,0.07153338224504768,195
+ocupacion_baja + zona_alta,2,0.07153338224504768,195
+periodo_s1 + riesgo_retraso,2,0.07153338224504768,195
+semestre_5 + sin_riesgo_retraso,2,0.07079970652971386,193
+area_ciencias_de_la_computacion + curso_base,2,0.07043286867204696,192
+bloqueo_bajo + periodo_s1,2,0.06896551724137931,188
+periodo_s2 + semestre_2,2,0.06896551724137931,188
+bloqueo_bajo + ocupacion_media,2,0.0685986793837124,187
+abierto_siguiente + requiere_laboratorio,2,0.06823184152604549,186
+curso_no_obligatorio + zona_media,2,0.06823184152604549,186
+no_abierto_siguiente + periodo_v2,2,0.06823184152604549,186
+perdio + semestre_3,2,0.06823184152604549,186
+periodo_v2 + sin_recuperacion,2,0.06823184152604549,186
+bloqueo_bajo + periodo_s2,2,0.06786500366837858,185
+area_desarrollo_de_software + zona_media,2,0.06713132795304476,183
+requiere_laboratorio + zona_baja,2,0.06713132795304476,183
+area_desarrollo_de_software + bloqueo_alto,2,0.06676449009537784,182
+periodo_s1 + semestre_4,2,0.06676449009537784,182
+semestre_5 + sin_recuperacion,2,0.06676449009537784,182
+requiere_laboratorio + riesgo_retraso,2,0.06566397652237711,179
+curso_obligatorio + semestre_7,2,0.0652971386647102,178
+ocupacion_media + semestre_7,2,0.0652971386647102,178
+curso_base + semestre_2,2,0.06493030080704329,177
+recuperacion + requiere_laboratorio,2,0.06493030080704329,177
+no_abierto_siguiente + semestre_1,2,0.06456346294937637,176
+requiere_laboratorio + semestre_4,2,0.06456346294937637,176
+area_desarrollo_de_software + periodo_s1,2,0.06419662509170947,175
+no_requiere_laboratorio + semestre_7,2,0.06382978723404255,174
+curso_no_obligatorio + ocupacion_baja,2,0.06346294937637564,173
+periodo_s2 + semestre_3,2,0.06346294937637564,173
+area_metodologia_de_sistemas + zona_media,2,0.06309611151870873,172
+bloqueo_medio + semestre_5,2,0.06272927366104182,171
+abierto_siguiente + curso_no_base,2,0.061628760088041086,168
+curso_obligatorio + semestre_5,2,0.061628760088041086,168
+periodo_s1 + semestre_7,2,0.061628760088041086,168
+area_ciencias_de_la_computacion + zona_media,2,0.061261922230374175,167
+aprobo + semestre_5,2,0.06052824651504035,165
+area_metodologia_de_sistemas + periodo_s1,2,0.06016140865737344,164
+no_abierto_siguiente + semestre_5,2,0.06016140865737344,164
+recuperacion + riesgo_retraso,2,0.06016140865737344,164
+bloqueo_alto + recuperacion,2,0.05979457079970653,163
+semestre_7 + sin_recuperacion,2,0.05979457079970653,163
+ocupacion_baja + semestre_1,2,0.05942773294203962,162
+area_ciencias_basicas_y_complementarias + periodo_v2,2,0.059060895084372705,161
+bloqueo_medio + periodo_v1,2,0.059060895084372705,161
+area_ciencias_de_la_computacion + periodo_s2,2,0.058694057226705794,160
+ocupacion_baja + zona_baja,2,0.05832721936903888,159
+ocupacion_baja + requiere_laboratorio,2,0.05759354365370506,157
+area_ciencias_de_la_computacion + periodo_s1,2,0.05722670579603815,156
+bloqueo_alto + zona_alta,2,0.05685986793837124,155
+aprobo + periodo_v1,2,0.05649303008070433,154
+riesgo_retraso + zona_baja,2,0.05649303008070433,154
+semestre_7 + sin_riesgo_retraso,2,0.05649303008070433,154
+area_desarrollo_de_software + periodo_s2,2,0.0553925165077036,151
+curso_obligatorio + periodo_v2,2,0.0553925165077036,151
+area_ciencias_basicas_y_complementarias + riesgo_retraso,2,0.055025678650036686,150
+ocupacion_baja + semestre_5,2,0.055025678650036686,150
+periodo_s1 + semestre_2,2,0.055025678650036686,150
+requiere_laboratorio + zona_alta,2,0.055025678650036686,150
+area_metodologia_de_sistemas + bloqueo_medio,2,0.05429200293470286,148
+perdio + semestre_4,2,0.05429200293470286,148
+area_desarrollo_de_software + ocupacion_alta,2,0.05392516507703595,147
+area_desarrollo_de_software + semestre_3,2,0.05392516507703595,147
+bloqueo_alto + ocupacion_alta,2,0.05392516507703595,147
+bloqueo_alto + zona_baja,2,0.05392516507703595,147
+curso_base + ocupacion_alta,2,0.05392516507703595,147
+curso_no_base + semestre_1,2,0.05392516507703595,147
+curso_obligatorio + ocupacion_alta,2,0.05392516507703595,147
+no_abierto_siguiente + ocupacion_alta,2,0.05392516507703595,147
+ocupacion_alta + requiere_laboratorio,2,0.05392516507703595,147
+ocupacion_alta + semestre_3,2,0.05392516507703595,147
+periodo_s2 + riesgo_retraso,2,0.05392516507703595,147
+bloqueo_alto + semestre_2,2,0.05319148936170213,145
+curso_no_obligatorio + ocupacion_media,2,0.05319148936170213,145
+curso_no_base + riesgo_retraso,2,0.05282465150403522,144
+no_requiere_laboratorio + periodo_v2,2,0.05282465150403522,144
+area_desarrollo_de_software + no_requiere_laboratorio,2,0.052457813646368305,143
+ocupacion_baja + recuperacion,2,0.052457813646368305,143
+area_desarrollo_de_software + ocupacion_media,2,0.052090975788701394,142
+curso_no_obligatorio + periodo_s1,2,0.052090975788701394,142
+periodo_v1 + zona_media,2,0.05172413793103448,141
+aprobo + semestre_7,2,0.05135730007336757,140
+bloqueo_medio + semestre_7,2,0.05099046221570066,139
+periodo_s1 + semestre_5,2,0.05062362435803375,138
+ocupacion_media + periodo_v1,2,0.050256786500366836,137
+aprobo + curso_obligatorio + sin_riesgo_retraso,3,0.611518708730741,1667
+curso_obligatorio + sin_recuperacion + sin_riesgo_retraso,3,0.6027146001467352,1643
+aprobo + sin_recuperacion + sin_riesgo_retraso,3,0.6008804108584006,1638
+curso_obligatorio + no_requiere_laboratorio + sin_riesgo_retraso,3,0.5487894350696992,1496
+no_requiere_laboratorio + sin_recuperacion + sin_riesgo_retraso,3,0.5432868672046955,1481
+aprobo + no_requiere_laboratorio + sin_riesgo_retraso,3,0.5308143800440206,1447
+aprobo + curso_obligatorio + sin_recuperacion,3,0.524578136463683,1430
+curso_obligatorio + ocupacion_media + sin_riesgo_retraso,3,0.5187087307410124,1414
+curso_base + curso_obligatorio + sin_riesgo_retraso,3,0.5018341892883346,1368
+curso_obligatorio + no_requiere_laboratorio + sin_recuperacion,3,0.4996331621423331,1362
+curso_obligatorio + ocupacion_media + sin_recuperacion,3,0.47798972853998534,1303
+area_ciencias_basicas_y_complementarias + sin_recuperacion + sin_riesgo_retraso,3,0.4713866471019809,1285
+aprobo + ocupacion_media + sin_riesgo_retraso,3,0.4699192956713133,1281
+curso_base + curso_obligatorio + no_requiere_laboratorio,3,0.46955245781364635,1280
+curso_base + curso_obligatorio + sin_recuperacion,3,0.46918561995597946,1279
+curso_obligatorio + no_requiere_laboratorio + ocupacion_media,3,0.46625091709464417,1271
+area_ciencias_basicas_y_complementarias + curso_obligatorio + sin_riesgo_retraso,3,0.46551724137931033,1269
+ocupacion_media + sin_recuperacion + sin_riesgo_retraso,3,0.462949376375642,1262
+aprobo + no_requiere_laboratorio + sin_recuperacion,3,0.46221570066030815,1260
+no_requiere_laboratorio + ocupacion_media + sin_riesgo_retraso,3,0.4578136463683052,1248
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio + sin_riesgo_retraso,3,0.45671313279530446,1245
+bloqueo_medio + curso_obligatorio + sin_riesgo_retraso,3,0.45267791636096844,1234
+curso_base + curso_obligatorio + ocupacion_media,3,0.4486426999266324,1223
+aprobo + curso_obligatorio + no_requiere_laboratorio,3,0.4457079970652971,1215
+aprobo + area_ciencias_basicas_y_complementarias + sin_riesgo_retraso,3,0.44240645634629494,1206
+bloqueo_medio + curso_obligatorio + sin_recuperacion,3,0.43800440205429203,1194
+curso_base + no_requiere_laboratorio + sin_riesgo_retraso,3,0.4303008070432869,1173
+aprobo + curso_obligatorio + ocupacion_media,3,0.42920029347028615,1170
+aprobo + curso_base + sin_riesgo_retraso,3,0.4277329420396185,1166
+curso_base + sin_recuperacion + sin_riesgo_retraso,3,0.4258987527512839,1161
+aprobo + bloqueo_medio + sin_riesgo_retraso,3,0.4203961848862803,1146
+aprobo + no_abierto_siguiente + sin_riesgo_retraso,3,0.417461482024945,1138
+area_ciencias_basicas_y_complementarias + curso_obligatorio + sin_recuperacion,3,0.41709464416727804,1137
+aprobo + curso_base + curso_obligatorio,3,0.4115920763022744,1122
+bloqueo_medio + sin_recuperacion + sin_riesgo_retraso,3,0.4112252384446075,1121
+no_requiere_laboratorio + ocupacion_media + sin_recuperacion,3,0.4112252384446075,1121
+curso_obligatorio + no_abierto_siguiente + sin_recuperacion,3,0.4031548055759354,1099
+curso_base + ocupacion_media + sin_riesgo_retraso,3,0.4027879677182685,1098
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio + sin_recuperacion,3,0.40242112986060163,1097
+curso_base + no_requiere_laboratorio + ocupacion_media,3,0.4016874541452678,1095
+bloqueo_medio + curso_obligatorio + ocupacion_media,3,0.40058694057226707,1092
+aprobo + ocupacion_media + sin_recuperacion,3,0.39948642699926634,1089
+curso_base + no_requiere_laboratorio + sin_recuperacion,3,0.3954512105649303,1078
+aprobo + area_ciencias_basicas_y_complementarias + sin_recuperacion,3,0.3914159941305943,1067
+area_ciencias_basicas_y_complementarias + ocupacion_media + sin_riesgo_retraso,3,0.3914159941305943,1067
+aprobo + bloqueo_medio + curso_obligatorio,3,0.3873807776962582,1056
+curso_obligatorio + sin_riesgo_retraso + zona_media,3,0.3826118855465884,1043
+curso_obligatorio + no_abierto_siguiente + sin_riesgo_retraso,3,0.3822450476889215,1042
+bloqueo_medio + curso_obligatorio + no_requiere_laboratorio,3,0.3818782098312546,1041
+area_ciencias_basicas_y_complementarias + curso_obligatorio + no_requiere_laboratorio,3,0.38077769625825386,1038
+no_abierto_siguiente + sin_recuperacion + sin_riesgo_retraso,3,0.3804108584005869,1037
+aprobo + no_requiere_laboratorio + ocupacion_media,3,0.3734409391049156,1018
+area_ciencias_basicas_y_complementarias + curso_obligatorio + ocupacion_media,3,0.36830520909757886,1004
+aprobo + curso_base + sin_recuperacion,3,0.3661041819515774,998
+curso_base + ocupacion_media + sin_recuperacion,3,0.3661041819515774,998
+aprobo + bloqueo_medio + sin_recuperacion,3,0.36390315480557595,992
+abierto_siguiente + area_ciencias_basicas_y_complementarias + sin_riesgo_retraso,3,0.3631694790902421,990
+aprobo + area_ciencias_basicas_y_complementarias + curso_obligatorio,3,0.3620689655172414,987
+aprobo + curso_obligatorio + no_abierto_siguiente,3,0.3598679383712399,981
+aprobo + no_abierto_siguiente + sin_recuperacion,3,0.3573000733675715,974
+no_requiere_laboratorio + sin_riesgo_retraso + zona_media,3,0.3561995597945708,971
+bloqueo_medio + no_requiere_laboratorio + sin_riesgo_retraso,3,0.3558327219369039,970
+abierto_siguiente + curso_obligatorio + sin_riesgo_retraso,3,0.35546588407923696,969
+aprobo + sin_riesgo_retraso + zona_media,3,0.35546588407923696,969
+area_ciencias_basicas_y_complementarias + bloqueo_medio + curso_obligatorio,3,0.3532648569332355,963
+aprobo + area_ciencias_basicas_y_complementarias + no_requiere_laboratorio,3,0.35106382978723405,957
+area_ciencias_basicas_y_complementarias + bloqueo_medio + sin_riesgo_retraso,3,0.3495964783565664,953
+curso_obligatorio + sin_recuperacion + zona_media,3,0.34849596478356565,950
+sin_recuperacion + sin_riesgo_retraso + zona_media,3,0.34849596478356565,950
+bloqueo_medio + curso_base + curso_obligatorio,3,0.34812912692589876,949
+aprobo + curso_base + no_requiere_laboratorio,3,0.34702861335289803,946
+bloqueo_medio + ocupacion_media + sin_riesgo_retraso,3,0.3437270726338958,937
+bloqueo_medio + no_requiere_laboratorio + sin_recuperacion,3,0.3433602347762289,936
+curso_obligatorio + no_requiere_laboratorio + zona_media,3,0.3433602347762289,936
+curso_obligatorio + no_abierto_siguiente + no_requiere_laboratorio,3,0.34152604548789434,931
+area_ciencias_basicas_y_complementarias + ocupacion_media + sin_recuperacion,3,0.3404255319148936,928
+area_ciencias_basicas_y_complementarias + curso_base + sin_riesgo_retraso,3,0.33969185619955977,926
+area_ciencias_basicas_y_complementarias + curso_base + curso_obligatorio,3,0.33859134262655904,923
+no_abierto_siguiente + no_requiere_laboratorio + sin_riesgo_retraso,3,0.3363903154805576,917
+no_abierto_siguiente + no_requiere_laboratorio + sin_recuperacion,3,0.33565663976522375,915
+curso_obligatorio + periodo_s1 + sin_riesgo_retraso,3,0.334556126192223,912
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio + ocupacion_media,3,0.3330887747615554,908
+bloqueo_medio + curso_obligatorio + no_abierto_siguiente,3,0.33125458547322084,903
+abierto_siguiente + curso_base + sin_riesgo_retraso,3,0.330520909757887,901
+abierto_siguiente + area_ciencias_basicas_y_complementarias + curso_obligatorio,3,0.32831988261188555,895
+curso_base + curso_obligatorio + zona_media,3,0.32831988261188555,895
+bloqueo_medio + ocupacion_media + sin_recuperacion,3,0.326485693323551,890
+aprobo + curso_base + ocupacion_media,3,0.3261188554658841,889
+aprobo + periodo_s1 + sin_riesgo_retraso,3,0.3261188554658841,889
+curso_obligatorio + ocupacion_media + zona_media,3,0.32575201760821715,888
+curso_obligatorio + no_abierto_siguiente + ocupacion_media,3,0.32538517975055026,887
+area_ciencias_basicas_y_complementarias + bloqueo_medio + sin_recuperacion,3,0.32501834189288337,886
+abierto_siguiente + no_requiere_laboratorio + sin_riesgo_retraso,3,0.32391782831988264,883
+area_ciencias_basicas_y_complementarias + curso_base + no_requiere_laboratorio,3,0.3206162876008804,874
+bloqueo_medio + curso_base + no_requiere_laboratorio,3,0.3176815847395451,866
+abierto_siguiente + sin_recuperacion + sin_riesgo_retraso,3,0.3165810711665444,863
+bloqueo_medio + curso_base + sin_riesgo_retraso,3,0.31584739545121054,861
+no_requiere_laboratorio + sin_recuperacion + zona_media,3,0.3132795304475422,854
+abierto_siguiente + curso_base + curso_obligatorio,3,0.31217901687454147,851
+aprobo + curso_obligatorio + zona_media,3,0.3066764490095378,836
+aprobo + bloqueo_medio + no_requiere_laboratorio,3,0.30520909757887016,832
+no_requiere_laboratorio + periodo_s1 + sin_riesgo_retraso,3,0.3044754218635363,830
+periodo_s1 + sin_recuperacion + sin_riesgo_retraso,3,0.3044754218635363,830
+area_ciencias_basicas_y_complementarias + sin_riesgo_retraso + zona_media,3,0.30410858400586943,829
+abierto_siguiente + area_ciencias_basicas_y_complementarias + curso_base,3,0.3033749082905356,827
+ocupacion_media + sin_riesgo_retraso + zona_media,3,0.3033749082905356,827
+aprobo + area_ciencias_basicas_y_complementarias + ocupacion_media,3,0.3019075568598679,823
+curso_obligatorio + periodo_s1 + sin_recuperacion,3,0.3008070432868672,820
+abierto_siguiente + ocupacion_media + sin_riesgo_retraso,3,0.29897285399853263,815
+aprobo + no_abierto_siguiente + no_requiere_laboratorio,3,0.29823917828319885,813
+area_ciencias_basicas_y_complementarias + curso_base + sin_recuperacion,3,0.29823917828319885,813
+curso_obligatorio + ocupacion_media + periodo_s1,3,0.29823917828319885,813
+bloqueo_medio + curso_obligatorio + zona_media,3,0.2967718268525312,809
+abierto_siguiente + curso_base + no_requiere_laboratorio,3,0.2964049889948643,808
+bloqueo_medio + curso_base + sin_recuperacion,3,0.2964049889948643,808
+bloqueo_medio + no_requiere_laboratorio + ocupacion_media,3,0.29530447542186355,805
+abierto_siguiente + area_ciencias_basicas_y_complementarias + no_requiere_laboratorio,3,0.2949376375641966,804
+curso_obligatorio + no_requiere_laboratorio + periodo_s1,3,0.2949376375641966,804
+abierto_siguiente + area_ciencias_basicas_y_complementarias + sin_recuperacion,3,0.2938371239911959,801
+aprobo + bloqueo_medio + ocupacion_media,3,0.293470286133529,800
+area_ciencias_basicas_y_complementarias + curso_base + ocupacion_media,3,0.29126925898752754,794
+aprobo + sin_recuperacion + zona_media,3,0.28870139398385913,787
+curso_obligatorio + periodo_s2 + sin_riesgo_retraso,3,0.2876008804108584,784
+abierto_siguiente + curso_obligatorio + no_requiere_laboratorio,3,0.2872340425531915,783
+aprobo + curso_obligatorio + periodo_s1,3,0.28686720469552457,782
+no_requiere_laboratorio + ocupacion_media + zona_media,3,0.28686720469552457,782
+curso_base + curso_obligatorio + no_abierto_siguiente,3,0.2865003668378577,781
+abierto_siguiente + curso_obligatorio + sin_recuperacion,3,0.28613352898019073,780
+bloqueo_medio + curso_base + ocupacion_media,3,0.28539985326485695,778
+ocupacion_media + periodo_s1 + sin_riesgo_retraso,3,0.2846661775495231,776
+abierto_siguiente + curso_obligatorio + ocupacion_media,3,0.2839325018341893,774
+curso_obligatorio + no_abierto_siguiente + zona_media,3,0.28319882611885544,772
+curso_base + sin_riesgo_retraso + zona_media,3,0.2817314746881878,768
+no_abierto_siguiente + ocupacion_media + sin_recuperacion,3,0.2817314746881878,768
+aprobo + area_ciencias_basicas_y_complementarias + bloqueo_medio,3,0.28136463683052093,767
+abierto_siguiente + aprobo + sin_riesgo_retraso,3,0.2791636096845194,761
+abierto_siguiente + area_ciencias_basicas_y_complementarias + ocupacion_media,3,0.2776962582538518,757
+curso_base + no_requiere_laboratorio + zona_media,3,0.27586206896551724,752
+aprobo + periodo_s1 + sin_recuperacion,3,0.2747615553925165,749
+bloqueo_medio + no_abierto_siguiente + sin_recuperacion,3,0.27329420396184884,745
+no_abierto_siguiente + no_requiere_laboratorio + ocupacion_media,3,0.27329420396184884,745
+abierto_siguiente + curso_base + ocupacion_media,3,0.27292736610418195,744
+aprobo + no_requiere_laboratorio + zona_media,3,0.27292736610418195,744
+no_abierto_siguiente + ocupacion_media + sin_riesgo_retraso,3,0.27292736610418195,744
+aprobo + periodo_s2 + sin_riesgo_retraso,3,0.27256052824651505,743
+area_ciencias_basicas_y_complementarias + curso_obligatorio + zona_media,3,0.2714600146735143,740
+curso_no_base + sin_recuperacion + sin_riesgo_retraso,3,0.2710931768158474,739
+aprobo + curso_no_base + sin_riesgo_retraso,3,0.2688921496698459,733
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio + zona_media,3,0.26852531181217903,732
+no_requiere_laboratorio + ocupacion_media + periodo_s1,3,0.2681584739545121,731
+curso_no_base + no_abierto_siguiente + sin_riesgo_retraso,3,0.26559060895084374,724
+abierto_siguiente + curso_base + sin_recuperacion,3,0.2652237710931768,723
+curso_base + curso_obligatorio + periodo_s1,3,0.2648569332355099,722
+no_requiere_laboratorio + periodo_s1 + sin_recuperacion,3,0.2648569332355099,722
+ocupacion_media + sin_recuperacion + zona_media,3,0.2648569332355099,722
+area_ciencias_basicas_y_complementarias + bloqueo_medio + no_requiere_laboratorio,3,0.2637564196625092,719
+abierto_siguiente + no_requiere_laboratorio + sin_recuperacion,3,0.2622890682318415,715
+area_ciencias_basicas_y_complementarias + sin_recuperacion + zona_media,3,0.260454878943507,710
+abierto_siguiente + aprobo + area_ciencias_basicas_y_complementarias,3,0.25972120322817316,708
+aprobo + bloqueo_medio + curso_base,3,0.2589875275128393,706
+curso_base + ocupacion_media + zona_media,3,0.25862068965517243,705
+curso_obligatorio + no_abierto_siguiente + periodo_s1,3,0.2582538517975055,704
+periodo_s2 + sin_recuperacion + sin_riesgo_retraso,3,0.2582538517975055,704
+curso_base + sin_recuperacion + zona_media,3,0.2575201760821717,702
+bloqueo_medio + sin_riesgo_retraso + zona_media,3,0.25678650036683787,700
+bloqueo_medio + curso_obligatorio + periodo_s1,3,0.25605282465150403,698
+aprobo + no_abierto_siguiente + ocupacion_media,3,0.2553191489361702,696
+aprobo + area_ciencias_basicas_y_complementarias + curso_base,3,0.25421863536316947,693
+aprobo + no_requiere_laboratorio + periodo_s1,3,0.2538517975055026,692
+area_ciencias_basicas_y_complementarias + bloqueo_medio + ocupacion_media,3,0.25311812179016874,690
+abierto_siguiente + aprobo + curso_obligatorio,3,0.2516507703595011,686
+abierto_siguiente + bloqueo_medio + sin_riesgo_retraso,3,0.2512839325018342,685
+bloqueo_alto + curso_base + curso_obligatorio,3,0.2505502567865004,683
+curso_obligatorio + periodo_s2 + sin_recuperacion,3,0.2505502567865004,683
+curso_no_base + no_abierto_siguiente + sin_recuperacion,3,0.24908290535583272,679
+ocupacion_media + periodo_s1 + sin_recuperacion,3,0.24761555392516507,675
+abierto_siguiente + no_requiere_laboratorio + ocupacion_media,3,0.24614820249449743,671
+bloqueo_medio + no_abierto_siguiente + no_requiere_laboratorio,3,0.24394717534849597,665
+abierto_siguiente + aprobo + sin_recuperacion,3,0.24358033749082905,664
+no_requiere_laboratorio + periodo_s2 + sin_riesgo_retraso,3,0.24358033749082905,664
+sin_recuperacion + sin_riesgo_retraso + zona_alta,3,0.24284666177549524,662
+bloqueo_medio + sin_recuperacion + zona_media,3,0.24247982391782832,661
+aprobo + ocupacion_media + zona_media,3,0.2421129860601614,660
+aprobo + bloqueo_medio + no_abierto_siguiente,3,0.2413793103448276,658
+bloqueo_medio + no_abierto_siguiente + sin_riesgo_retraso,3,0.2413793103448276,658
+curso_no_base + curso_obligatorio + no_abierto_siguiente,3,0.2413793103448276,658
+aprobo + curso_obligatorio + periodo_s2,3,0.24101247248716068,657
+no_abierto_siguiente + sin_recuperacion + zona_media,3,0.24101247248716068,657
+aprobo + ocupacion_media + periodo_s1,3,0.24027879677182684,655
+aprobo + sin_recuperacion + zona_alta,3,0.23991195891415995,654
+aprobo + sin_riesgo_retraso + zona_alta,3,0.23991195891415995,654
+abierto_siguiente + area_ciencias_basicas_y_complementarias + bloqueo_medio,3,0.2388114453411592,651
+area_ciencias_basicas_y_complementarias + periodo_s1 + sin_riesgo_retraso,3,0.2388114453411592,651
+abierto_siguiente + ocupacion_media + sin_recuperacion,3,0.23771093176815847,648
+bloqueo_medio + no_requiere_laboratorio + zona_media,3,0.23734409391049155,647
+bloqueo_medio + no_abierto_siguiente + ocupacion_media,3,0.23697725605282466,646
+abierto_siguiente + aprobo + curso_base,3,0.23624358033749082,644
+curso_no_base + curso_obligatorio + sin_riesgo_retraso,3,0.23587674247982393,643
+aprobo + curso_no_base + sin_recuperacion,3,0.23477622890682318,640
+no_abierto_siguiente + sin_riesgo_retraso + zona_media,3,0.23477622890682318,640
+abierto_siguiente + aprobo + no_requiere_laboratorio,3,0.23257520176082172,634
+no_abierto_siguiente + no_requiere_laboratorio + zona_media,3,0.23037417461482024,628
+area_ciencias_basicas_y_complementarias + curso_no_base + sin_riesgo_retraso,3,0.23000733675715335,627
+curso_no_base + no_requiere_laboratorio + sin_riesgo_retraso,3,0.23000733675715335,627
+area_ciencias_basicas_y_complementarias + bloqueo_medio + curso_base,3,0.2292736610418195,625
+aprobo + periodo_s2 + sin_recuperacion,3,0.22817314746881878,622
+curso_base + periodo_s1 + sin_riesgo_retraso,3,0.22817314746881878,622
+area_ciencias_basicas_y_complementarias + ocupacion_media + zona_media,3,0.22780630961115186,621
+curso_no_base + no_abierto_siguiente + no_requiere_laboratorio,3,0.22707263389581805,619
+bloqueo_medio + ocupacion_media + zona_media,3,0.22670579603815114,618
+aprobo + area_ciencias_basicas_y_complementarias + zona_media,3,0.22633895818048422,617
+no_abierto_siguiente + periodo_s1 + sin_riesgo_retraso,3,0.22633895818048422,617
+aprobo + curso_no_base + no_abierto_siguiente,3,0.22597212032281733,616
+curso_obligatorio + no_requiere_laboratorio + periodo_s2,3,0.22487160674981657,613
+aprobo + curso_base + zona_media,3,0.22413793103448276,611
+no_abierto_siguiente + periodo_s1 + sin_recuperacion,3,0.22303741746148203,608
+abierto_siguiente + bloqueo_medio + curso_obligatorio,3,0.22267057960381512,607
+curso_base + no_abierto_siguiente + sin_recuperacion,3,0.22193690388848128,605
+bloqueo_medio + periodo_s1 + sin_riesgo_retraso,3,0.22083639031548055,602
+curso_obligatorio + ocupacion_media + periodo_s2,3,0.22083639031548055,602
+curso_no_base + curso_obligatorio + sin_recuperacion,3,0.22010271460014674,600
+curso_base + curso_obligatorio + periodo_s2,3,0.2193690388848129,598
+curso_obligatorio + periodo_s1 + zona_media,3,0.21826852531181218,595
+curso_obligatorio + sin_recuperacion + zona_alta,3,0.21790168745414526,594
+curso_obligatorio + sin_riesgo_retraso + zona_alta,3,0.2157006603081438,588
+no_abierto_siguiente + no_requiere_laboratorio + periodo_s1,3,0.2157006603081438,588
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente + sin_recuperacion,3,0.21496698459280997,586
+abierto_siguiente + aprobo + ocupacion_media,3,0.21460014673514308,585
+abierto_siguiente + sin_riesgo_retraso + zona_media,3,0.21386647101980924,583
+curso_base + no_requiere_laboratorio + periodo_s1,3,0.21386647101980924,583
+curso_base + ocupacion_media + periodo_s1,3,0.21349963316214232,582
+aprobo + curso_obligatorio + zona_alta,3,0.21313279530447543,581
+ocupacion_media + periodo_s2 + sin_riesgo_retraso,3,0.21313279530447543,581
+aprobo + bloqueo_medio + zona_media,3,0.2127659574468085,580
+curso_obligatorio + no_abierto_siguiente + periodo_s2,3,0.21203228173147468,578
+area_ciencias_basicas_y_complementarias + periodo_s2 + sin_riesgo_retraso,3,0.21166544387380778,577
+area_ciencias_basicas_y_complementarias + curso_no_base + sin_recuperacion,3,0.21056493030080703,574
+aprobo + no_abierto_siguiente + zona_media,3,0.20983125458547322,572
+area_ciencias_basicas_y_complementarias + bloqueo_medio + zona_media,3,0.20983125458547322,572
+ocupacion_baja + sin_recuperacion + sin_riesgo_retraso,3,0.20983125458547322,572
+bloqueo_medio + ocupacion_media + periodo_s1,3,0.2090975788701394,570
+aprobo + no_abierto_siguiente + periodo_s1,3,0.2087307410124725,569
+bloqueo_medio + no_requiere_laboratorio + periodo_s1,3,0.2087307410124725,569
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente + sin_riesgo_retraso,3,0.206529713866471,563
+bloqueo_medio + curso_base + zona_media,3,0.206529713866471,563
+area_ciencias_basicas_y_complementarias + curso_obligatorio + periodo_s1,3,0.20616287600880412,562
+bloqueo_alto + curso_base + sin_riesgo_retraso,3,0.20616287600880412,562
+bloqueo_alto + curso_obligatorio + sin_riesgo_retraso,3,0.20616287600880412,562
+bloqueo_medio + periodo_s1 + sin_recuperacion,3,0.20616287600880412,562
+bloqueo_medio + curso_no_base + curso_obligatorio,3,0.2057960381511372,561
+area_ciencias_basicas_y_complementarias + curso_no_base + no_abierto_siguiente,3,0.20506236243580336,559
+bloqueo_medio + curso_obligatorio + periodo_s2,3,0.20432868672046955,557
+abierto_siguiente + bloqueo_medio + sin_recuperacion,3,0.20359501100513572,555
+curso_no_base + no_requiere_laboratorio + sin_recuperacion,3,0.202494497432135,552
+no_requiere_laboratorio + ocupacion_baja + sin_riesgo_retraso,3,0.202494497432135,552
+no_requiere_laboratorio + periodo_s2 + sin_recuperacion,3,0.202494497432135,552
+periodo_s1 + sin_riesgo_retraso + zona_media,3,0.202494497432135,552
+abierto_siguiente + bloqueo_medio + curso_base,3,0.20066030814380045,547
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio + periodo_s1,3,0.20066030814380045,547
+curso_base + periodo_s1 + sin_recuperacion,3,0.20029347028613353,546
+aprobo + curso_no_base + curso_obligatorio,3,0.19992663242846662,545
+abierto_siguiente + area_ciencias_basicas_y_complementarias + zona_media,3,0.19809244314013205,540
+area_ciencias_basicas_y_complementarias + periodo_s1 + sin_recuperacion,3,0.19625825385179752,535
+no_abierto_siguiente + ocupacion_media + periodo_s1,3,0.19625825385179752,535
+aprobo + bloqueo_medio + periodo_s1,3,0.1958914159941306,534
+area_ciencias_basicas_y_complementarias + curso_base + zona_media,3,0.1958914159941306,534
+aprobo + no_requiere_laboratorio + periodo_s2,3,0.19552457813646368,533
+aprobo + ocupacion_baja + sin_riesgo_retraso,3,0.19552457813646368,533
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente + no_requiere_laboratorio,3,0.19515774027879676,532
+no_abierto_siguiente + ocupacion_media + zona_media,3,0.19479090242112987,531
+curso_base + no_abierto_siguiente + no_requiere_laboratorio,3,0.19442406456346295,530
+aprobo + curso_base + periodo_s1,3,0.19332355099046222,527
+curso_base + periodo_s2 + sin_riesgo_retraso,3,0.19185619955979458,523
+aprobo + curso_base + no_abierto_siguiente,3,0.19148936170212766,522
+curso_base + no_abierto_siguiente + sin_riesgo_retraso,3,0.19148936170212766,522
+bloqueo_alto + curso_base + sin_recuperacion,3,0.19075568598679385,520
+bloqueo_alto + curso_obligatorio + sin_recuperacion,3,0.19075568598679385,520
+curso_base + no_abierto_siguiente + ocupacion_media,3,0.19075568598679385,520
+no_requiere_laboratorio + sin_recuperacion + zona_alta,3,0.19002201027146,518
+curso_obligatorio + requiere_laboratorio + sin_recuperacion,3,0.1896551724137931,517
+abierto_siguiente + curso_obligatorio + zona_media,3,0.1892883345561262,516
+no_requiere_laboratorio + sin_riesgo_retraso + zona_alta,3,0.1892883345561262,516
+bloqueo_medio + no_abierto_siguiente + zona_media,3,0.18892149669845928,515
+curso_obligatorio + requiere_laboratorio + sin_riesgo_retraso,3,0.18892149669845928,515
+area_ciencias_basicas_y_complementarias + curso_obligatorio + periodo_s2,3,0.18855465884079237,514
+no_requiere_laboratorio + periodo_s1 + zona_media,3,0.18855465884079237,514
+aprobo + area_ciencias_basicas_y_complementarias + curso_no_base,3,0.18818782098312545,513
+aprobo + area_ciencias_basicas_y_complementarias + periodo_s1,3,0.18818782098312545,513
+curso_obligatorio + ocupacion_baja + sin_riesgo_retraso,3,0.18782098312545856,512
+area_ciencias_basicas_y_complementarias + curso_obligatorio + no_abierto_siguiente,3,0.18708730741012472,510
+curso_base + curso_obligatorio + perdio,3,0.18708730741012472,510
+aprobo + no_requiere_laboratorio + zona_alta,3,0.1867204695524578,509
+no_requiere_laboratorio + ocupacion_baja + sin_recuperacion,3,0.1867204695524578,509
+curso_obligatorio + no_abierto_siguiente + requiere_laboratorio,3,0.1863536316947909,508
+bloqueo_medio + periodo_s2 + sin_riesgo_retraso,3,0.18415260454878943,502
+aprobo + curso_no_base + no_requiere_laboratorio,3,0.18378576669112254,501
+no_abierto_siguiente + periodo_s2 + sin_riesgo_retraso,3,0.18378576669112254,501
+abierto_siguiente + bloqueo_medio + no_requiere_laboratorio,3,0.1830520909757887,499
+curso_obligatorio + no_requiere_laboratorio + perdio,3,0.1830520909757887,499
+aprobo + area_ciencias_basicas_y_complementarias + no_abierto_siguiente,3,0.18268525311812178,498
+ocupacion_media + periodo_s2 + sin_recuperacion,3,0.18158473954512105,495
+abierto_siguiente + no_requiere_laboratorio + zona_media,3,0.18121790168745414,494
+area_ciencias_basicas_y_complementarias + ocupacion_media + periodo_s1,3,0.18121790168745414,494
+bloqueo_medio + curso_no_base + sin_recuperacion,3,0.18048422597212033,492
+curso_obligatorio + periodo_s2 + zona_media,3,0.18048422597212033,492
+curso_obligatorio + ocupacion_media + perdio,3,0.1801173881144534,491
+abierto_siguiente + curso_base + zona_media,3,0.1793837123991196,489
+abierto_siguiente + aprobo + bloqueo_medio,3,0.17901687454145268,488
+bloqueo_medio + curso_no_base + no_abierto_siguiente,3,0.17901687454145268,488
+abierto_siguiente + bloqueo_medio + ocupacion_media,3,0.17865003668378576,487
+area_ciencias_basicas_y_complementarias + ocupacion_baja + sin_riesgo_retraso,3,0.17828319882611884,486
+bloqueo_alto + curso_base + ocupacion_media,3,0.17828319882611884,486
+bloqueo_alto + curso_obligatorio + ocupacion_media,3,0.17828319882611884,486
+ocupacion_media + periodo_s1 + zona_media,3,0.17828319882611884,486
+bloqueo_medio + no_abierto_siguiente + periodo_s1,3,0.17754952311078503,484
+aprobo + ocupacion_baja + sin_recuperacion,3,0.17718268525311812,483
+area_ciencias_basicas_y_complementarias + curso_no_base + curso_obligatorio,3,0.1768158473954512,482
+bloqueo_medio + curso_no_base + sin_riesgo_retraso,3,0.1768158473954512,482
+no_abierto_siguiente + periodo_s2 + sin_recuperacion,3,0.17571533382245047,479
+no_requiere_laboratorio + ocupacion_media + periodo_s2,3,0.17534849596478358,478
+aprobo + ocupacion_media + periodo_s2,3,0.17461482024944974,476
+curso_obligatorio + ocupacion_baja + sin_recuperacion,3,0.17424798239178282,475
+periodo_s1 + sin_recuperacion + zona_media,3,0.17388114453411593,474
+periodo_s2 + sin_riesgo_retraso + zona_media,3,0.17351430667644901,473
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio + periodo_s2,3,0.1731474688187821,472
+bloqueo_alto + curso_base + no_requiere_laboratorio,3,0.1731474688187821,472
+bloqueo_alto + curso_obligatorio + no_requiere_laboratorio,3,0.1731474688187821,472
+curso_no_base + no_abierto_siguiente + ocupacion_media,3,0.17278063096111518,471
+bloqueo_medio + curso_obligatorio + requiere_laboratorio,3,0.17204695524578137,469
+area_ciencias_basicas_y_complementarias + periodo_s2 + sin_recuperacion,3,0.17168011738811445,468
+curso_base + no_requiere_laboratorio + periodo_s2,3,0.16984592809977989,463
+area_ciencias_basicas_y_complementarias + curso_no_base + no_requiere_laboratorio,3,0.169479090242113,462
+area_ciencias_basicas_y_complementarias + bloqueo_medio + curso_no_base,3,0.16911225238444608,461
+curso_no_base + ocupacion_media + sin_riesgo_retraso,3,0.16911225238444608,461
+aprobo + bloqueo_alto + curso_base,3,0.16874541452677916,460
+aprobo + bloqueo_alto + curso_obligatorio,3,0.16874541452677916,460
+aprobo + bloqueo_alto + sin_riesgo_retraso,3,0.16874541452677916,460
+bloqueo_medio + curso_base + no_abierto_siguiente,3,0.16874541452677916,460
+curso_obligatorio + semestre_3 + sin_riesgo_retraso,3,0.16874541452677916,460
+aprobo + periodo_s1 + zona_media,3,0.16837857666911224,459
+area_ciencias_basicas_y_complementarias + ocupacion_baja + sin_recuperacion,3,0.16837857666911224,459
+curso_obligatorio + no_abierto_siguiente + perdio,3,0.16801173881144535,458
+aprobo + area_ciencias_basicas_y_complementarias + periodo_s2,3,0.1669112252384446,455
+curso_no_base + sin_riesgo_retraso + zona_media,3,0.1669112252384446,455
+bloqueo_medio + curso_obligatorio + perdio,3,0.1665443873807777,454
+curso_base + curso_obligatorio + semestre_3,3,0.16617754952311078,453
+curso_base + periodo_s2 + sin_recuperacion,3,0.16617754952311078,453
+aprobo + curso_obligatorio + requiere_laboratorio,3,0.16581071166544387,452
+aprobo + requiere_laboratorio + sin_riesgo_retraso,3,0.16581071166544387,452
+bloqueo_alto + sin_recuperacion + sin_riesgo_retraso,3,0.16581071166544387,452
+curso_obligatorio + perdio + zona_media,3,0.16581071166544387,452
+ocupacion_media + sin_recuperacion + zona_alta,3,0.16581071166544387,452
+aprobo + no_abierto_siguiente + periodo_s2,3,0.16507703595011006,450
+curso_obligatorio + perdio + sin_recuperacion,3,0.16471019809244314,449
+curso_base + no_abierto_siguiente + zona_media,3,0.16434336023477622,448
+curso_base + ocupacion_media + periodo_s2,3,0.16434336023477622,448
+ocupacion_media + sin_riesgo_retraso + zona_alta,3,0.16434336023477622,448
+abierto_siguiente + ocupacion_media + zona_media,3,0.16397652237710933,447
+bloqueo_medio + periodo_s2 + sin_recuperacion,3,0.16397652237710933,447
+abierto_siguiente + sin_recuperacion + zona_media,3,0.1632428466617755,445
+curso_obligatorio + no_requiere_laboratorio + zona_alta,3,0.16287600880410857,444
+curso_no_base + no_abierto_siguiente + zona_media,3,0.16250917094644168,443
+curso_obligatorio + no_requiere_laboratorio + ocupacion_baja,3,0.16250917094644168,443
+aprobo + ocupacion_media + zona_alta,3,0.16177549523110785,441
+curso_no_base + no_abierto_siguiente + periodo_s1,3,0.16177549523110785,441
+aprobo + bloqueo_medio + curso_no_base,3,0.16140865737344093,440
+area_ciencias_basicas_y_complementarias + sin_recuperacion + zona_alta,3,0.16140865737344093,440
+no_abierto_siguiente + periodo_s1 + zona_media,3,0.16140865737344093,440
+area_ciencias_basicas_y_complementarias + sin_riesgo_retraso + zona_alta,3,0.16067498165810712,438
+bloqueo_alto + no_requiere_laboratorio + ocupacion_media,3,0.16067498165810712,438
+curso_no_base + curso_obligatorio + ocupacion_media,3,0.16067498165810712,438
+curso_obligatorio + semestre_3 + sin_recuperacion,3,0.1603081438004402,437
+aprobo + curso_base + periodo_s2,3,0.15994130594277328,436
+area_ciencias_basicas_y_complementarias + bloqueo_medio + no_abierto_siguiente,3,0.1595744680851064,435
+bloqueo_alto + ocupacion_media + sin_riesgo_retraso,3,0.1595744680851064,435
+bloqueo_alto + no_requiere_laboratorio + sin_riesgo_retraso,3,0.15920763022743947,434
+curso_no_base + curso_obligatorio + no_requiere_laboratorio,3,0.15920763022743947,434
+aprobo + area_ciencias_basicas_y_complementarias + zona_alta,3,0.15884079236977255,433
+aprobo + bloqueo_medio + periodo_s2,3,0.15884079236977255,433
+area_ciencias_basicas_y_complementarias + ocupacion_media + periodo_s2,3,0.15884079236977255,433
+abierto_siguiente + periodo_s1 + sin_riesgo_retraso,3,0.15847395451210564,432
+curso_no_base + ocupacion_baja + sin_riesgo_retraso,3,0.15810711665443875,431
+bloqueo_medio + curso_base + periodo_s1,3,0.15774027879677183,430
+aprobo + no_requiere_laboratorio + ocupacion_baja,3,0.1573734409391049,429
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio + ocupacion_baja,3,0.15700660308143802,428
+curso_no_base + periodo_s1 + sin_riesgo_retraso,3,0.1566397652237711,427
+curso_obligatorio + ocupacion_media + zona_alta,3,0.15443873807776962,421
+requiere_laboratorio + sin_recuperacion + sin_riesgo_retraso,3,0.1537050623624358,419
+area_ciencias_basicas_y_complementarias + curso_obligatorio + perdio,3,0.1533382245047689,418
+bloqueo_medio + curso_obligatorio + ocupacion_baja,3,0.1533382245047689,418
+curso_no_base + ocupacion_media + sin_recuperacion,3,0.1533382245047689,418
+area_ciencias_basicas_y_complementarias + bloqueo_medio + periodo_s1,3,0.15297138664710197,417
+no_abierto_siguiente + ocupacion_baja + sin_riesgo_retraso,3,0.15297138664710197,417
+no_abierto_siguiente + ocupacion_baja + sin_recuperacion,3,0.15223771093176816,415
+curso_base + periodo_s1 + zona_media,3,0.15187087307410124,414
+aprobo + curso_obligatorio + ocupacion_baja,3,0.15113719735876743,412
+no_abierto_siguiente + perdio + riesgo_retraso,3,0.15077035950110051,411
+bloqueo_bajo + curso_no_base + sin_riesgo_retraso,3,0.1504035216434336,410
+bloqueo_medio + ocupacion_baja + sin_recuperacion,3,0.1504035216434336,410
+bloqueo_medio + ocupacion_media + periodo_s2,3,0.1496698459280998,408
+area_ciencias_basicas_y_complementarias + bloqueo_medio + periodo_s2,3,0.14930300807043287,407
+bloqueo_medio + sin_recuperacion + zona_alta,3,0.14930300807043287,407
+curso_base + curso_obligatorio + semestre_4,3,0.14930300807043287,407
+no_requiere_laboratorio + periodo_s2 + zona_media,3,0.14930300807043287,407
+bloqueo_medio + ocupacion_baja + sin_riesgo_retraso,3,0.14893617021276595,406
+no_abierto_siguiente + no_requiere_laboratorio + periodo_s2,3,0.14893617021276595,406
+curso_obligatorio + no_abierto_siguiente + ocupacion_baja,3,0.14856933235509906,405
+no_abierto_siguiente + no_requiere_laboratorio + ocupacion_baja,3,0.14820249449743214,404
+bloqueo_medio + sin_riesgo_retraso + zona_alta,3,0.14783565663976522,403
+area_ciencias_basicas_y_complementarias + curso_obligatorio + ocupacion_baja,3,0.1471019809244314,401
+curso_no_base + ocupacion_baja + sin_recuperacion,3,0.1471019809244314,401
+curso_no_base + sin_recuperacion + zona_media,3,0.1467351430667645,400
+abierto_siguiente + periodo_s2 + sin_riesgo_retraso,3,0.14636830520909758,399
+aprobo + bloqueo_medio + zona_alta,3,0.14636830520909758,399
+abierto_siguiente + curso_obligatorio + periodo_s1,3,0.14600146735143066,398
+bloqueo_medio + periodo_s1 + zona_media,3,0.14600146735143066,398
+no_requiere_laboratorio + ocupacion_media + perdio,3,0.14600146735143066,398
+abierto_siguiente + aprobo + zona_media,3,0.14563462949376377,397
+area_ciencias_basicas_y_complementarias + curso_obligatorio + semestre_1,3,0.14563462949376377,397
+curso_no_base + no_abierto_siguiente + ocupacion_baja,3,0.14563462949376377,397
+curso_obligatorio + no_abierto_siguiente + riesgo_retraso,3,0.14563462949376377,397
+curso_obligatorio + perdio + riesgo_retraso,3,0.14563462949376377,397
+abierto_siguiente + area_ciencias_basicas_y_complementarias + periodo_s1,3,0.14526779163609685,396
+area_ciencias_basicas_y_complementarias + bloqueo_medio + ocupacion_baja,3,0.14526779163609685,396
+bloqueo_bajo + curso_no_base + no_requiere_laboratorio,3,0.14526779163609685,396
+bloqueo_bajo + no_requiere_laboratorio + sin_riesgo_retraso,3,0.14526779163609685,396
+curso_base + sin_recuperacion + zona_alta,3,0.144534115920763,394
+curso_no_base + curso_obligatorio + zona_media,3,0.14416727806309612,393
+aprobo + curso_no_base + ocupacion_media,3,0.1438004402054292,392
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente + ocupacion_media,3,0.1438004402054292,392
+curso_base + no_requiere_laboratorio + perdio,3,0.1438004402054292,392
+curso_base + sin_riesgo_retraso + zona_alta,3,0.14343360234776228,391
+no_abierto_siguiente + sin_recuperacion + zona_alta,3,0.14343360234776228,391
+periodo_s2 + sin_recuperacion + zona_media,3,0.14343360234776228,391
+curso_obligatorio + ocupacion_media + requiere_laboratorio,3,0.14306676449009537,390
+aprobo + bloqueo_alto + sin_recuperacion,3,0.14233308877476156,388
+curso_no_base + periodo_s1 + sin_recuperacion,3,0.14233308877476156,388
+curso_base + curso_obligatorio + zona_alta,3,0.14123257520176083,385
+no_abierto_siguiente + sin_riesgo_retraso + zona_alta,3,0.14123257520176083,385
+aprobo + curso_base + zona_alta,3,0.1408657373440939,384
+aprobo + no_abierto_siguiente + zona_alta,3,0.1408657373440939,384
+aprobo + area_ciencias_basicas_y_complementarias + ocupacion_baja,3,0.140498899486427,383
+bloqueo_medio + no_requiere_laboratorio + periodo_s2,3,0.140498899486427,383
+bloqueo_alto + ocupacion_media + sin_recuperacion,3,0.1401320616287601,382
+area_ciencias_basicas_y_complementarias + curso_no_base + zona_media,3,0.13976522377109318,381
+bloqueo_bajo + curso_no_base + no_abierto_siguiente,3,0.13939838591342626,380
+bloqueo_bajo + no_abierto_siguiente + sin_riesgo_retraso,3,0.13939838591342626,380
+curso_no_base + curso_obligatorio + periodo_s1,3,0.13939838591342626,380
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio + perdio,3,0.13903154805575935,379
+aprobo + periodo_s2 + zona_media,3,0.13866471019809246,378
+aprobo + requiere_laboratorio + sin_recuperacion,3,0.13866471019809246,378
+bloqueo_alto + no_requiere_laboratorio + sin_recuperacion,3,0.13866471019809246,378
+no_requiere_laboratorio + perdio + zona_media,3,0.13866471019809246,378
+curso_no_base + periodo_s2 + sin_riesgo_retraso,3,0.13829787234042554,377
+abierto_siguiente + area_ciencias_basicas_y_complementarias + periodo_s2,3,0.13793103448275862,376
+aprobo + curso_obligatorio + semestre_3,3,0.13793103448275862,376
+aprobo + semestre_3 + sin_riesgo_retraso,3,0.13793103448275862,376
+bloqueo_medio + curso_obligatorio + zona_alta,3,0.13793103448275862,376
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente + zona_media,3,0.1375641966250917,375
+curso_base + ocupacion_media + perdio,3,0.1375641966250917,375
+bloqueo_alto + curso_base + zona_media,3,0.1371973587674248,374
+bloqueo_alto + curso_obligatorio + zona_media,3,0.1371973587674248,374
+bloqueo_medio + requiere_laboratorio + sin_riesgo_retraso,3,0.1368305209097579,373
+curso_no_base + no_requiere_laboratorio + ocupacion_baja,3,0.1368305209097579,373
+abierto_siguiente + curso_base + periodo_s1,3,0.13609684519442405,371
+area_ciencias_basicas_y_complementarias + curso_obligatorio + zona_alta,3,0.13609684519442405,371
+curso_base + no_abierto_siguiente + periodo_s1,3,0.13609684519442405,371
+semestre_3 + sin_recuperacion + sin_riesgo_retraso,3,0.13609684519442405,371
+area_ciencias_basicas_y_complementarias + semestre_1 + sin_riesgo_retraso,3,0.13573000733675716,370
+curso_no_base + no_requiere_laboratorio + zona_media,3,0.13573000733675716,370
+no_requiere_laboratorio + perdio + sin_recuperacion,3,0.13573000733675716,370
+curso_obligatorio + sin_riesgo_retraso + zona_baja,3,0.13536316947909025,369
+no_abierto_siguiente + requiere_laboratorio + sin_recuperacion,3,0.13536316947909025,369
+curso_obligatorio + recuperacion + sin_riesgo_retraso,3,0.13499633162142333,368
+area_ciencias_basicas_y_complementarias + bloqueo_medio + requiere_laboratorio,3,0.1346294937637564,367
+area_ciencias_basicas_y_complementarias + curso_no_base + ocupacion_baja,3,0.1346294937637564,367
+area_ciencias_basicas_y_complementarias + curso_obligatorio + requiere_laboratorio,3,0.1346294937637564,367
+area_ciencias_basicas_y_complementarias + curso_obligatorio + semestre_2,3,0.1346294937637564,367
+bloqueo_bajo + no_abierto_siguiente + no_requiere_laboratorio,3,0.13426265590608952,366
+abierto_siguiente + bloqueo_medio + zona_media,3,0.1338958180484226,365
+no_requiere_laboratorio + ocupacion_media + zona_alta,3,0.1338958180484226,365
+ocupacion_media + semestre_4 + sin_riesgo_retraso,3,0.1338958180484226,365
+abierto_siguiente + ocupacion_media + periodo_s1,3,0.13352898019075568,364
+bloqueo_medio + requiere_laboratorio + sin_recuperacion,3,0.13352898019075568,364
+area_ciencias_basicas_y_complementarias + curso_no_base + periodo_s1,3,0.13316214233308876,363
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio + semestre_1,3,0.13316214233308876,363
+curso_no_base + no_requiere_laboratorio + periodo_s1,3,0.13316214233308876,363
+aprobo + curso_no_base + periodo_s1,3,0.13279530447542187,362
+curso_obligatorio + semestre_1 + sin_riesgo_retraso,3,0.13279530447542187,362
+area_ciencias_basicas_y_complementarias + periodo_s1 + zona_media,3,0.13242846661775495,361
+curso_no_base + no_abierto_siguiente + periodo_s2,3,0.13242846661775495,361
+ocupacion_media + periodo_s2 + zona_media,3,0.13242846661775495,361
+bloqueo_medio + no_requiere_laboratorio + ocupacion_baja,3,0.13169479090242112,359
+abierto_siguiente + no_requiere_laboratorio + periodo_s1,3,0.13132795304475423,358
+aprobo + curso_no_base + zona_media,3,0.13132795304475423,358
+bloqueo_alto + curso_base + semestre_3,3,0.13132795304475423,358
+bloqueo_alto + curso_obligatorio + semestre_3,3,0.13132795304475423,358
+curso_base + semestre_3 + sin_riesgo_retraso,3,0.13132795304475423,358
+curso_obligatorio + ocupacion_media + recuperacion,3,0.13132795304475423,358
+aprobo + no_abierto_siguiente + ocupacion_baja,3,0.1309611151870873,357
+area_ciencias_basicas_y_complementarias + bloqueo_alto + curso_base,3,0.1305942773294204,356
+area_ciencias_basicas_y_complementarias + bloqueo_alto + curso_obligatorio,3,0.1305942773294204,356
+area_ciencias_basicas_y_complementarias + bloqueo_alto + no_requiere_laboratorio,3,0.1305942773294204,356
+area_ciencias_basicas_y_complementarias + curso_no_base + ocupacion_media,3,0.1302274394717535,355
+bloqueo_medio + curso_base + periodo_s2,3,0.1302274394717535,355
+bloqueo_medio + curso_no_base + ocupacion_media,3,0.1302274394717535,355
+abierto_siguiente + bloqueo_alto + curso_base,3,0.12986060161408658,354
+abierto_siguiente + bloqueo_alto + curso_obligatorio,3,0.12986060161408658,354
+abierto_siguiente + bloqueo_alto + no_requiere_laboratorio,3,0.12986060161408658,354
+abierto_siguiente + bloqueo_alto + sin_riesgo_retraso,3,0.12986060161408658,354
+curso_base + curso_obligatorio + recuperacion,3,0.12949376375641966,353
+curso_base + semestre_4 + sin_riesgo_retraso,3,0.12949376375641966,353
+curso_obligatorio + semestre_4 + sin_riesgo_retraso,3,0.12949376375641966,353
+no_requiere_laboratorio + perdio + sin_riesgo_retraso,3,0.12949376375641966,353
+abierto_siguiente + curso_obligatorio + periodo_s2,3,0.12912692589875274,352
+curso_base + curso_obligatorio + requiere_laboratorio,3,0.12912692589875274,352
+curso_obligatorio + no_requiere_laboratorio + recuperacion,3,0.12912692589875274,352
+curso_obligatorio + no_requiere_laboratorio + semestre_1,3,0.12912692589875274,352
+curso_obligatorio + requiere_laboratorio + zona_media,3,0.12912692589875274,352
+curso_obligatorio + ocupacion_media + semestre_3,3,0.12876008804108585,351
+curso_obligatorio + ocupacion_media + zona_baja,3,0.12802641232575201,349
+no_abierto_siguiente + periodo_s2 + zona_media,3,0.12802641232575201,349
+ocupacion_baja + sin_riesgo_retraso + zona_media,3,0.1276595744680851,348
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio + zona_alta,3,0.1272927366104182,347
+area_ciencias_basicas_y_complementarias + perdio + sin_riesgo_retraso,3,0.1272927366104182,347
+no_abierto_siguiente + ocupacion_media + periodo_s2,3,0.1272927366104182,347
+semestre_4 + sin_recuperacion + sin_riesgo_retraso,3,0.1272927366104182,347
+aprobo + bloqueo_medio + ocupacion_baja,3,0.1269258987527513,346
+area_ciencias_basicas_y_complementarias + curso_base + periodo_s2,3,0.1269258987527513,346
+area_ciencias_basicas_y_complementarias + periodo_s2 + zona_media,3,0.12655906089508437,345
+curso_base + curso_obligatorio + zona_baja,3,0.12655906089508437,345
+curso_base + semestre_3 + sin_recuperacion,3,0.12655906089508437,345
+curso_obligatorio + perdio + sin_riesgo_retraso,3,0.12619222303741745,344
+aprobo + bloqueo_alto + ocupacion_media,3,0.12545854732208364,342
+area_ciencias_basicas_y_complementarias + bloqueo_medio + semestre_1,3,0.12545854732208364,342
+curso_base + periodo_s2 + zona_media,3,0.12545854732208364,342
+curso_no_base + curso_obligatorio + requiere_laboratorio,3,0.12545854732208364,342
+aprobo + curso_no_base + ocupacion_baja,3,0.12509170946441672,341
+no_requiere_laboratorio + semestre_1 + sin_riesgo_retraso,3,0.12509170946441672,341
+curso_obligatorio + no_abierto_siguiente + recuperacion,3,0.12472487160674982,340
+no_requiere_laboratorio + ocupacion_baja + zona_media,3,0.12472487160674982,340
+area_ciencias_basicas_y_complementarias + bloqueo_alto + sin_riesgo_retraso,3,0.1243580337490829,339
+curso_no_base + curso_obligatorio + ocupacion_baja,3,0.123991195891416,338
+curso_obligatorio + recuperacion + zona_media,3,0.123991195891416,338
+aprobo + semestre_4 + sin_riesgo_retraso,3,0.12362435803374908,337
+curso_obligatorio + no_abierto_siguiente + zona_alta,3,0.12362435803374908,337
+curso_base + ocupacion_media + semestre_4,3,0.12325752017608217,336
+curso_obligatorio + ocupacion_media + semestre_4,3,0.12325752017608217,336
+no_abierto_siguiente + no_requiere_laboratorio + perdio,3,0.12325752017608217,336
+area_ciencias_basicas_y_complementarias + curso_base + periodo_s1,3,0.12289068231841525,335
+bloqueo_medio + no_abierto_siguiente + periodo_s2,3,0.12252384446074835,334
+bloqueo_medio + ocupacion_media + perdio,3,0.12215700660308144,333
+abierto_siguiente + curso_base + periodo_s2,3,0.12179016874541453,332
+aprobo + bloqueo_alto + no_requiere_laboratorio,3,0.12179016874541453,332
+bloqueo_medio + no_requiere_laboratorio + perdio,3,0.12179016874541453,332
+curso_no_base + curso_obligatorio + periodo_s2,3,0.12179016874541453,332
+curso_obligatorio + no_requiere_laboratorio + zona_baja,3,0.12179016874541453,332
+area_ciencias_basicas_y_complementarias + semestre_1 + sin_recuperacion,3,0.12142333088774762,331
+bloqueo_medio + curso_obligatorio + semestre_1,3,0.12142333088774762,331
+area_ciencias_basicas_y_complementarias + bloqueo_alto + ocupacion_media,3,0.1210564930300807,330
+curso_base + perdio + sin_recuperacion,3,0.1210564930300807,330
+bloqueo_alto + curso_base + no_abierto_siguiente,3,0.1206896551724138,329
+bloqueo_alto + curso_obligatorio + no_abierto_siguiente,3,0.1206896551724138,329
+no_abierto_siguiente + requiere_laboratorio + sin_riesgo_retraso,3,0.1206896551724138,329
+abierto_siguiente + bloqueo_alto + ocupacion_media,3,0.12032281731474688,328
+area_ciencias_de_la_computacion + curso_obligatorio + no_abierto_siguiente,3,0.12032281731474688,328
+bloqueo_medio + curso_no_base + requiere_laboratorio,3,0.12032281731474688,328
+bloqueo_medio + ocupacion_media + requiere_laboratorio,3,0.12032281731474688,328
+curso_base + no_requiere_laboratorio + zona_alta,3,0.12032281731474688,328
+bloqueo_bajo + curso_no_base + sin_recuperacion,3,0.11995597945707998,327
+bloqueo_bajo + sin_recuperacion + sin_riesgo_retraso,3,0.11995597945707998,327
+ocupacion_media + perdio + sin_recuperacion,3,0.11995597945707998,327
+abierto_siguiente + periodo_s1 + sin_recuperacion,3,0.11958914159941306,326
+area_ciencias_basicas_y_complementarias + ocupacion_media + perdio,3,0.11958914159941306,326
+bloqueo_medio + periodo_s2 + zona_media,3,0.11958914159941306,326
+curso_base + perdio + zona_media,3,0.11958914159941306,326
+aprobo + no_abierto_siguiente + requiere_laboratorio,3,0.11922230374174615,325
+curso_no_base + periodo_s2 + sin_recuperacion,3,0.11922230374174615,325
+abierto_siguiente + no_requiere_laboratorio + periodo_s2,3,0.11885546588407923,324
+curso_obligatorio + sin_recuperacion + zona_baja,3,0.11885546588407923,324
+ocupacion_baja + sin_recuperacion + zona_media,3,0.11885546588407923,324
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente + ocupacion_baja,3,0.1177549523110785,321
+bloqueo_medio + curso_obligatorio + zona_baja,3,0.1177549523110785,321
+curso_no_base + no_requiere_laboratorio + ocupacion_media,3,0.1177549523110785,321
+abierto_siguiente + aprobo + periodo_s1,3,0.11738811445341159,320
+area_ciencias_basicas_y_complementarias + curso_obligatorio + semestre_3,3,0.11738811445341159,320
+area_ciencias_basicas_y_complementarias + perdio + sin_recuperacion,3,0.11738811445341159,320
+curso_obligatorio + perdio + periodo_s1,3,0.11738811445341159,320
+curso_obligatorio + semestre_1 + sin_recuperacion,3,0.11738811445341159,320
+area_ciencias_basicas_y_complementarias + bloqueo_medio + perdio,3,0.11702127659574468,319
+curso_obligatorio + no_abierto_siguiente + zona_baja,3,0.11702127659574468,319
+curso_obligatorio + semestre_3 + zona_media,3,0.11702127659574468,319
+no_abierto_siguiente + perdio + zona_media,3,0.11702127659574468,319
+no_requiere_laboratorio + recuperacion + sin_riesgo_retraso,3,0.11702127659574468,319
+ocupacion_media + semestre_4 + sin_recuperacion,3,0.11702127659574468,319
+aprobo + semestre_3 + sin_recuperacion,3,0.11665443873807776,318
+curso_base + semestre_4 + sin_recuperacion,3,0.11665443873807776,318
+curso_obligatorio + ocupacion_baja + zona_media,3,0.11665443873807776,318
+curso_obligatorio + semestre_4 + sin_recuperacion,3,0.11665443873807776,318
+ocupacion_media + perdio + zona_media,3,0.11665443873807776,318
+ocupacion_media + semestre_3 + sin_riesgo_retraso,3,0.11665443873807776,318
+bloqueo_medio + curso_no_base + zona_media,3,0.11628760088041086,317
+curso_no_base + ocupacion_media + periodo_s1,3,0.11628760088041086,317
+curso_obligatorio + periodo_s2 + requiere_laboratorio,3,0.11628760088041086,317
+bloqueo_bajo + no_requiere_laboratorio + sin_recuperacion,3,0.11592076302274394,316
+bloqueo_medio + curso_obligatorio + recuperacion,3,0.11592076302274394,316
+perdio + sin_recuperacion + zona_media,3,0.11555392516507704,315
+abierto_siguiente + area_ciencias_basicas_y_complementarias + bloqueo_alto,3,0.11518708730741012,314
+abierto_siguiente + ocupacion_media + periodo_s2,3,0.11518708730741012,314
+aprobo + bloqueo_medio + requiere_laboratorio,3,0.11518708730741012,314
+bloqueo_medio + curso_no_base + periodo_s1,3,0.11518708730741012,314
+bloqueo_alto + curso_base + periodo_s1,3,0.1144534115920763,312
+bloqueo_alto + curso_obligatorio + periodo_s1,3,0.1144534115920763,312
+area_ciencias_basicas_y_complementarias + ocupacion_media + semestre_2,3,0.11408657373440939,311
+area_desarrollo_de_software + curso_obligatorio + no_abierto_siguiente,3,0.11408657373440939,311
+curso_obligatorio + ocupacion_media + semestre_2,3,0.11408657373440939,311
+no_requiere_laboratorio + sin_riesgo_retraso + zona_baja,3,0.11408657373440939,311
+ocupacion_media + requiere_laboratorio + sin_riesgo_retraso,3,0.11408657373440939,311
+area_ciencias_basicas_y_complementarias + semestre_2 + sin_riesgo_retraso,3,0.11371973587674249,310
+no_abierto_siguiente + perdio + sin_recuperacion,3,0.11371973587674249,310
+abierto_siguiente + perdio + sin_riesgo_retraso,3,0.11298606016140866,308
+area_ciencias_basicas_y_complementarias + requiere_laboratorio + sin_riesgo_retraso,3,0.11298606016140866,308
+bloqueo_medio + perdio + sin_recuperacion,3,0.11298606016140866,308
+semestre_1 + sin_recuperacion + sin_riesgo_retraso,3,0.11298606016140866,308
+aprobo + curso_no_base + periodo_s2,3,0.11261922230374175,307
+area_ciencias_basicas_y_complementarias + semestre_4 + sin_riesgo_retraso,3,0.11261922230374175,307
+bloqueo_medio + curso_base + semestre_4,3,0.11225238444607484,306
+bloqueo_medio + curso_obligatorio + semestre_4,3,0.11225238444607484,306
+curso_base + no_requiere_laboratorio + semestre_3,3,0.11225238444607484,306
+curso_obligatorio + no_requiere_laboratorio + semestre_3,3,0.11225238444607484,306
+periodo_s1 + sin_recuperacion + zona_alta,3,0.11188554658840792,305
+area_ciencias_basicas_y_complementarias + semestre_3 + sin_riesgo_retraso,3,0.11151870873074102,304
+bloqueo_medio + semestre_1 + sin_riesgo_retraso,3,0.11151870873074102,304
+curso_base + ocupacion_media + zona_alta,3,0.11151870873074102,304
+curso_no_obligatorio + no_requiere_laboratorio + sin_riesgo_retraso,3,0.11151870873074102,304
+aprobo + curso_base + semestre_3,3,0.1111518708730741,303
+bloqueo_alto + sin_riesgo_retraso + zona_media,3,0.1111518708730741,303
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente + periodo_s1,3,0.1107850330154072,302
+bloqueo_medio + no_abierto_siguiente + ocupacion_baja,3,0.1107850330154072,302
+curso_obligatorio + periodo_s1 + semestre_3,3,0.1107850330154072,302
+periodo_s1 + sin_riesgo_retraso + zona_alta,3,0.1107850330154072,302
+bloqueo_bajo + no_abierto_siguiente + sin_recuperacion,3,0.11041819515774028,301
+bloqueo_medio + curso_base + perdio,3,0.11041819515774028,301
+curso_obligatorio + semestre_2 + sin_riesgo_retraso,3,0.11041819515774028,301
+bloqueo_medio + perdio + zona_media,3,0.11005135730007337,300
+abierto_siguiente + periodo_s2 + sin_recuperacion,3,0.10968451944240645,299
+aprobo + periodo_s1 + zona_alta,3,0.10931768158473955,298
+area_ciencias_basicas_y_complementarias + curso_no_obligatorio + no_requiere_laboratorio,3,0.10931768158473955,298
+area_ciencias_basicas_y_complementarias + perdio + zona_media,3,0.10931768158473955,298
+area_ciencias_basicas_y_complementarias + semestre_2 + sin_recuperacion,3,0.10931768158473955,298
+bloqueo_medio + curso_no_base + no_requiere_laboratorio,3,0.10931768158473955,298
+curso_obligatorio + periodo_s1 + requiere_laboratorio,3,0.10931768158473955,298
+no_requiere_laboratorio + semestre_1 + sin_recuperacion,3,0.10931768158473955,298
+bloqueo_medio + no_requiere_laboratorio + semestre_1,3,0.10895084372707263,297
+ocupacion_media + recuperacion + sin_riesgo_retraso,3,0.10895084372707263,297
+area_ciencias_basicas_y_complementarias + ocupacion_media + zona_alta,3,0.10858400586940573,296
+no_abierto_siguiente + ocupacion_media + perdio,3,0.1082171680117388,295
+no_requiere_laboratorio + ocupacion_media + recuperacion,3,0.1082171680117388,295
+ocupacion_media + requiere_laboratorio + sin_recuperacion,3,0.1082171680117388,295
+area_ciencias_basicas_y_complementarias + curso_obligatorio + zona_baja,3,0.1078503301540719,294
+area_ciencias_basicas_y_complementarias + ocupacion_baja + zona_media,3,0.1078503301540719,294
+area_desarrollo_de_software + curso_base + curso_obligatorio,3,0.1078503301540719,294
+abierto_siguiente + aprobo + periodo_s2,3,0.10748349229640498,293
+aprobo + bloqueo_bajo + curso_no_base,3,0.10748349229640498,293
+aprobo + bloqueo_bajo + sin_riesgo_retraso,3,0.10748349229640498,293
+aprobo + semestre_4 + sin_recuperacion,3,0.10711665443873808,292
+area_ciencias_basicas_y_complementarias + bloqueo_alto + sin_recuperacion,3,0.10711665443873808,292
+bloqueo_medio + no_requiere_laboratorio + zona_alta,3,0.10711665443873808,292
+curso_obligatorio + perdio + recuperacion,3,0.10711665443873808,292
+curso_obligatorio + semestre_2 + sin_recuperacion,3,0.10674981658107116,291
+area_ciencias_basicas_y_complementarias + requiere_laboratorio + sin_recuperacion,3,0.10638297872340426,290
+bloqueo_medio + no_abierto_siguiente + perdio,3,0.10638297872340426,290
+bloqueo_medio + no_abierto_siguiente + riesgo_retraso,3,0.10638297872340426,290
+bloqueo_medio + perdio + riesgo_retraso,3,0.10638297872340426,290
+no_abierto_siguiente + no_requiere_laboratorio + zona_alta,3,0.10601614086573734,289
+aprobo + ocupacion_media + semestre_4,3,0.10564930300807043,288
+area_ciencias_basicas_y_complementarias + curso_base + perdio,3,0.10564930300807043,288
+bloqueo_alto + semestre_3 + sin_riesgo_retraso,3,0.10528246515040351,287
+curso_base + no_abierto_siguiente + periodo_s2,3,0.10528246515040351,287
+no_requiere_laboratorio + semestre_4 + sin_riesgo_retraso,3,0.10528246515040351,287
+ocupacion_baja + periodo_s2 + sin_riesgo_retraso,3,0.10528246515040351,287
+aprobo + area_ciencias_basicas_y_complementarias + semestre_1,3,0.10491562729273661,286
+aprobo + semestre_1 + sin_riesgo_retraso,3,0.10491562729273661,286
+area_ciencias_basicas_y_complementarias + sin_riesgo_retraso + zona_baja,3,0.10491562729273661,286
+area_metodologia_de_sistemas + curso_obligatorio + no_requiere_laboratorio,3,0.1045487894350697,285
+area_ciencias_basicas_y_complementarias + curso_no_obligatorio + sin_riesgo_retraso,3,0.10418195157740279,284
+abierto_siguiente + curso_obligatorio + perdio,3,0.10381511371973588,283
+aprobo + bloqueo_bajo + no_requiere_laboratorio,3,0.10381511371973588,283
+bloqueo_medio + no_abierto_siguiente + requiere_laboratorio,3,0.10381511371973588,283
+bloqueo_medio + semestre_1 + sin_recuperacion,3,0.10381511371973588,283
+abierto_siguiente + area_ciencias_basicas_y_complementarias + perdio,3,0.10344827586206896,282
+abierto_siguiente + area_ciencias_basicas_y_complementarias + semestre_3,3,0.10344827586206896,282
+abierto_siguiente + bloqueo_alto + sin_recuperacion,3,0.10344827586206896,282
+abierto_siguiente + curso_obligatorio + semestre_3,3,0.10344827586206896,282
+abierto_siguiente + semestre_3 + sin_riesgo_retraso,3,0.10344827586206896,282
+curso_obligatorio + periodo_s1 + recuperacion,3,0.10344827586206896,282
+ocupacion_media + sin_riesgo_retraso + zona_baja,3,0.10308143800440206,281
+area_ciencias_basicas_y_complementarias + bloqueo_medio + zona_alta,3,0.10271460014673514,280
+curso_base + ocupacion_media + semestre_3,3,0.10271460014673514,280
+curso_obligatorio + no_abierto_siguiente + semestre_3,3,0.10271460014673514,280
+no_requiere_laboratorio + ocupacion_media + semestre_3,3,0.10271460014673514,280
+aprobo + curso_base + semestre_4,3,0.10234776228906824,279
+aprobo + curso_obligatorio + semestre_4,3,0.10234776228906824,279
+aprobo + curso_obligatorio + semestre_1,3,0.10198092443140132,278
+no_abierto_siguiente + ocupacion_baja + zona_media,3,0.10198092443140132,278
+ocupacion_media + perdio + sin_riesgo_retraso,3,0.10198092443140132,278
+abierto_siguiente + sin_recuperacion + zona_alta,3,0.10161408657373441,277
+abierto_siguiente + sin_riesgo_retraso + zona_alta,3,0.10161408657373441,277
+bloqueo_medio + ocupacion_media + zona_alta,3,0.10161408657373441,277
+sin_recuperacion + sin_riesgo_retraso + zona_baja,3,0.10161408657373441,277
+area_desarrollo_de_software + curso_base + no_abierto_siguiente,3,0.1012472487160675,276
+bloqueo_medio + curso_obligatorio + riesgo_retraso,3,0.1012472487160675,276
+curso_obligatorio + perdio + zona_baja,3,0.1012472487160675,276
+ocupacion_media + semestre_3 + sin_recuperacion,3,0.1012472487160675,276
+area_ciencias_basicas_y_complementarias + curso_no_base + periodo_s2,3,0.10088041085840059,275
+curso_no_base + sin_recuperacion + zona_alta,3,0.10051357300073367,274
+aprobo + area_ciencias_basicas_y_complementarias + semestre_2,3,0.10014673514306677,273
+aprobo + semestre_2 + sin_riesgo_retraso,3,0.10014673514306677,273
+area_ciencias_de_la_computacion + curso_obligatorio + ocupacion_media,3,0.10014673514306677,273
+area_ciencias_de_la_computacion + no_abierto_siguiente + ocupacion_media,3,0.10014673514306677,273
+curso_no_base + ocupacion_media + zona_media,3,0.10014673514306677,273
+curso_obligatorio + perdio + periodo_s2,3,0.10014673514306677,273
+no_requiere_laboratorio + semestre_3 + sin_riesgo_retraso,3,0.10014673514306677,273
+recuperacion + sin_riesgo_retraso + zona_media,3,0.10014673514306677,273
+aprobo + bloqueo_bajo + no_abierto_siguiente,3,0.09977989728539985,272
+bloqueo_medio + semestre_4 + sin_riesgo_retraso,3,0.09977989728539985,272
+bloqueo_alto + semestre_3 + sin_recuperacion,3,0.09941305942773294,271
+bloqueo_alto + sin_recuperacion + zona_media,3,0.09941305942773294,271
+bloqueo_medio + curso_no_base + ocupacion_baja,3,0.09941305942773294,271
+curso_no_base + sin_riesgo_retraso + zona_alta,3,0.09941305942773294,271
+curso_obligatorio + ocupacion_baja + periodo_s2,3,0.09941305942773294,271
+abierto_siguiente + aprobo + zona_alta,3,0.09904622157006603,270
+aprobo + curso_no_base + zona_alta,3,0.09904622157006603,270
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio + semestre_2,3,0.09904622157006603,270
+no_requiere_laboratorio + ocupacion_media + zona_baja,3,0.09867938371239912,269
+area_ciencias_basicas_y_complementarias + curso_obligatorio + recuperacion,3,0.0983125458547322,268
+area_ciencias_basicas_y_complementarias + recuperacion + sin_riesgo_retraso,3,0.0983125458547322,268
+curso_no_obligatorio + no_requiere_laboratorio + sin_recuperacion,3,0.0983125458547322,268
+no_requiere_laboratorio + recuperacion + zona_media,3,0.0983125458547322,268
+aprobo + curso_obligatorio + semestre_2,3,0.0979457079970653,267
+curso_base + no_abierto_siguiente + perdio,3,0.0979457079970653,267
+curso_base + no_abierto_siguiente + riesgo_retraso,3,0.0979457079970653,267
+curso_base + perdio + riesgo_retraso,3,0.0979457079970653,267
+curso_no_base + no_requiere_laboratorio + periodo_s2,3,0.0979457079970653,267
+curso_no_base + requiere_laboratorio + sin_recuperacion,3,0.0979457079970653,267
+curso_obligatorio + periodo_s1 + zona_alta,3,0.0979457079970653,267
+curso_base + ocupacion_media + recuperacion,3,0.09757887013939838,266
+aprobo + sin_riesgo_retraso + zona_baja,3,0.09721203228173148,265
+curso_base + semestre_3 + zona_media,3,0.09721203228173148,265
+curso_no_base + requiere_laboratorio + sin_riesgo_retraso,3,0.09721203228173148,265
+abierto_siguiente + bloqueo_medio + periodo_s2,3,0.09684519442406456,264
+bloqueo_alto + curso_base + periodo_s2,3,0.09684519442406456,264
+bloqueo_alto + curso_obligatorio + periodo_s2,3,0.09684519442406456,264
+bloqueo_alto + ocupacion_media + zona_media,3,0.09684519442406456,264
+curso_base + curso_obligatorio + riesgo_retraso,3,0.09684519442406456,264
+curso_base + no_abierto_siguiente + semestre_3,3,0.09684519442406456,264
+curso_base + periodo_s1 + semestre_3,3,0.09684519442406456,264
+curso_no_base + ocupacion_baja + zona_media,3,0.09684519442406456,264
+aprobo + ocupacion_media + requiere_laboratorio,3,0.09647835656639765,263
+no_abierto_siguiente + requiere_laboratorio + zona_media,3,0.09647835656639765,263
+area_ciencias_basicas_y_complementarias + semestre_3 + sin_recuperacion,3,0.09611151870873075,262
+bloqueo_medio + ocupacion_baja + zona_media,3,0.09611151870873075,262
+curso_base + curso_obligatorio + ocupacion_baja,3,0.09611151870873075,262
+curso_base + recuperacion + sin_riesgo_retraso,3,0.09611151870873075,262
+perdio + sin_recuperacion + sin_riesgo_retraso,3,0.09611151870873075,262
+aprobo + ocupacion_baja + zona_media,3,0.09574468085106383,261
+aprobo + recuperacion + sin_riesgo_retraso,3,0.09574468085106383,261
+area_ciencias_basicas_y_complementarias + bloqueo_bajo + curso_no_base,3,0.09574468085106383,261
+area_ciencias_basicas_y_complementarias + bloqueo_bajo + no_requiere_laboratorio,3,0.09574468085106383,261
+area_ciencias_basicas_y_complementarias + bloqueo_bajo + sin_riesgo_retraso,3,0.09574468085106383,261
+area_ciencias_basicas_y_complementarias + curso_base + semestre_1,3,0.09574468085106383,261
+bloqueo_medio + curso_base + semestre_1,3,0.09574468085106383,261
+curso_base + curso_obligatorio + semestre_1,3,0.09574468085106383,261
+curso_base + no_requiere_laboratorio + semestre_1,3,0.09574468085106383,261
+curso_obligatorio + no_requiere_laboratorio + semestre_2,3,0.09574468085106383,261
+abierto_siguiente + bloqueo_medio + periodo_s1,3,0.09537784299339692,260
+area_ciencias_basicas_y_complementarias + curso_no_base + requiere_laboratorio,3,0.09537784299339692,260
+curso_base + no_requiere_laboratorio + recuperacion,3,0.09537784299339692,260
+curso_no_base + curso_no_obligatorio + no_requiere_laboratorio,3,0.09537784299339692,260
+semestre_2 + sin_recuperacion + sin_riesgo_retraso,3,0.09537784299339692,260
+aprobo + semestre_1 + sin_recuperacion,3,0.09501100513573,259
+area_ciencias_basicas_y_complementarias + semestre_4 + sin_recuperacion,3,0.09501100513573,259
+bloqueo_alto + no_requiere_laboratorio + zona_media,3,0.09501100513573,259
+bloqueo_alto + periodo_s1 + sin_riesgo_retraso,3,0.09501100513573,259
+curso_base + no_abierto_siguiente + requiere_laboratorio,3,0.09501100513573,259
+ocupacion_media + semestre_2 + sin_riesgo_retraso,3,0.09501100513573,259
+aprobo + bloqueo_bajo + sin_recuperacion,3,0.0946441672780631,258
+curso_base + no_requiere_laboratorio + zona_baja,3,0.0946441672780631,258
+no_requiere_laboratorio + ocupacion_media + semestre_4,3,0.0946441672780631,258
+abierto_siguiente + curso_base + perdio,3,0.09427732942039618,257
+abierto_siguiente + curso_obligatorio + zona_alta,3,0.09427732942039618,257
+aprobo + no_requiere_laboratorio + semestre_1,3,0.09427732942039618,257
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio + zona_baja,3,0.09427732942039618,257
+area_ciencias_basicas_y_complementarias + ocupacion_media + semestre_4,3,0.09427732942039618,257
+curso_base + perdio + sin_riesgo_retraso,3,0.09427732942039618,257
+curso_base + sin_riesgo_retraso + zona_baja,3,0.09427732942039618,257
+curso_no_base + periodo_s1 + zona_media,3,0.09427732942039618,257
+curso_no_obligatorio + sin_recuperacion + sin_riesgo_retraso,3,0.09427732942039618,257
+semestre_3 + sin_riesgo_retraso + zona_media,3,0.09427732942039618,257
+area_ciencias_basicas_y_complementarias + ocupacion_media + semestre_3,3,0.09391049156272928,256
+curso_obligatorio + requiere_laboratorio + semestre_3,3,0.09391049156272928,256
+no_requiere_laboratorio + sin_recuperacion + zona_baja,3,0.09391049156272928,256
+ocupacion_media + recuperacion + zona_media,3,0.09391049156272928,256
+abierto_siguiente + area_ciencias_basicas_y_complementarias + zona_alta,3,0.09354365370506236,255
+abierto_siguiente + ocupacion_baja + sin_riesgo_retraso,3,0.09317681584739546,254
+no_requiere_laboratorio + perdio + periodo_s1,3,0.09317681584739546,254
+perdio + sin_riesgo_retraso + zona_media,3,0.09317681584739546,254
+periodo_s2 + sin_recuperacion + zona_alta,3,0.09317681584739546,254
+abierto_siguiente + aprobo + bloqueo_alto,3,0.09244314013206163,252
+area_ciencias_basicas_y_complementarias + curso_base + zona_alta,3,0.09244314013206163,252
+curso_base + ocupacion_media + zona_baja,3,0.09244314013206163,252
+curso_no_base + no_abierto_siguiente + perdio,3,0.09244314013206163,252
+no_requiere_laboratorio + ocupacion_baja + periodo_s2,3,0.09244314013206163,252
+periodo_s2 + sin_riesgo_retraso + zona_alta,3,0.09244314013206163,252
+requiere_laboratorio + sin_riesgo_retraso + zona_media,3,0.09244314013206163,252
+aprobo + ocupacion_media + semestre_3,3,0.09207630227439471,251
+aprobo + periodo_s2 + zona_alta,3,0.09207630227439471,251
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente + semestre_2,3,0.09207630227439471,251
+no_abierto_siguiente + riesgo_retraso + zona_media,3,0.09207630227439471,251
+perdio + riesgo_retraso + zona_media,3,0.09207630227439471,251
+aprobo + area_ciencias_basicas_y_complementarias + bloqueo_alto,3,0.09170946441672781,250
+area_ciencias_basicas_y_complementarias + curso_no_obligatorio + sin_recuperacion,3,0.09170946441672781,250
+curso_base + requiere_laboratorio + sin_recuperacion,3,0.09170946441672781,250
+curso_base + requiere_laboratorio + sin_riesgo_retraso,3,0.09170946441672781,250
+curso_base + semestre_1 + sin_riesgo_retraso,3,0.09170946441672781,250
+no_requiere_laboratorio + periodo_s1 + zona_alta,3,0.09170946441672781,250
+ocupacion_media + semestre_2 + sin_recuperacion,3,0.09170946441672781,250
+abierto_siguiente + no_requiere_laboratorio + perdio,3,0.09134262655906089,249
+aprobo + area_ciencias_basicas_y_complementarias + requiere_laboratorio,3,0.09134262655906089,249
+curso_no_base + curso_no_obligatorio + sin_riesgo_retraso,3,0.09134262655906089,249
+curso_no_base + no_abierto_siguiente + requiere_laboratorio,3,0.09134262655906089,249
+periodo_v1 + sin_recuperacion + sin_riesgo_retraso,3,0.09134262655906089,249
+area_metodologia_de_sistemas + no_requiere_laboratorio + sin_riesgo_retraso,3,0.09097578870139399,248
+requiere_laboratorio + sin_recuperacion + zona_media,3,0.09097578870139399,248
+abierto_siguiente + curso_base + semestre_4,3,0.09060895084372707,247
+abierto_siguiente + curso_obligatorio + semestre_4,3,0.09060895084372707,247
+abierto_siguiente + semestre_4 + sin_riesgo_retraso,3,0.09060895084372707,247
+curso_obligatorio + ocupacion_media + riesgo_retraso,3,0.09060895084372707,247
+curso_obligatorio + periodo_s2 + recuperacion,3,0.09060895084372707,247
+no_abierto_siguiente + ocupacion_media + riesgo_retraso,3,0.09060895084372707,247
+no_abierto_siguiente + riesgo_retraso + sin_recuperacion,3,0.09060895084372707,247
+ocupacion_media + perdio + riesgo_retraso,3,0.09060895084372707,247
+perdio + riesgo_retraso + sin_recuperacion,3,0.09060895084372707,247
+area_ciencias_basicas_y_complementarias + ocupacion_media + semestre_1,3,0.09024211298606016,246
+curso_obligatorio + ocupacion_media + semestre_1,3,0.09024211298606016,246
+no_abierto_siguiente + ocupacion_media + requiere_laboratorio,3,0.09024211298606016,246
+no_requiere_laboratorio + ocupacion_media + semestre_1,3,0.09024211298606016,246
+no_requiere_laboratorio + semestre_4 + sin_recuperacion,3,0.09024211298606016,246
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente + periodo_s2,3,0.08987527512839324,245
+curso_obligatorio + riesgo_retraso + zona_media,3,0.08987527512839324,245
+bloqueo_medio + semestre_4 + sin_recuperacion,3,0.08950843727072634,244
+no_abierto_siguiente + ocupacion_baja + periodo_s2,3,0.08950843727072634,244
+no_requiere_laboratorio + semestre_3 + sin_recuperacion,3,0.08950843727072634,244
+ocupacion_media + perdio + periodo_s1,3,0.08950843727072634,244
+aprobo + bloqueo_alto + zona_media,3,0.08914159941305942,243
+area_ciencias_de_la_computacion + curso_obligatorio + sin_riesgo_retraso,3,0.08914159941305942,243
+area_ciencias_de_la_computacion + no_abierto_siguiente + sin_riesgo_retraso,3,0.08914159941305942,243
+bloqueo_medio + curso_no_base + periodo_s2,3,0.08914159941305942,243
+bloqueo_medio + ocupacion_media + recuperacion,3,0.08914159941305942,243
+bloqueo_medio + ocupacion_media + semestre_4,3,0.08914159941305942,243
+curso_base + no_requiere_laboratorio + ocupacion_baja,3,0.08914159941305942,243
+no_abierto_siguiente + perdio + periodo_s1,3,0.08914159941305942,243
+area_ciencias_basicas_y_complementarias + bloqueo_medio + semestre_4,3,0.08877476155539252,242
+area_ciencias_basicas_y_complementarias + curso_base + semestre_4,3,0.08877476155539252,242
+area_ciencias_basicas_y_complementarias + curso_obligatorio + semestre_4,3,0.08877476155539252,242
+curso_obligatorio + no_abierto_siguiente + semestre_2,3,0.08877476155539252,242
+curso_obligatorio + perdio + requiere_laboratorio,3,0.08877476155539252,242
+no_abierto_siguiente + ocupacion_media + zona_alta,3,0.08877476155539252,242
+no_abierto_siguiente + periodo_s2 + requiere_laboratorio,3,0.08877476155539252,242
+ocupacion_baja + periodo_s2 + sin_recuperacion,3,0.08877476155539252,242
+area_ciencias_basicas_y_complementarias + ocupacion_media + requiere_laboratorio,3,0.0884079236977256,241
+periodo_s1 + semestre_3 + sin_riesgo_retraso,3,0.0884079236977256,241
+area_ciencias_basicas_y_complementarias + curso_no_base + curso_no_obligatorio,3,0.0880410858400587,240
+curso_base + ocupacion_baja + sin_riesgo_retraso,3,0.0880410858400587,240
+aprobo + bloqueo_medio + semestre_1,3,0.08767424798239179,239
+aprobo + curso_obligatorio + zona_baja,3,0.08767424798239179,239
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio + recuperacion,3,0.08767424798239179,239
+area_metodologia_de_sistemas + no_abierto_siguiente + no_requiere_laboratorio,3,0.08767424798239179,239
+bloqueo_medio + curso_base + zona_alta,3,0.08767424798239179,239
+ocupacion_media + sin_recuperacion + zona_baja,3,0.08767424798239179,239
+abierto_siguiente + periodo_v1 + sin_recuperacion,3,0.08730741012472487,238
+abierto_siguiente + periodo_v1 + sin_riesgo_retraso,3,0.08730741012472487,238
+area_ciencias_de_la_computacion + curso_obligatorio + sin_recuperacion,3,0.08730741012472487,238
+area_ciencias_de_la_computacion + no_abierto_siguiente + sin_recuperacion,3,0.08730741012472487,238
+area_metodologia_de_sistemas + curso_obligatorio + sin_riesgo_retraso,3,0.08730741012472487,238
+bloqueo_alto + no_abierto_siguiente + sin_recuperacion,3,0.08730741012472487,238
+bloqueo_medio + ocupacion_media + zona_baja,3,0.08730741012472487,238
+abierto_siguiente + curso_base + zona_alta,3,0.08694057226705797,237
+aprobo + curso_obligatorio + recuperacion,3,0.08694057226705797,237
+area_ciencias_basicas_y_complementarias + sin_recuperacion + zona_baja,3,0.08694057226705797,237
+area_ciencias_basicas_y_complementarias + bloqueo_bajo + no_abierto_siguiente,3,0.08657373440939105,236
+bloqueo_medio + sin_riesgo_retraso + zona_baja,3,0.08657373440939105,236
+curso_obligatorio + riesgo_retraso + sin_recuperacion,3,0.08657373440939105,236
+periodo_s2 + requiere_laboratorio + sin_riesgo_retraso,3,0.08657373440939105,236
+semestre_3 + sin_recuperacion + zona_media,3,0.08657373440939105,236
+aprobo + ocupacion_baja + periodo_s2,3,0.08620689655172414,235
+aprobo + semestre_2 + sin_recuperacion,3,0.08620689655172414,235
+curso_base + recuperacion + zona_media,3,0.08620689655172414,235
+ocupacion_media + semestre_1 + sin_riesgo_retraso,3,0.08620689655172414,235
+abierto_siguiente + ocupacion_media + semestre_3,3,0.08584005869405723,234
+area_ciencias_basicas_y_complementarias + bloqueo_medio + zona_baja,3,0.08584005869405723,234
+curso_no_base + no_abierto_siguiente + zona_alta,3,0.08584005869405723,234
+curso_obligatorio + periodo_s1 + zona_baja,3,0.08584005869405723,234
+no_abierto_siguiente + no_requiere_laboratorio + recuperacion,3,0.08584005869405723,234
+no_abierto_siguiente + recuperacion + zona_media,3,0.08584005869405723,234
+no_requiere_laboratorio + semestre_2 + sin_riesgo_retraso,3,0.08584005869405723,234
+abierto_siguiente + area_ciencias_basicas_y_complementarias + ocupacion_baja,3,0.08547322083639032,233
+area_desarrollo_de_software + curso_obligatorio + sin_recuperacion,3,0.08547322083639032,233
+bloqueo_medio + ocupacion_media + semestre_1,3,0.08547322083639032,233
+bloqueo_medio + requiere_laboratorio + zona_media,3,0.08547322083639032,233
+curso_base + ocupacion_media + semestre_1,3,0.08547322083639032,233
+abierto_siguiente + area_ciencias_basicas_y_complementarias + semestre_1,3,0.0851063829787234,232
+abierto_siguiente + bloqueo_medio + semestre_1,3,0.0851063829787234,232
+abierto_siguiente + curso_base + semestre_1,3,0.0851063829787234,232
+abierto_siguiente + curso_obligatorio + semestre_1,3,0.0851063829787234,232
+abierto_siguiente + no_requiere_laboratorio + semestre_1,3,0.0851063829787234,232
+abierto_siguiente + semestre_1 + sin_riesgo_retraso,3,0.0851063829787234,232
+aprobo + bloqueo_alto + semestre_3,3,0.0851063829787234,232
+aprobo + curso_no_base + requiere_laboratorio,3,0.0851063829787234,232
+aprobo + curso_no_obligatorio + no_requiere_laboratorio,3,0.0851063829787234,232
+aprobo + curso_no_obligatorio + sin_riesgo_retraso,3,0.0851063829787234,232
+area_ciencias_basicas_y_complementarias + ocupacion_media + zona_baja,3,0.0851063829787234,232
+area_metodologia_de_sistemas + no_requiere_laboratorio + sin_recuperacion,3,0.0851063829787234,232
+no_abierto_siguiente + no_requiere_laboratorio + riesgo_retraso,3,0.0851063829787234,232
+no_requiere_laboratorio + perdio + riesgo_retraso,3,0.0851063829787234,232
+abierto_siguiente + periodo_s1 + zona_media,3,0.0847395451210565,231
+curso_base + no_requiere_laboratorio + semestre_4,3,0.0847395451210565,231
+curso_no_base + curso_obligatorio + perdio,3,0.0847395451210565,231
+curso_obligatorio + no_requiere_laboratorio + semestre_4,3,0.0847395451210565,231
+abierto_siguiente + ocupacion_media + perdio,3,0.08437270726338958,230
+no_abierto_siguiente + no_requiere_laboratorio + zona_baja,3,0.08437270726338958,230
+abierto_siguiente + no_requiere_laboratorio + zona_alta,3,0.08400586940572267,229
+area_metodologia_de_sistemas + curso_obligatorio + no_abierto_siguiente,3,0.08400586940572267,229
+bloqueo_medio + curso_base + ocupacion_baja,3,0.08400586940572267,229
+bloqueo_medio + no_abierto_siguiente + zona_alta,3,0.08400586940572267,229
+curso_base + ocupacion_baja + sin_recuperacion,3,0.08400586940572267,229
+bloqueo_medio + no_requiere_laboratorio + recuperacion,3,0.08363903154805576,228
+bloqueo_medio + sin_recuperacion + zona_baja,3,0.08363903154805576,228
+curso_obligatorio + periodo_s2 + zona_alta,3,0.08363903154805576,228
+no_requiere_laboratorio + ocupacion_media + semestre_2,3,0.08363903154805576,228
+area_desarrollo_de_software + no_abierto_siguiente + sin_recuperacion,3,0.08327219369038885,227
+aprobo + area_ciencias_basicas_y_complementarias + semestre_4,3,0.08290535583272193,226
+aprobo + area_ciencias_de_la_computacion + curso_obligatorio,3,0.08290535583272193,226
+aprobo + area_ciencias_de_la_computacion + no_abierto_siguiente,3,0.08290535583272193,226
+aprobo + area_ciencias_de_la_computacion + sin_riesgo_retraso,3,0.08290535583272193,226
+periodo_s2 + requiere_laboratorio + sin_recuperacion,3,0.08290535583272193,226
+aprobo + ocupacion_media + semestre_2,3,0.08253851797505503,225
+aprobo + requiere_laboratorio + zona_media,3,0.08253851797505503,225
+curso_base + sin_recuperacion + zona_baja,3,0.08253851797505503,225
+curso_obligatorio + periodo_v1 + sin_recuperacion,3,0.08253851797505503,225
+curso_obligatorio + periodo_v1 + sin_riesgo_retraso,3,0.08253851797505503,225
+no_abierto_siguiente + sin_recuperacion + zona_baja,3,0.08253851797505503,225
+abierto_siguiente + semestre_3 + sin_recuperacion,3,0.08217168011738811,224
+bloqueo_alto + periodo_s1 + sin_recuperacion,3,0.08217168011738811,224
+curso_no_base + periodo_s2 + zona_media,3,0.08217168011738811,224
+no_abierto_siguiente + periodo_s1 + requiere_laboratorio,3,0.08217168011738811,224
+no_requiere_laboratorio + periodo_s1 + recuperacion,3,0.08217168011738811,224
+ocupacion_media + periodo_s1 + recuperacion,3,0.08217168011738811,224
+aprobo + no_requiere_laboratorio + semestre_4,3,0.0818048422597212,223
+area_ciencias_basicas_y_complementarias + periodo_v1 + sin_recuperacion,3,0.0818048422597212,223
+area_ciencias_basicas_y_complementarias + periodo_v1 + sin_riesgo_retraso,3,0.0818048422597212,223
+area_metodologia_de_sistemas + curso_obligatorio + sin_recuperacion,3,0.0818048422597212,223
+bloqueo_alto + curso_base + perdio,3,0.0818048422597212,223
+bloqueo_alto + curso_obligatorio + perdio,3,0.0818048422597212,223
+bloqueo_bajo + curso_no_base + ocupacion_baja,3,0.0818048422597212,223
+bloqueo_bajo + no_requiere_laboratorio + ocupacion_baja,3,0.0818048422597212,223
+bloqueo_bajo + ocupacion_baja + sin_riesgo_retraso,3,0.0818048422597212,223
+bloqueo_medio + no_requiere_laboratorio + zona_baja,3,0.0818048422597212,223
+no_abierto_siguiente + ocupacion_media + recuperacion,3,0.0818048422597212,223
+periodo_s1 + semestre_3 + sin_recuperacion,3,0.0818048422597212,223
+area_ciencias_basicas_y_complementarias + bloqueo_medio + semestre_2,3,0.08143800440205429,222
+bloqueo_medio + curso_obligatorio + semestre_2,3,0.08143800440205429,222
+bloqueo_medio + no_abierto_siguiente + semestre_2,3,0.08143800440205429,222
+bloqueo_medio + recuperacion + sin_riesgo_retraso,3,0.08143800440205429,222
+ocupacion_media + periodo_s1 + zona_alta,3,0.08143800440205429,222
+area_ciencias_basicas_y_complementarias + ocupacion_media + recuperacion,3,0.08107116654438738,221
+area_ciencias_basicas_y_complementarias + semestre_1 + zona_media,3,0.08107116654438738,221
+curso_no_base + ocupacion_media + requiere_laboratorio,3,0.08107116654438738,221
+no_abierto_siguiente + ocupacion_media + semestre_4,3,0.08107116654438738,221
+aprobo + area_ciencias_basicas_y_complementarias + semestre_3,3,0.08070432868672046,220
+aprobo + curso_base + requiere_laboratorio,3,0.08070432868672046,220
+area_ciencias_de_la_computacion + bloqueo_medio + curso_obligatorio,3,0.08070432868672046,220
+area_ciencias_de_la_computacion + bloqueo_medio + no_abierto_siguiente,3,0.08070432868672046,220
+bloqueo_bajo + curso_no_base + zona_media,3,0.08070432868672046,220
+bloqueo_bajo + sin_riesgo_retraso + zona_media,3,0.08070432868672046,220
+curso_base + semestre_1 + sin_recuperacion,3,0.08070432868672046,220
+ocupacion_baja + periodo_s1 + sin_riesgo_retraso,3,0.08070432868672046,220
+abierto_siguiente + curso_obligatorio + periodo_v1,3,0.08033749082905356,219
+aprobo + area_ciencias_basicas_y_complementarias + curso_no_obligatorio,3,0.08033749082905356,219
+bloqueo_alto + ocupacion_media + periodo_s1,3,0.08033749082905356,219
+bloqueo_medio + recuperacion + zona_media,3,0.08033749082905356,219
+curso_no_base + curso_no_obligatorio + sin_recuperacion,3,0.08033749082905356,219
+no_requiere_laboratorio + semestre_2 + sin_recuperacion,3,0.08033749082905356,219
+periodo_s1 + recuperacion + sin_riesgo_retraso,3,0.08033749082905356,219
+periodo_s1 + requiere_laboratorio + sin_riesgo_retraso,3,0.08033749082905356,219
+abierto_siguiente + area_ciencias_basicas_y_complementarias + periodo_v1,3,0.07997065297138664,218
+aprobo + no_requiere_laboratorio + semestre_3,3,0.07997065297138664,218
+curso_no_obligatorio + no_abierto_siguiente + no_requiere_laboratorio,3,0.07997065297138664,218
+curso_obligatorio + no_requiere_laboratorio + riesgo_retraso,3,0.07997065297138664,218
+abierto_siguiente + periodo_s2 + zona_media,3,0.07960381511371974,217
+aprobo + bloqueo_alto + periodo_s1,3,0.07960381511371974,217
+curso_obligatorio + semestre_1 + zona_media,3,0.07960381511371974,217
+bloqueo_bajo + no_requiere_laboratorio + zona_media,3,0.07923697725605282,216
+abierto_siguiente + ocupacion_baja + sin_recuperacion,3,0.07887013939838591,215
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente + perdio,3,0.07887013939838591,215
+bloqueo_bajo + curso_no_base + curso_obligatorio,3,0.07887013939838591,215
+bloqueo_bajo + curso_obligatorio + sin_riesgo_retraso,3,0.07887013939838591,215
+bloqueo_medio + periodo_s2 + requiere_laboratorio,3,0.07887013939838591,215
+curso_base + perdio + periodo_s1,3,0.07887013939838591,215
+curso_no_base + ocupacion_baja + periodo_s2,3,0.07887013939838591,215
+no_abierto_siguiente + ocupacion_media + zona_baja,3,0.07887013939838591,215
+no_requiere_laboratorio + ocupacion_baja + periodo_s1,3,0.07887013939838591,215
+no_requiere_laboratorio + perdio + recuperacion,3,0.07887013939838591,215
+ocupacion_media + semestre_4 + zona_media,3,0.07887013939838591,215
+aprobo + area_metodologia_de_sistemas + no_requiere_laboratorio,3,0.07850330154071901,214
+aprobo + area_metodologia_de_sistemas + sin_riesgo_retraso,3,0.07850330154071901,214
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio + semestre_4,3,0.07813646368305209,213
+area_desarrollo_de_software + curso_obligatorio + sin_riesgo_retraso,3,0.07813646368305209,213
+bloqueo_alto + periodo_s2 + sin_riesgo_retraso,3,0.07813646368305209,213
+curso_no_base + ocupacion_media + periodo_s2,3,0.07813646368305209,213
+no_abierto_siguiente + semestre_3 + sin_recuperacion,3,0.07813646368305209,213
+semestre_4 + sin_riesgo_retraso + zona_media,3,0.07813646368305209,213
+abierto_siguiente + no_requiere_laboratorio + ocupacion_baja,3,0.07776962582538519,212
+no_requiere_laboratorio + periodo_v1 + sin_recuperacion,3,0.07776962582538519,212
+no_requiere_laboratorio + periodo_v1 + sin_riesgo_retraso,3,0.07776962582538519,212
+perdio + periodo_s1 + zona_media,3,0.07776962582538519,212
+periodo_s1 + requiere_laboratorio + sin_recuperacion,3,0.07776962582538519,212
+aprobo + bloqueo_medio + semestre_4,3,0.07740278796771827,211
+area_ciencias_basicas_y_complementarias + bloqueo_alto + semestre_3,3,0.07740278796771827,211
+area_ciencias_basicas_y_complementarias + curso_base + semestre_3,3,0.07740278796771827,211
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio + semestre_3,3,0.07740278796771827,211
+bloqueo_alto + curso_base + requiere_laboratorio,3,0.07740278796771827,211
+bloqueo_alto + curso_obligatorio + requiere_laboratorio,3,0.07740278796771827,211
+bloqueo_alto + no_abierto_siguiente + requiere_laboratorio,3,0.07740278796771827,211
+bloqueo_alto + no_requiere_laboratorio + semestre_3,3,0.07740278796771827,211
+abierto_siguiente + ocupacion_media + zona_alta,3,0.07703595011005136,210
+aprobo + area_desarrollo_de_software + sin_riesgo_retraso,3,0.07703595011005136,210
+aprobo + periodo_s1 + semestre_3,3,0.07703595011005136,210
+aprobo + periodo_s2 + requiere_laboratorio,3,0.07703595011005136,210
+bloqueo_medio + perdio + periodo_s1,3,0.07703595011005136,210
+curso_no_base + curso_no_obligatorio + no_abierto_siguiente,3,0.07703595011005136,210
+no_abierto_siguiente + sin_riesgo_retraso + zona_baja,3,0.07703595011005136,210
+abierto_siguiente + sin_riesgo_retraso + zona_baja,3,0.07666911225238444,209
+area_ciencias_basicas_y_complementarias + bloqueo_bajo + sin_recuperacion,3,0.07666911225238444,209
+area_ciencias_basicas_y_complementarias + curso_no_base + perdio,3,0.07666911225238444,209
+curso_no_base + curso_obligatorio + zona_alta,3,0.07666911225238444,209
+no_abierto_siguiente + perdio + recuperacion,3,0.07666911225238444,209
+no_abierto_siguiente + recuperacion + sin_riesgo_retraso,3,0.07666911225238444,209
+ocupacion_media + periodo_s1 + semestre_3,3,0.07666911225238444,209
+ocupacion_media + semestre_1 + sin_recuperacion,3,0.07666911225238444,209
+aprobo + area_metodologia_de_sistemas + curso_obligatorio,3,0.07630227439471754,208
+aprobo + bloqueo_alto + no_abierto_siguiente,3,0.07630227439471754,208
+aprobo + curso_no_obligatorio + sin_recuperacion,3,0.07630227439471754,208
+area_metodologia_de_sistemas + sin_recuperacion + sin_riesgo_retraso,3,0.07630227439471754,208
+bloqueo_alto + no_abierto_siguiente + sin_riesgo_retraso,3,0.07630227439471754,208
+abierto_siguiente + area_ciencias_basicas_y_complementarias + semestre_4,3,0.07593543653705062,207
+abierto_siguiente + bloqueo_medio + semestre_4,3,0.07593543653705062,207
+area_ciencias_basicas_y_complementarias + periodo_s1 + semestre_1,3,0.07593543653705062,207
+bloqueo_bajo + curso_obligatorio + no_abierto_siguiente,3,0.07593543653705062,207
+abierto_siguiente + recuperacion + sin_riesgo_retraso,3,0.07556859867938372,206
+aprobo + semestre_3 + zona_media,3,0.0752017608217168,205
+area_ciencias_basicas_y_complementarias + recuperacion + zona_media,3,0.0752017608217168,205
+area_ciencias_de_la_computacion + bloqueo_medio + ocupacion_media,3,0.0752017608217168,205
+bloqueo_alto + semestre_3 + zona_media,3,0.0752017608217168,205
+bloqueo_medio + curso_base + zona_baja,3,0.0752017608217168,205
+curso_obligatorio + periodo_s2 + zona_baja,3,0.0752017608217168,205
+abierto_siguiente + ocupacion_media + semestre_1,3,0.0748349229640499,204
+area_ciencias_basicas_y_complementarias + ocupacion_baja + periodo_s1,3,0.0748349229640499,204
+area_ciencias_de_la_computacion + ocupacion_media + sin_recuperacion,3,0.0748349229640499,204
+area_desarrollo_de_software + curso_base + sin_recuperacion,3,0.0748349229640499,204
+area_metodologia_de_sistemas + curso_base + curso_obligatorio,3,0.0748349229640499,204
+area_metodologia_de_sistemas + curso_base + no_requiere_laboratorio,3,0.0748349229640499,204
+bloqueo_medio + curso_obligatorio + semestre_3,3,0.0748349229640499,204
+curso_no_obligatorio + no_abierto_siguiente + sin_riesgo_retraso,3,0.0748349229640499,204
+no_abierto_siguiente + periodo_s1 + recuperacion,3,0.0748349229640499,204
+aprobo + area_desarrollo_de_software + curso_obligatorio,3,0.07446808510638298,203
+area_ciencias_basicas_y_complementarias + curso_no_obligatorio + no_abierto_siguiente,3,0.07446808510638298,203
+bloqueo_medio + no_abierto_siguiente + recuperacion,3,0.07446808510638298,203
+abierto_siguiente + no_requiere_laboratorio + periodo_v1,3,0.07373440939104915,201
+bloqueo_bajo + curso_obligatorio + no_requiere_laboratorio,3,0.07373440939104915,201
+bloqueo_bajo + no_abierto_siguiente + zona_media,3,0.07373440939104915,201
+curso_base + semestre_4 + zona_media,3,0.07373440939104915,201
+curso_obligatorio + semestre_4 + zona_media,3,0.07373440939104915,201
+ocupacion_media + semestre_3 + zona_media,3,0.07373440939104915,201
+area_ciencias_basicas_y_complementarias + bloqueo_medio + recuperacion,3,0.07336757153338225,200
+area_desarrollo_de_software + no_abierto_siguiente + sin_riesgo_retraso,3,0.07336757153338225,200
+bloqueo_medio + no_abierto_siguiente + zona_baja,3,0.07336757153338225,200
+abierto_siguiente + bloqueo_alto + zona_media,3,0.07300073367571533,199
+abierto_siguiente + perdio + sin_recuperacion,3,0.07300073367571533,199
+area_ciencias_basicas_y_complementarias + curso_no_base + semestre_2,3,0.07300073367571533,199
+area_ciencias_basicas_y_complementarias + curso_obligatorio + periodo_v1,3,0.07300073367571533,199
+bloqueo_medio + curso_base + recuperacion,3,0.07300073367571533,199
+curso_no_base + no_abierto_siguiente + semestre_2,3,0.07300073367571533,199
+curso_obligatorio + ocupacion_baja + periodo_s1,3,0.07300073367571533,199
+ocupacion_baja + periodo_s1 + sin_recuperacion,3,0.07300073367571533,199
+abierto_siguiente + aprobo + semestre_3,3,0.07263389581804842,198
+abierto_siguiente + bloqueo_medio + ocupacion_baja,3,0.07263389581804842,198
+abierto_siguiente + curso_base + periodo_v1,3,0.07263389581804842,198
+curso_base + periodo_v1 + sin_recuperacion,3,0.07263389581804842,198
+curso_base + periodo_v1 + sin_riesgo_retraso,3,0.07263389581804842,198
+no_abierto_siguiente + perdio + periodo_s2,3,0.07263389581804842,198
+no_requiere_laboratorio + perdio + zona_baja,3,0.07263389581804842,198
+ocupacion_media + perdio + recuperacion,3,0.07263389581804842,198
+abierto_siguiente + bloqueo_medio + perdio,3,0.0722670579603815,197
+aprobo + no_requiere_laboratorio + semestre_2,3,0.0722670579603815,197
+aprobo + periodo_s1 + requiere_laboratorio,3,0.0722670579603815,197
+area_ciencias_basicas_y_complementarias + bloqueo_alto + zona_media,3,0.0722670579603815,197
+area_ciencias_de_la_computacion + curso_obligatorio + no_requiere_laboratorio,3,0.0722670579603815,197
+area_ciencias_de_la_computacion + no_abierto_siguiente + no_requiere_laboratorio,3,0.0722670579603815,197
+area_ciencias_de_la_computacion + ocupacion_media + sin_riesgo_retraso,3,0.0722670579603815,197
+bloqueo_medio + perdio + sin_riesgo_retraso,3,0.0722670579603815,197
+no_abierto_siguiente + periodo_s1 + zona_alta,3,0.0722670579603815,197
+no_requiere_laboratorio + perdio + periodo_s2,3,0.0722670579603815,197
+no_requiere_laboratorio + semestre_1 + zona_media,3,0.0722670579603815,197
+periodo_s1 + recuperacion + zona_media,3,0.0722670579603815,197
+semestre_1 + sin_riesgo_retraso + zona_media,3,0.0722670579603815,197
+abierto_siguiente + curso_obligatorio + zona_baja,3,0.0719002201027146,196
+abierto_siguiente + semestre_4 + sin_recuperacion,3,0.0719002201027146,196
+area_ciencias_basicas_y_complementarias + semestre_2 + zona_media,3,0.0719002201027146,196
+area_desarrollo_de_software + curso_obligatorio + requiere_laboratorio,3,0.0719002201027146,196
+area_desarrollo_de_software + no_abierto_siguiente + requiere_laboratorio,3,0.0719002201027146,196
+area_metodologia_de_sistemas + curso_obligatorio + ocupacion_media,3,0.0719002201027146,196
+area_metodologia_de_sistemas + no_requiere_laboratorio + ocupacion_media,3,0.0719002201027146,196
+bloqueo_medio + ocupacion_media + riesgo_retraso,3,0.0719002201027146,196
+curso_base + periodo_s1 + recuperacion,3,0.0719002201027146,196
+curso_obligatorio + periodo_s1 + semestre_1,3,0.0719002201027146,196
+no_abierto_siguiente + semestre_2 + sin_recuperacion,3,0.0719002201027146,196
+ocupacion_media + perdio + zona_baja,3,0.0719002201027146,196
+ocupacion_media + requiere_laboratorio + zona_media,3,0.0719002201027146,196
+periodo_s2 + recuperacion + sin_riesgo_retraso,3,0.0719002201027146,196
+abierto_siguiente + area_ciencias_basicas_y_complementarias + zona_baja,3,0.07153338224504768,195
+abierto_siguiente + curso_obligatorio + ocupacion_baja,3,0.07153338224504768,195
+aprobo + area_desarrollo_de_software + no_abierto_siguiente,3,0.07153338224504768,195
+area_ciencias_basicas_y_complementarias + curso_base + zona_baja,3,0.07153338224504768,195
+bloqueo_bajo + curso_no_base + curso_no_obligatorio,3,0.07153338224504768,195
+bloqueo_bajo + curso_no_obligatorio + no_requiere_laboratorio,3,0.07153338224504768,195
+bloqueo_bajo + curso_no_obligatorio + sin_riesgo_retraso,3,0.07153338224504768,195
+no_abierto_siguiente + periodo_s1 + riesgo_retraso,3,0.07153338224504768,195
+ocupacion_baja + sin_recuperacion + zona_alta,3,0.07153338224504768,195
+perdio + periodo_s1 + riesgo_retraso,3,0.07153338224504768,195
+bloqueo_medio + no_requiere_laboratorio + riesgo_retraso,3,0.07116654438738078,194
+curso_base + perdio + recuperacion,3,0.07116654438738078,194
+abierto_siguiente + ocupacion_media + semestre_4,3,0.07079970652971386,193
+area_ciencias_de_la_computacion + sin_recuperacion + sin_riesgo_retraso,3,0.07079970652971386,193
+bloqueo_bajo + no_abierto_siguiente + ocupacion_baja,3,0.07079970652971386,193
+curso_no_base + no_requiere_laboratorio + perdio,3,0.07079970652971386,193
+no_abierto_siguiente + perdio + zona_baja,3,0.07079970652971386,193
+ocupacion_baja + sin_riesgo_retraso + zona_alta,3,0.07079970652971386,193
+requiere_laboratorio + semestre_3 + sin_recuperacion,3,0.07079970652971386,193
+aprobo + curso_base + ocupacion_baja,3,0.07043286867204696,192
+aprobo + no_requiere_laboratorio + zona_baja,3,0.07043286867204696,192
+aprobo + ocupacion_baja + zona_alta,3,0.07043286867204696,192
+aprobo + ocupacion_media + recuperacion,3,0.07043286867204696,192
+area_ciencias_basicas_y_complementarias + perdio + zona_baja,3,0.07043286867204696,192
+area_ciencias_de_la_computacion + curso_base + curso_obligatorio,3,0.07043286867204696,192
+area_ciencias_de_la_computacion + curso_base + no_abierto_siguiente,3,0.07043286867204696,192
+area_metodologia_de_sistemas + no_abierto_siguiente + sin_riesgo_retraso,3,0.07043286867204696,192
+abierto_siguiente + semestre_1 + sin_recuperacion,3,0.07006603081438005,191
+bloqueo_medio + periodo_s1 + zona_alta,3,0.07006603081438005,191
+curso_obligatorio + recuperacion + zona_baja,3,0.07006603081438005,191
+bloqueo_medio + curso_no_base + semestre_2,3,0.06969919295671313,190
+bloqueo_medio + ocupacion_baja + periodo_s2,3,0.06969919295671313,190
+bloqueo_medio + semestre_1 + zona_media,3,0.06969919295671313,190
+curso_no_base + curso_obligatorio + semestre_2,3,0.06969919295671313,190
+curso_no_base + no_requiere_laboratorio + zona_alta,3,0.06969919295671313,190
+curso_obligatorio + periodo_s1 + riesgo_retraso,3,0.06969919295671313,190
+curso_obligatorio + semestre_2 + zona_media,3,0.06969919295671313,190
+perdio + recuperacion + zona_media,3,0.06969919295671313,190
+abierto_siguiente + area_ciencias_basicas_y_complementarias + recuperacion,3,0.06933235509904623,189
+abierto_siguiente + bloqueo_alto + semestre_3,3,0.06933235509904623,189
+abierto_siguiente + curso_base + semestre_3,3,0.06933235509904623,189
+abierto_siguiente + curso_obligatorio + recuperacion,3,0.06933235509904623,189
+abierto_siguiente + no_requiere_laboratorio + semestre_3,3,0.06933235509904623,189
+aprobo + area_ciencias_basicas_y_complementarias + bloqueo_bajo,3,0.06933235509904623,189
+aprobo + area_ciencias_de_la_computacion + ocupacion_media,3,0.06933235509904623,189
+bloqueo_alto + no_requiere_laboratorio + periodo_s1,3,0.06933235509904623,189
+bloqueo_alto + periodo_s2 + sin_recuperacion,3,0.06933235509904623,189
+curso_base + curso_obligatorio + periodo_v1,3,0.06933235509904623,189
+curso_no_base + no_abierto_siguiente + recuperacion,3,0.06933235509904623,189
+ocupacion_media + periodo_s1 + zona_baja,3,0.06933235509904623,189
+periodo_s1 + sin_riesgo_retraso + zona_baja,3,0.06933235509904623,189
+aprobo + curso_no_base + curso_no_obligatorio,3,0.06896551724137931,188
+area_ciencias_basicas_y_complementarias + curso_no_base + zona_alta,3,0.06896551724137931,188
+area_ciencias_basicas_y_complementarias + ocupacion_baja + periodo_s2,3,0.06896551724137931,188
+area_ciencias_basicas_y_complementarias + periodo_s2 + semestre_2,3,0.06896551724137931,188
+bloqueo_bajo + curso_no_base + periodo_s1,3,0.06896551724137931,188
+bloqueo_bajo + no_requiere_laboratorio + periodo_s1,3,0.06896551724137931,188
+bloqueo_bajo + periodo_s1 + sin_riesgo_retraso,3,0.06896551724137931,188
+curso_base + perdio + zona_baja,3,0.06896551724137931,188
+curso_obligatorio + no_requiere_laboratorio + periodo_v1,3,0.06896551724137931,188
+curso_obligatorio + ocupacion_baja + perdio,3,0.06896551724137931,188
+perdio + periodo_s2 + zona_media,3,0.06896551724137931,188
+aprobo + no_requiere_laboratorio + recuperacion,3,0.0685986793837124,187
+area_ciencias_basicas_y_complementarias + curso_base + ocupacion_baja,3,0.0685986793837124,187
+bloqueo_bajo + curso_no_base + ocupacion_media,3,0.0685986793837124,187
+bloqueo_bajo + no_abierto_siguiente + ocupacion_media,3,0.0685986793837124,187
+bloqueo_bajo + ocupacion_media + sin_riesgo_retraso,3,0.0685986793837124,187
+curso_no_base + no_abierto_siguiente + zona_baja,3,0.0685986793837124,187
+no_abierto_siguiente + ocupacion_baja + periodo_s1,3,0.0685986793837124,187
+no_requiere_laboratorio + ocupacion_baja + perdio,3,0.0685986793837124,187
+periodo_s1 + semestre_1 + sin_riesgo_retraso,3,0.0685986793837124,187
+requiere_laboratorio + semestre_3 + sin_riesgo_retraso,3,0.0685986793837124,187
+abierto_siguiente + area_ciencias_basicas_y_complementarias + requiere_laboratorio,3,0.06823184152604549,186
+abierto_siguiente + bloqueo_medio + requiere_laboratorio,3,0.06823184152604549,186
+abierto_siguiente + curso_obligatorio + requiere_laboratorio,3,0.06823184152604549,186
+abierto_siguiente + perdio + zona_media,3,0.06823184152604549,186
+abierto_siguiente + requiere_laboratorio + sin_riesgo_retraso,3,0.06823184152604549,186
+aprobo + sin_recuperacion + zona_baja,3,0.06823184152604549,186
+area_ciencias_basicas_y_complementarias + no_requiere_laboratorio + periodo_v1,3,0.06823184152604549,186
+bloqueo_medio + curso_no_base + perdio,3,0.06823184152604549,186
+curso_no_obligatorio + no_requiere_laboratorio + zona_media,3,0.06823184152604549,186
+curso_obligatorio + perdio + semestre_3,3,0.06823184152604549,186
+no_abierto_siguiente + ocupacion_media + semestre_2,3,0.06823184152604549,186
+no_abierto_siguiente + periodo_v2 + sin_recuperacion,3,0.06823184152604549,186
+aprobo + area_ciencias_de_la_computacion + sin_recuperacion,3,0.06786500366837858,185
+aprobo + curso_base + semestre_1,3,0.06786500366837858,185
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente + zona_alta,3,0.06786500366837858,185
+area_ciencias_basicas_y_complementarias + perdio + periodo_s1,3,0.06786500366837858,185
+area_ciencias_basicas_y_complementarias + periodo_s1 + zona_alta,3,0.06786500366837858,185
+area_metodologia_de_sistemas + no_abierto_siguiente + sin_recuperacion,3,0.06786500366837858,185
+bloqueo_alto + ocupacion_media + semestre_3,3,0.06786500366837858,185
+bloqueo_bajo + curso_no_base + periodo_s2,3,0.06786500366837858,185
+bloqueo_bajo + periodo_s2 + sin_riesgo_retraso,3,0.06786500366837858,185
+curso_base + requiere_laboratorio + zona_media,3,0.06786500366837858,185
+curso_no_base + ocupacion_baja + periodo_s1,3,0.06786500366837858,185
+curso_no_obligatorio + no_abierto_siguiente + sin_recuperacion,3,0.06786500366837858,185
+no_abierto_siguiente + periodo_s1 + semestre_3,3,0.06786500366837858,185
+no_abierto_siguiente + semestre_2 + sin_riesgo_retraso,3,0.06786500366837858,185
+ocupacion_media + perdio + periodo_s2,3,0.06786500366837858,185
+perdio + periodo_s1 + sin_recuperacion,3,0.06786500366837858,185
+area_desarrollo_de_software + curso_base + sin_riesgo_retraso,3,0.06749816581071166,184
+curso_base + no_abierto_siguiente + recuperacion,3,0.06749816581071166,184
+curso_base + periodo_s2 + semestre_4,3,0.06749816581071166,184
+curso_obligatorio + periodo_s2 + semestre_4,3,0.06749816581071166,184
+no_abierto_siguiente + semestre_4 + sin_riesgo_retraso,3,0.06749816581071166,184
+aprobo + area_metodologia_de_sistemas + sin_recuperacion,3,0.06713132795304476,183
+area_ciencias_basicas_y_complementarias + requiere_laboratorio + zona_media,3,0.06713132795304476,183
+bloqueo_bajo + ocupacion_baja + sin_recuperacion,3,0.06713132795304476,183
+curso_base + perdio + periodo_s2,3,0.06713132795304476,183
+curso_obligatorio + requiere_laboratorio + zona_baja,3,0.06713132795304476,183
+no_abierto_siguiente + perdio + requiere_laboratorio,3,0.06713132795304476,183
+no_requiere_laboratorio + semestre_3 + zona_media,3,0.06713132795304476,183
+ocupacion_media + periodo_s2 + requiere_laboratorio,3,0.06713132795304476,183
+aprobo + no_abierto_siguiente + semestre_2,3,0.06676449009537784,182
+aprobo + recuperacion + zona_media,3,0.06676449009537784,182
+area_desarrollo_de_software + bloqueo_alto + curso_base,3,0.06676449009537784,182
+area_desarrollo_de_software + bloqueo_alto + curso_obligatorio,3,0.06676449009537784,182
+area_desarrollo_de_software + bloqueo_alto + no_abierto_siguiente,3,0.06676449009537784,182
+area_desarrollo_de_software + bloqueo_alto + requiere_laboratorio,3,0.06676449009537784,182
+area_desarrollo_de_software + curso_base + requiere_laboratorio,3,0.06676449009537784,182
+bloqueo_medio + periodo_s1 + recuperacion,3,0.06676449009537784,182
+no_abierto_siguiente + semestre_4 + sin_recuperacion,3,0.06676449009537784,182
+no_requiere_laboratorio + periodo_s1 + semestre_1,3,0.06676449009537784,182
+no_requiere_laboratorio + periodo_s2 + zona_alta,3,0.06676449009537784,182
+aprobo + ocupacion_baja + periodo_s1,3,0.06639765223771094,181
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente + requiere_laboratorio,3,0.06639765223771094,181
+bloqueo_medio + riesgo_retraso + zona_media,3,0.06603081438004402,180
+curso_no_obligatorio + sin_riesgo_retraso + zona_media,3,0.06603081438004402,180
+no_requiere_laboratorio + periodo_s1 + zona_baja,3,0.06603081438004402,180
+perdio + sin_recuperacion + zona_baja,3,0.06603081438004402,180
+aprobo + bloqueo_alto + periodo_s2,3,0.06566397652237711,179
+bloqueo_bajo + no_abierto_siguiente + periodo_s1,3,0.06566397652237711,179
+bloqueo_medio + perdio + recuperacion,3,0.06566397652237711,179
+bloqueo_medio + perdio + zona_baja,3,0.06566397652237711,179
+bloqueo_medio + riesgo_retraso + sin_recuperacion,3,0.06566397652237711,179
+curso_no_base + perdio + sin_recuperacion,3,0.06566397652237711,179
+curso_no_base + perdio + zona_media,3,0.06566397652237711,179
+curso_obligatorio + periodo_s2 + semestre_2,3,0.06566397652237711,179
+curso_obligatorio + requiere_laboratorio + riesgo_retraso,3,0.06566397652237711,179
+no_abierto_siguiente + requiere_laboratorio + riesgo_retraso,3,0.06566397652237711,179
+perdio + requiere_laboratorio + riesgo_retraso,3,0.06566397652237711,179
+periodo_s1 + semestre_3 + zona_media,3,0.06566397652237711,179
+abierto_siguiente + bloqueo_medio + zona_alta,3,0.0652971386647102,178
+abierto_siguiente + curso_base + recuperacion,3,0.0652971386647102,178
+aprobo + area_desarrollo_de_software + curso_base,3,0.0652971386647102,178
+aprobo + no_abierto_siguiente + semestre_3,3,0.0652971386647102,178
+area_ciencias_basicas_y_complementarias + curso_base + periodo_v1,3,0.0652971386647102,178
+curso_obligatorio + no_abierto_siguiente + semestre_7,3,0.0652971386647102,178
+curso_obligatorio + ocupacion_media + semestre_7,3,0.0652971386647102,178
+no_abierto_siguiente + ocupacion_media + semestre_7,3,0.0652971386647102,178
+no_abierto_siguiente + semestre_3 + sin_riesgo_retraso,3,0.0652971386647102,178
+no_requiere_laboratorio + periodo_s2 + recuperacion,3,0.0652971386647102,178
+aprobo + ocupacion_media + zona_baja,3,0.06493030080704329,177
+area_ciencias_basicas_y_complementarias + curso_base + semestre_2,3,0.06493030080704329,177
+area_ciencias_basicas_y_complementarias + perdio + recuperacion,3,0.06493030080704329,177
+area_ciencias_basicas_y_complementarias + semestre_3 + zona_media,3,0.06493030080704329,177
+area_desarrollo_de_software + curso_obligatorio + zona_media,3,0.06493030080704329,177
+curso_base + curso_obligatorio + semestre_2,3,0.06493030080704329,177
+curso_base + no_abierto_siguiente + zona_baja,3,0.06493030080704329,177
+curso_base + no_requiere_laboratorio + semestre_2,3,0.06493030080704329,177
+curso_obligatorio + recuperacion + requiere_laboratorio,3,0.06493030080704329,177
+periodo_s2 + semestre_4 + sin_riesgo_retraso,3,0.06493030080704329,177
+abierto_siguiente + aprobo + ocupacion_baja,3,0.06456346294937637,176
+aprobo + area_metodologia_de_sistemas + no_abierto_siguiente,3,0.06456346294937637,176
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente + semestre_1,3,0.06456346294937637,176
+area_ciencias_de_la_computacion + curso_base + ocupacion_media,3,0.06456346294937637,176
+bloqueo_alto + no_requiere_laboratorio + periodo_s2,3,0.06456346294937637,176
+bloqueo_alto + ocupacion_media + periodo_s2,3,0.06456346294937637,176
+bloqueo_bajo + no_abierto_siguiente + periodo_s2,3,0.06456346294937637,176
+curso_base + requiere_laboratorio + semestre_4,3,0.06456346294937637,176
+curso_no_base + curso_obligatorio + recuperacion,3,0.06456346294937637,176
+curso_obligatorio + requiere_laboratorio + semestre_4,3,0.06456346294937637,176
+ocupacion_media + periodo_s2 + semestre_4,3,0.06456346294937637,176
+semestre_4 + sin_recuperacion + zona_media,3,0.06456346294937637,176
+abierto_siguiente + curso_base + zona_baja,3,0.06419662509170947,175
+area_ciencias_basicas_y_complementarias + bloqueo_bajo + curso_no_obligatorio,3,0.06419662509170947,175
+area_ciencias_basicas_y_complementarias + curso_no_obligatorio + zona_media,3,0.06419662509170947,175
+area_desarrollo_de_software + no_abierto_siguiente + periodo_s1,3,0.06419662509170947,175
+bloqueo_alto + no_abierto_siguiente + zona_media,3,0.06419662509170947,175
+bloqueo_medio + periodo_s1 + requiere_laboratorio,3,0.06419662509170947,175
+curso_base + no_requiere_laboratorio + periodo_v1,3,0.06419662509170947,175
+ocupacion_media + periodo_s1 + semestre_4,3,0.06419662509170947,175
+periodo_s1 + semestre_4 + sin_riesgo_retraso,3,0.06419662509170947,175
+periodo_s2 + recuperacion + zona_media,3,0.06419662509170947,175
+aprobo + ocupacion_media + semestre_1,3,0.06382978723404255,174
+area_desarrollo_de_software + curso_obligatorio + periodo_s1,3,0.06382978723404255,174
+area_desarrollo_de_software + sin_recuperacion + sin_riesgo_retraso,3,0.06382978723404255,174
+bloqueo_alto + periodo_s1 + zona_media,3,0.06382978723404255,174
+bloqueo_medio + ocupacion_baja + periodo_s1,3,0.06382978723404255,174
+no_requiere_laboratorio + periodo_s1 + semestre_3,3,0.06382978723404255,174
+ocupacion_baja + periodo_s2 + zona_media,3,0.06382978723404255,174
+abierto_siguiente + aprobo + semestre_4,3,0.06346294937637564,173
+area_ciencias_de_la_computacion + no_requiere_laboratorio + ocupacion_media,3,0.06346294937637564,173
+bloqueo_bajo + curso_no_obligatorio + no_abierto_siguiente,3,0.06346294937637564,173
+bloqueo_bajo + no_requiere_laboratorio + ocupacion_media,3,0.06346294937637564,173
+bloqueo_medio + semestre_3 + sin_riesgo_retraso,3,0.06346294937637564,173
+curso_no_obligatorio + no_requiere_laboratorio + ocupacion_baja,3,0.06346294937637564,173
+curso_obligatorio + periodo_s2 + semestre_3,3,0.06346294937637564,173
+area_metodologia_de_sistemas + no_requiere_laboratorio + zona_media,3,0.06309611151870873,172
+no_requiere_laboratorio + semestre_5 + sin_riesgo_retraso,3,0.06309611151870873,172
+aprobo + no_abierto_siguiente + zona_baja,3,0.06272927366104182,171
+area_ciencias_basicas_y_complementarias + ocupacion_baja + perdio,3,0.06272927366104182,171
+area_desarrollo_de_software + no_abierto_siguiente + zona_media,3,0.06272927366104182,171
+bloqueo_bajo + no_requiere_laboratorio + periodo_s2,3,0.06272927366104182,171
+bloqueo_medio + no_requiere_laboratorio + semestre_5,3,0.06272927366104182,171
+semestre_1 + sin_recuperacion + zona_media,3,0.06272927366104182,171
+bloqueo_bajo + sin_recuperacion + zona_media,3,0.06236243580337491,170
+curso_no_base + curso_obligatorio + zona_baja,3,0.06236243580337491,170
+perdio + periodo_s1 + recuperacion,3,0.06236243580337491,170
+periodo_s2 + sin_riesgo_retraso + zona_baja,3,0.06236243580337491,170
+bloqueo_alto + no_abierto_siguiente + semestre_3,3,0.061995597945708,169
+bloqueo_alto + periodo_s1 + semestre_3,3,0.061995597945708,169
+bloqueo_medio + semestre_2 + sin_recuperacion,3,0.061995597945708,169
+curso_base + ocupacion_media + requiere_laboratorio,3,0.061995597945708,169
+curso_base + riesgo_retraso + zona_media,3,0.061995597945708,169
+no_abierto_siguiente + no_requiere_laboratorio + semestre_7,3,0.061995597945708,169
+no_abierto_siguiente + periodo_s1 + zona_baja,3,0.061995597945708,169
+no_abierto_siguiente + periodo_s2 + recuperacion,3,0.061995597945708,169
+abierto_siguiente + curso_no_base + sin_riesgo_retraso,3,0.061628760088041086,168
+abierto_siguiente + no_requiere_laboratorio + recuperacion,3,0.061628760088041086,168
+aprobo + curso_base + recuperacion,3,0.061628760088041086,168
+area_ciencias_basicas_y_complementarias + curso_base + recuperacion,3,0.061628760088041086,168
+bloqueo_medio + curso_no_base + zona_alta,3,0.061628760088041086,168
+no_abierto_siguiente + periodo_s1 + semestre_7,3,0.061628760088041086,168
+no_requiere_laboratorio + ocupacion_media + riesgo_retraso,3,0.061628760088041086,168
+ocupacion_media + periodo_s1 + requiere_laboratorio,3,0.061628760088041086,168
+abierto_siguiente + aprobo + semestre_1,3,0.061261922230374175,167
+abierto_siguiente + ocupacion_media + recuperacion,3,0.061261922230374175,167
+aprobo + area_desarrollo_de_software + sin_recuperacion,3,0.061261922230374175,167
+area_ciencias_de_la_computacion + curso_obligatorio + zona_media,3,0.061261922230374175,167
+area_ciencias_de_la_computacion + no_abierto_siguiente + zona_media,3,0.061261922230374175,167
+area_desarrollo_de_software + curso_base + periodo_s1,3,0.061261922230374175,167
+area_metodologia_de_sistemas + curso_obligatorio + zona_media,3,0.061261922230374175,167
+curso_base + riesgo_retraso + sin_recuperacion,3,0.061261922230374175,167
+curso_no_base + requiere_laboratorio + zona_media,3,0.061261922230374175,167
+area_ciencias_basicas_y_complementarias + perdio + periodo_s2,3,0.06089508437270726,166
+bloqueo_medio + ocupacion_media + semestre_2,3,0.06089508437270726,166
+bloqueo_medio + ocupacion_media + semestre_3,3,0.06089508437270726,166
+bloqueo_medio + semestre_3 + sin_recuperacion,3,0.06089508437270726,166
+curso_base + ocupacion_media + riesgo_retraso,3,0.06089508437270726,166
+curso_base + periodo_s2 + recuperacion,3,0.06089508437270726,166
+ocupacion_media + periodo_s2 + recuperacion,3,0.06089508437270726,166
+aprobo + semestre_5 + sin_riesgo_retraso,3,0.06052824651504035,165
+area_ciencias_de_la_computacion + bloqueo_medio + sin_recuperacion,3,0.06052824651504035,165
+area_metodologia_de_sistemas + curso_base + sin_riesgo_retraso,3,0.06052824651504035,165
+bloqueo_bajo + curso_obligatorio + sin_recuperacion,3,0.06052824651504035,165
+bloqueo_medio + no_requiere_laboratorio + semestre_4,3,0.06052824651504035,165
+bloqueo_medio + perdio + periodo_s2,3,0.06052824651504035,165
+curso_base + no_requiere_laboratorio + riesgo_retraso,3,0.06052824651504035,165
+curso_obligatorio + no_abierto_siguiente + semestre_1,3,0.06052824651504035,165
+no_requiere_laboratorio + semestre_5 + sin_recuperacion,3,0.06052824651504035,165
+ocupacion_media + periodo_s2 + zona_alta,3,0.06052824651504035,165
+aprobo + bloqueo_medio + semestre_2,3,0.06016140865737344,164
+aprobo + curso_base + zona_baja,3,0.06016140865737344,164
+aprobo + no_abierto_siguiente + recuperacion,3,0.06016140865737344,164
+aprobo + no_abierto_siguiente + semestre_4,3,0.06016140865737344,164
+area_metodologia_de_sistemas + no_requiere_laboratorio + periodo_s1,3,0.06016140865737344,164
+bloqueo_medio + semestre_2 + sin_riesgo_retraso,3,0.06016140865737344,164
+curso_base + periodo_s1 + zona_alta,3,0.06016140865737344,164
+no_abierto_siguiente + recuperacion + riesgo_retraso,3,0.06016140865737344,164
+perdio + recuperacion + riesgo_retraso,3,0.06016140865737344,164
+abierto_siguiente + area_ciencias_basicas_y_complementarias + curso_no_base,3,0.05979457079970653,163
+abierto_siguiente + bloqueo_alto + periodo_s1,3,0.05979457079970653,163
+aprobo + bloqueo_medio + zona_baja,3,0.05979457079970653,163
+area_ciencias_basicas_y_complementarias + periodo_s1 + recuperacion,3,0.05979457079970653,163
+bloqueo_alto + curso_base + recuperacion,3,0.05979457079970653,163
+bloqueo_alto + curso_obligatorio + recuperacion,3,0.05979457079970653,163
+no_abierto_siguiente + requiere_laboratorio + semestre_3,3,0.05979457079970653,163
+area_ciencias_basicas_y_complementarias + ocupacion_baja + semestre_1,3,0.05942773294203962,162
+bloqueo_bajo + curso_no_obligatorio + sin_recuperacion,3,0.05942773294203962,162
+curso_no_base + sin_riesgo_retraso + zona_baja,3,0.05942773294203962,162
+no_abierto_siguiente + ocupacion_baja + perdio,3,0.05942773294203962,162
+abierto_siguiente + bloqueo_medio + periodo_v1,3,0.059060895084372705,161
+abierto_siguiente + semestre_3 + zona_media,3,0.059060895084372705,161
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente + periodo_v2,3,0.059060895084372705,161
+area_ciencias_basicas_y_complementarias + periodo_v2 + sin_recuperacion,3,0.059060895084372705,161
+bloqueo_medio + periodo_v1 + sin_recuperacion,3,0.059060895084372705,161
+bloqueo_medio + periodo_v1 + sin_riesgo_retraso,3,0.059060895084372705,161
+curso_base + semestre_2 + sin_riesgo_retraso,3,0.059060895084372705,161
+curso_no_base + periodo_s2 + requiere_laboratorio,3,0.059060895084372705,161
+curso_obligatorio + recuperacion + riesgo_retraso,3,0.059060895084372705,161
+abierto_siguiente + no_requiere_laboratorio + zona_baja,3,0.058694057226705794,160
+area_ciencias_de_la_computacion + curso_obligatorio + periodo_s2,3,0.058694057226705794,160
+area_ciencias_de_la_computacion + no_abierto_siguiente + periodo_s2,3,0.058694057226705794,160
+area_desarrollo_de_software + curso_base + zona_media,3,0.058694057226705794,160
+area_metodologia_de_sistemas + ocupacion_media + sin_riesgo_retraso,3,0.058694057226705794,160
+curso_base + no_abierto_siguiente + semestre_4,3,0.058694057226705794,160
+curso_base + periodo_s1 + zona_baja,3,0.058694057226705794,160
+curso_obligatorio + no_abierto_siguiente + semestre_4,3,0.058694057226705794,160
+ocupacion_media + semestre_2 + zona_media,3,0.058694057226705794,160
+perdio + periodo_s1 + sin_riesgo_retraso,3,0.058694057226705794,160
+area_ciencias_basicas_y_complementarias + periodo_s2 + zona_alta,3,0.05832721936903888,159
+area_metodologia_de_sistemas + curso_obligatorio + periodo_s1,3,0.05832721936903888,159
+curso_base + periodo_s1 + requiere_laboratorio,3,0.05832721936903888,159
+curso_no_base + perdio + sin_riesgo_retraso,3,0.05832721936903888,159
+curso_no_obligatorio + ocupacion_baja + sin_riesgo_retraso,3,0.05832721936903888,159
+no_abierto_siguiente + semestre_7 + sin_recuperacion,3,0.05832721936903888,159
+periodo_s2 + requiere_laboratorio + zona_media,3,0.05832721936903888,159
+semestre_2 + sin_riesgo_retraso + zona_media,3,0.05832721936903888,159
+abierto_siguiente + ocupacion_media + zona_baja,3,0.05796038151137197,158
+aprobo + requiere_laboratorio + semestre_3,3,0.05796038151137197,158
+area_metodologia_de_sistemas + curso_base + sin_recuperacion,3,0.05796038151137197,158
+bloqueo_alto + no_abierto_siguiente + ocupacion_media,3,0.05796038151137197,158
+no_abierto_siguiente + semestre_3 + zona_media,3,0.05796038151137197,158
+periodo_s1 + semestre_1 + sin_recuperacion,3,0.05796038151137197,158
+semestre_5 + sin_recuperacion + sin_riesgo_retraso,3,0.05796038151137197,158
+abierto_siguiente + curso_base + ocupacion_baja,3,0.05759354365370506,157
+aprobo + curso_no_obligatorio + no_abierto_siguiente,3,0.05759354365370506,157
+aprobo + semestre_4 + zona_media,3,0.05759354365370506,157
+area_ciencias_basicas_y_complementarias + semestre_4 + zona_media,3,0.05759354365370506,157
+area_ciencias_de_la_computacion + no_requiere_laboratorio + sin_riesgo_retraso,3,0.05759354365370506,157
+curso_base + no_abierto_siguiente + zona_alta,3,0.05759354365370506,157
+curso_obligatorio + ocupacion_baja + requiere_laboratorio,3,0.05759354365370506,157
+no_requiere_laboratorio + semestre_4 + zona_media,3,0.05759354365370506,157
+perdio + periodo_s2 + sin_riesgo_retraso,3,0.05759354365370506,157
+periodo_s1 + requiere_laboratorio + zona_media,3,0.05759354365370506,157
+aprobo + area_ciencias_basicas_y_complementarias + zona_baja,3,0.05722670579603815,156
+area_ciencias_de_la_computacion + curso_obligatorio + periodo_s1,3,0.05722670579603815,156
+area_ciencias_de_la_computacion + no_abierto_siguiente + periodo_s1,3,0.05722670579603815,156
+area_ciencias_de_la_computacion + ocupacion_media + periodo_s1,3,0.05722670579603815,156
+area_metodologia_de_sistemas + no_abierto_siguiente + ocupacion_media,3,0.05722670579603815,156
+curso_base + ocupacion_media + semestre_2,3,0.05722670579603815,156
+curso_base + periodo_s2 + requiere_laboratorio,3,0.05722670579603815,156
+curso_no_base + curso_no_obligatorio + ocupacion_baja,3,0.05722670579603815,156
+curso_obligatorio + periodo_s1 + semestre_7,3,0.05722670579603815,156
+ocupacion_media + periodo_s1 + semestre_7,3,0.05722670579603815,156
+ocupacion_media + requiere_laboratorio + semestre_4,3,0.05722670579603815,156
+perdio + periodo_s2 + sin_recuperacion,3,0.05722670579603815,156
+bloqueo_alto + curso_base + zona_alta,3,0.05685986793837124,155
+bloqueo_alto + curso_obligatorio + zona_alta,3,0.05685986793837124,155
+bloqueo_alto + sin_recuperacion + zona_alta,3,0.05685986793837124,155
+bloqueo_medio + perdio + requiere_laboratorio,3,0.05685986793837124,155
+curso_no_base + ocupacion_media + semestre_2,3,0.05685986793837124,155
+curso_no_obligatorio + ocupacion_baja + sin_recuperacion,3,0.05685986793837124,155
+no_abierto_siguiente + no_requiere_laboratorio + semestre_4,3,0.05685986793837124,155
+periodo_s2 + semestre_2 + sin_riesgo_retraso,3,0.05685986793837124,155
+abierto_siguiente + no_requiere_laboratorio + semestre_4,3,0.05649303008070433,154
+aprobo + bloqueo_bajo + ocupacion_baja,3,0.05649303008070433,154
+aprobo + bloqueo_medio + recuperacion,3,0.05649303008070433,154
+aprobo + periodo_v1 + sin_recuperacion,3,0.05649303008070433,154
+aprobo + periodo_v1 + sin_riesgo_retraso,3,0.05649303008070433,154
+area_ciencias_basicas_y_complementarias + curso_base + no_abierto_siguiente,3,0.05649303008070433,154
+bloqueo_medio + ocupacion_baja + perdio,3,0.05649303008070433,154
+no_abierto_siguiente + riesgo_retraso + zona_baja,3,0.05649303008070433,154
+ocupacion_media + riesgo_retraso + sin_recuperacion,3,0.05649303008070433,154
+perdio + recuperacion + sin_riesgo_retraso,3,0.05649303008070433,154
+perdio + riesgo_retraso + zona_baja,3,0.05649303008070433,154
+perdio + sin_riesgo_retraso + zona_baja,3,0.05649303008070433,154
+area_ciencias_basicas_y_complementarias + bloqueo_medio + periodo_v1,3,0.05612619222303742,153
+area_ciencias_basicas_y_complementarias + curso_no_base + zona_baja,3,0.05612619222303742,153
+area_ciencias_basicas_y_complementarias + curso_no_obligatorio + ocupacion_baja,3,0.05612619222303742,153
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente + zona_baja,3,0.05612619222303742,153
+area_ciencias_basicas_y_complementarias + periodo_s2 + recuperacion,3,0.05612619222303742,153
+bloqueo_alto + sin_riesgo_retraso + zona_alta,3,0.05612619222303742,153
+bloqueo_medio + periodo_s1 + zona_baja,3,0.05612619222303742,153
+curso_no_base + ocupacion_baja + perdio,3,0.05612619222303742,153
+curso_no_base + recuperacion + sin_riesgo_retraso,3,0.05612619222303742,153
+no_requiere_laboratorio + ocupacion_baja + zona_alta,3,0.05612619222303742,153
+ocupacion_baja + perdio + zona_media,3,0.05612619222303742,153
+area_ciencias_basicas_y_complementarias + periodo_s1 + zona_baja,3,0.05575935436537051,152
+curso_no_obligatorio + sin_recuperacion + zona_media,3,0.05575935436537051,152
+curso_obligatorio + ocupacion_baja + zona_alta,3,0.05575935436537051,152
+riesgo_retraso + sin_recuperacion + zona_media,3,0.05575935436537051,152
+aprobo + bloqueo_bajo + curso_obligatorio,3,0.0553925165077036,151
+area_ciencias_basicas_y_complementarias + periodo_s1 + requiere_laboratorio,3,0.0553925165077036,151
+area_metodologia_de_sistemas + ocupacion_media + sin_recuperacion,3,0.0553925165077036,151
+bloqueo_medio + periodo_s1 + semestre_1,3,0.0553925165077036,151
+bloqueo_medio + periodo_s2 + recuperacion,3,0.0553925165077036,151
+curso_obligatorio + no_abierto_siguiente + periodo_v2,3,0.0553925165077036,151
+curso_obligatorio + ocupacion_baja + semestre_1,3,0.0553925165077036,151
+curso_obligatorio + periodo_v2 + sin_recuperacion,3,0.0553925165077036,151
+no_requiere_laboratorio + riesgo_retraso + zona_media,3,0.0553925165077036,151
+ocupacion_media + riesgo_retraso + zona_media,3,0.0553925165077036,151
+periodo_s2 + semestre_4 + sin_recuperacion,3,0.0553925165077036,151
+aprobo + area_ciencias_de_la_computacion + bloqueo_medio,3,0.055025678650036686,150
+aprobo + bloqueo_alto + zona_alta,3,0.055025678650036686,150
+area_ciencias_basicas_y_complementarias + no_abierto_siguiente + riesgo_retraso,3,0.055025678650036686,150
+area_ciencias_basicas_y_complementarias + perdio + riesgo_retraso,3,0.055025678650036686,150
+area_ciencias_basicas_y_complementarias + periodo_s1 + semestre_2,3,0.055025678650036686,150
+area_ciencias_de_la_computacion + bloqueo_medio + sin_riesgo_retraso,3,0.055025678650036686,150
+curso_base + ocupacion_baja + zona_media,3,0.055025678650036686,150
+curso_base + perdio + semestre_3,3,0.055025678650036686,150
+curso_no_base + ocupacion_media + perdio,3,0.055025678650036686,150
+curso_no_base + semestre_2 + sin_recuperacion,3,0.055025678650036686,150
+curso_obligatorio + periodo_s1 + semestre_2,3,0.055025678650036686,150
+curso_obligatorio + requiere_laboratorio + zona_alta,3,0.055025678650036686,150
+requiere_laboratorio + sin_recuperacion + zona_alta,3,0.055025678650036686,150
+semestre_2 + sin_recuperacion + zona_media,3,0.055025678650036686,150
+aprobo + periodo_s1 + semestre_1,3,0.054658840792369774,149
+aprobo + periodo_s2 + semestre_4,3,0.054658840792369774,149
+area_ciencias_basicas_y_complementarias + periodo_s2 + requiere_laboratorio,3,0.054658840792369774,149
+bloqueo_alto + no_abierto_siguiente + periodo_s1,3,0.054658840792369774,149
+curso_no_base + semestre_2 + sin_riesgo_retraso,3,0.054658840792369774,149
+no_abierto_siguiente + semestre_7 + sin_riesgo_retraso,3,0.054658840792369774,149
+no_requiere_laboratorio + riesgo_retraso + sin_recuperacion,3,0.054658840792369774,149
+periodo_s1 + sin_recuperacion + zona_baja,3,0.054658840792369774,149
+abierto_siguiente + aprobo + periodo_v1,3,0.05429200293470286,148
+abierto_siguiente + requiere_laboratorio + sin_recuperacion,3,0.05429200293470286,148
+area_ciencias_basicas_y_complementarias + curso_no_base + recuperacion,3,0.05429200293470286,148
+area_metodologia_de_sistemas + bloqueo_medio + curso_obligatorio,3,0.05429200293470286,148
+area_metodologia_de_sistemas + bloqueo_medio + no_requiere_laboratorio,3,0.05429200293470286,148
+area_metodologia_de_sistemas + curso_base + no_abierto_siguiente,3,0.05429200293470286,148
+bloqueo_bajo + periodo_s1 + sin_recuperacion,3,0.05429200293470286,148
+curso_base + semestre_1 + zona_media,3,0.05429200293470286,148
+curso_base + semestre_2 + sin_recuperacion,3,0.05429200293470286,148
+curso_no_base + ocupacion_media + zona_alta,3,0.05429200293470286,148
+no_abierto_siguiente + periodo_s2 + zona_baja,3,0.05429200293470286,148
+perdio + periodo_s2 + recuperacion,3,0.05429200293470286,148
+periodo_s2 + semestre_3 + sin_riesgo_retraso,3,0.05429200293470286,148
+aprobo + area_metodologia_de_sistemas + curso_base,3,0.05392516507703595,147
+area_ciencias_basicas_y_complementarias + curso_no_base + semestre_1,3,0.05392516507703595,147
+area_ciencias_de_la_computacion + no_requiere_laboratorio + sin_recuperacion,3,0.05392516507703595,147
+area_desarrollo_de_software + bloqueo_alto + ocupacion_alta,3,0.05392516507703595,147
+area_desarrollo_de_software + bloqueo_alto + semestre_3,3,0.05392516507703595,147
+area_desarrollo_de_software + curso_base + ocupacion_alta,3,0.05392516507703595,147
+area_desarrollo_de_software + curso_base + semestre_3,3,0.05392516507703595,147
+area_desarrollo_de_software + curso_obligatorio + ocupacion_alta,3,0.05392516507703595,147
+area_desarrollo_de_software + curso_obligatorio + semestre_3,3,0.05392516507703595,147
+area_desarrollo_de_software + no_abierto_siguiente + ocupacion_alta,3,0.05392516507703595,147
+area_desarrollo_de_software + no_abierto_siguiente + semestre_3,3,0.05392516507703595,147
+area_desarrollo_de_software + ocupacion_alta + requiere_laboratorio,3,0.05392516507703595,147
+area_desarrollo_de_software + ocupacion_alta + semestre_3,3,0.05392516507703595,147
+area_desarrollo_de_software + requiere_laboratorio + semestre_3,3,0.05392516507703595,147
+area_metodologia_de_sistemas + curso_base + ocupacion_media,3,0.05392516507703595,147
+bloqueo_alto + curso_base + ocupacion_alta,3,0.05392516507703595,147
+bloqueo_alto + curso_base + zona_baja,3,0.05392516507703595,147
+bloqueo_alto + curso_obligatorio + ocupacion_alta,3,0.05392516507703595,147
+bloqueo_alto + curso_obligatorio + zona_baja,3,0.05392516507703595,147
+bloqueo_alto + no_abierto_siguiente + ocupacion_alta,3,0.05392516507703595,147
+bloqueo_alto + ocupacion_alta + requiere_laboratorio,3,0.05392516507703595,147
+bloqueo_alto + ocupacion_alta + semestre_3,3,0.05392516507703595,147
+bloqueo_alto + requiere_laboratorio + semestre_3,3,0.05392516507703595,147
+bloqueo_medio + semestre_4 + zona_media,3,0.05392516507703595,147
+curso_base + curso_obligatorio + ocupacion_alta,3,0.05392516507703595,147
+curso_base + no_abierto_siguiente + ocupacion_alta,3,0.05392516507703595,147
+curso_base + ocupacion_alta + requiere_laboratorio,3,0.05392516507703595,147
+curso_base + ocupacion_alta + semestre_3,3,0.05392516507703595,147
+curso_base + requiere_laboratorio + semestre_3,3,0.05392516507703595,147
+curso_no_base + no_abierto_siguiente + semestre_1,3,0.05392516507703595,147
+curso_obligatorio + no_abierto_siguiente + ocupacion_alta,3,0.05392516507703595,147
+curso_obligatorio + ocupacion_alta + requiere_laboratorio,3,0.05392516507703595,147
+curso_obligatorio + ocupacion_alta + semestre_3,3,0.05392516507703595,147
+no_abierto_siguiente + ocupacion_alta + requiere_laboratorio,3,0.05392516507703595,147
+no_abierto_siguiente + ocupacion_alta + semestre_3,3,0.05392516507703595,147
+no_abierto_siguiente + periodo_s2 + riesgo_retraso,3,0.05392516507703595,147
+ocupacion_alta + requiere_laboratorio + semestre_3,3,0.05392516507703595,147
+ocupacion_baja + perdio + sin_recuperacion,3,0.05392516507703595,147
+perdio + periodo_s2 + riesgo_retraso,3,0.05392516507703595,147
+aprobo + bloqueo_bajo + zona_media,3,0.05355832721936904,146
+aprobo + curso_no_base + semestre_2,3,0.05355832721936904,146
+area_ciencias_basicas_y_complementarias + bloqueo_bajo + periodo_s1,3,0.05355832721936904,146
+area_ciencias_basicas_y_complementarias + bloqueo_bajo + zona_media,3,0.05355832721936904,146
+area_desarrollo_de_software + curso_obligatorio + periodo_s2,3,0.05355832721936904,146
+bloqueo_medio + curso_base + riesgo_retraso,3,0.05355832721936904,146
+bloqueo_medio + curso_obligatorio + periodo_v1,3,0.05355832721936904,146
+curso_obligatorio + periodo_s2 + riesgo_retraso,3,0.05355832721936904,146
+curso_obligatorio + riesgo_retraso + zona_baja,3,0.05355832721936904,146
+no_abierto_siguiente + periodo_s2 + zona_alta,3,0.05355832721936904,146
+requiere_laboratorio + sin_riesgo_retraso + zona_alta,3,0.05355832721936904,146
+aprobo + requiere_laboratorio + zona_alta,3,0.05319148936170213,145
+area_ciencias_basicas_y_complementarias + bloqueo_alto + semestre_2,3,0.05319148936170213,145
+area_ciencias_basicas_y_complementarias + curso_no_obligatorio + ocupacion_media,3,0.05319148936170213,145
+bloqueo_alto + curso_base + semestre_2,3,0.05319148936170213,145
+bloqueo_alto + curso_obligatorio + semestre_2,3,0.05319148936170213,145
+bloqueo_alto + no_requiere_laboratorio + semestre_2,3,0.05319148936170213,145
+bloqueo_alto + ocupacion_media + semestre_2,3,0.05319148936170213,145
+curso_no_obligatorio + no_requiere_laboratorio + ocupacion_media,3,0.05319148936170213,145
+curso_no_obligatorio + ocupacion_media + sin_riesgo_retraso,3,0.05319148936170213,145
+no_abierto_siguiente + no_requiere_laboratorio + semestre_2,3,0.05319148936170213,145
+abierto_siguiente + ocupacion_media + requiere_laboratorio,3,0.05282465150403522,144
+aprobo + area_metodologia_de_sistemas + ocupacion_media,3,0.05282465150403522,144
+aprobo + bloqueo_medio + semestre_3,3,0.05282465150403522,144
+aprobo + no_requiere_laboratorio + semestre_5,3,0.05282465150403522,144
+area_ciencias_basicas_y_complementarias + ocupacion_baja + zona_alta,3,0.05282465150403522,144
+bloqueo_alto + ocupacion_media + perdio,3,0.05282465150403522,144
+bloqueo_bajo + ocupacion_media + sin_recuperacion,3,0.05282465150403522,144
+bloqueo_medio + curso_no_base + riesgo_retraso,3,0.05282465150403522,144
+bloqueo_medio + periodo_s2 + zona_alta,3,0.05282465150403522,144
+curso_base + periodo_s2 + zona_alta,3,0.05282465150403522,144
+curso_no_base + curso_no_obligatorio + zona_media,3,0.05282465150403522,144
+curso_no_base + no_abierto_siguiente + riesgo_retraso,3,0.05282465150403522,144
+curso_no_base + perdio + riesgo_retraso,3,0.05282465150403522,144
+no_abierto_siguiente + no_requiere_laboratorio + periodo_v2,3,0.05282465150403522,144
+no_requiere_laboratorio + periodo_s1 + semestre_7,3,0.05282465150403522,144
+no_requiere_laboratorio + periodo_v2 + sin_recuperacion,3,0.05282465150403522,144
+requiere_laboratorio + semestre_4 + sin_riesgo_retraso,3,0.05282465150403522,144
+aprobo + semestre_1 + zona_media,3,0.052457813646368305,143
+aprobo + semestre_2 + zona_media,3,0.052457813646368305,143
+bloqueo_medio + periodo_s2 + semestre_4,3,0.052457813646368305,143
+abierto_siguiente + bloqueo_medio + zona_baja,3,0.052090975788701394,142
+aprobo + bloqueo_bajo + curso_no_obligatorio,3,0.052090975788701394,142
+area_ciencias_de_la_computacion + ocupacion_media + zona_media,3,0.052090975788701394,142
+area_desarrollo_de_software + curso_obligatorio + ocupacion_media,3,0.052090975788701394,142
+bloqueo_alto + periodo_s2 + zona_media,3,0.052090975788701394,142
+bloqueo_alto + requiere_laboratorio + sin_recuperacion,3,0.052090975788701394,142
+bloqueo_bajo + periodo_s2 + sin_recuperacion,3,0.052090975788701394,142
+bloqueo_medio + periodo_s1 + riesgo_retraso,3,0.052090975788701394,142
+curso_no_base + no_requiere_laboratorio + recuperacion,3,0.052090975788701394,142
+curso_no_obligatorio + no_requiere_laboratorio + periodo_s1,3,0.052090975788701394,142
+curso_obligatorio + no_requiere_laboratorio + semestre_7,3,0.052090975788701394,142
+no_requiere_laboratorio + ocupacion_media + semestre_7,3,0.052090975788701394,142
+periodo_s2 + semestre_2 + sin_recuperacion,3,0.052090975788701394,142
+recuperacion + sin_riesgo_retraso + zona_baja,3,0.052090975788701394,142
+abierto_siguiente + sin_recuperacion + zona_baja,3,0.05172413793103448,141
+aprobo + semestre_5 + sin_recuperacion,3,0.05172413793103448,141
+area_metodologia_de_sistemas + no_abierto_siguiente + zona_media,3,0.05172413793103448,141
+bloqueo_medio + curso_base + requiere_laboratorio,3,0.05172413793103448,141
+bloqueo_medio + ocupacion_baja + requiere_laboratorio,3,0.05172413793103448,141
+bloqueo_medio + requiere_laboratorio + semestre_4,3,0.05172413793103448,141
+curso_no_base + periodo_s1 + zona_alta,3,0.05172413793103448,141
+curso_no_base + sin_recuperacion + zona_baja,3,0.05172413793103448,141
+no_requiere_laboratorio + periodo_s2 + zona_baja,3,0.05172413793103448,141
+periodo_v1 + sin_recuperacion + zona_media,3,0.05172413793103448,141
+periodo_v1 + sin_riesgo_retraso + zona_media,3,0.05172413793103448,141
+abierto_siguiente + curso_no_base + sin_recuperacion,3,0.05135730007336757,140
+aprobo + area_ciencias_de_la_computacion + no_requiere_laboratorio,3,0.05135730007336757,140
+aprobo + periodo_s1 + recuperacion,3,0.05135730007336757,140
+aprobo + semestre_7 + sin_riesgo_retraso,3,0.05135730007336757,140
+bloqueo_alto + no_requiere_laboratorio + perdio,3,0.05135730007336757,140
+bloqueo_medio + semestre_5 + sin_recuperacion,3,0.05135730007336757,140
+curso_no_base + perdio + periodo_s1,3,0.05135730007336757,140
+no_abierto_siguiente + semestre_1 + sin_recuperacion,3,0.05135730007336757,140
+no_requiere_laboratorio + semestre_2 + zona_media,3,0.05135730007336757,140
+ocupacion_media + semestre_1 + zona_media,3,0.05135730007336757,140
+aprobo + area_ciencias_basicas_y_complementarias + periodo_v1,3,0.05099046221570066,139
+aprobo + area_ciencias_basicas_y_complementarias + recuperacion,3,0.05099046221570066,139
+aprobo + bloqueo_bajo + ocupacion_media,3,0.05099046221570066,139
+aprobo + periodo_s2 + semestre_2,3,0.05099046221570066,139
+area_ciencias_de_la_computacion + bloqueo_medio + curso_base,3,0.05099046221570066,139
+area_metodologia_de_sistemas + sin_riesgo_retraso + zona_media,3,0.05099046221570066,139
+bloqueo_medio + curso_obligatorio + semestre_7,3,0.05099046221570066,139
+bloqueo_medio + no_abierto_siguiente + semestre_7,3,0.05099046221570066,139
+bloqueo_medio + ocupacion_media + semestre_7,3,0.05099046221570066,139
+bloqueo_medio + semestre_5 + sin_riesgo_retraso,3,0.05099046221570066,139
+curso_no_base + periodo_s1 + requiere_laboratorio,3,0.05099046221570066,139
+curso_obligatorio + no_requiere_laboratorio + semestre_5,3,0.05099046221570066,139
+no_abierto_siguiente + recuperacion + requiere_laboratorio,3,0.05099046221570066,139
+no_abierto_siguiente + recuperacion + zona_baja,3,0.05099046221570066,139
+perdio + requiere_laboratorio + sin_recuperacion,3,0.05099046221570066,139
+abierto_siguiente + bloqueo_medio + curso_no_base,3,0.05062362435803375,138
+abierto_siguiente + recuperacion + zona_media,3,0.05062362435803375,138
+aprobo + bloqueo_bajo + periodo_s1,3,0.05062362435803375,138
+aprobo + curso_obligatorio + periodo_v1,3,0.05062362435803375,138
+area_ciencias_de_la_computacion + curso_base + sin_recuperacion,3,0.05062362435803375,138
+bloqueo_alto + no_abierto_siguiente + periodo_s2,3,0.05062362435803375,138
+no_abierto_siguiente + semestre_1 + sin_riesgo_retraso,3,0.05062362435803375,138
+ocupacion_baja + perdio + sin_riesgo_retraso,3,0.05062362435803375,138
+ocupacion_media + periodo_s2 + semestre_2,3,0.05062362435803375,138
+abierto_siguiente + ocupacion_media + periodo_v1,3,0.050256786500366836,137
+aprobo + no_abierto_siguiente + semestre_7,3,0.050256786500366836,137
+bloqueo_alto + semestre_2 + sin_riesgo_retraso,3,0.050256786500366836,137
+bloqueo_medio + curso_no_base + zona_baja,3,0.050256786500366836,137
+curso_base + ocupacion_media + periodo_v1,3,0.050256786500366836,137
+curso_no_base + recuperacion + zona_media,3,0.050256786500366836,137
+curso_no_obligatorio + periodo_s1 + sin_riesgo_retraso,3,0.050256786500366836,137
+curso_obligatorio + ocupacion_media + periodo_v1,3,0.050256786500366836,137
+no_abierto_siguiente + periodo_s2 + semestre_2,3,0.050256786500366836,137
+ocupacion_media + periodo_v1 + sin_recuperacion,3,0.050256786500366836,137
+ocupacion_media + periodo_v1 + sin_riesgo_retraso,3,0.050256786500366836,137

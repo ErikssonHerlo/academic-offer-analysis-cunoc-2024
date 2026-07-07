@@ -1,0 +1,7 @@
+cluster,cursos,total_estudiantes_con_nota_2024,tasa_perdida_definitiva_2024_media,tasa_recuperacion_2024_media,indice_continuidad_oferta_media,estudiantes_sin_oportunidad_inmediata_2024,estudiantes_en_riesgo_retraso_curricular_2024,cantidad_cursos_dependientes_media,cursos_bloqueantes,cursos_base,cursos_area_profesional,proporcion_area_profesional,etiqueta_descriptiva
+0,17,411.0,0.2933758641717119,0.2075918865192221,0.4264705882352941,107.0,107.0,1.0,17,0,9,0.5294117647058824,Criticidad baja o intermedia
+1,20,0.0,0.0,0.0,0.0,0.0,0.0,0.25,5,0,9,0.45,Sin actividad evaluada observable
+2,9,1092.0,0.29550989685234175,0.17589852575389997,0.9722222222222222,58.0,58.0,3.3333333333333335,9,8,1,0.1111111111111111,Criticidad baja o intermedia
+3,21,560.0,0.3133967300104899,0.2632806414529802,0.34523809523809523,154.0,154.0,3.0,21,21,19,0.9047619047619048,Alta perdida y baja continuidad profesional
+4,21,410.0,0.2979283804471774,0.17183499457935544,0.4166666666666667,108.0,0.0,0.0,0,0,10,0.47619047619047616,Criticidad baja o intermedia
+5,2,253.0,0.3567872117400419,0.2870807127882599,0.5,92.0,92.0,2.5,2,1,1,0.5,Perdida relativa alta

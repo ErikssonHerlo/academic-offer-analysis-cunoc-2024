@@ -221,3 +221,42 @@ def build_model_figures(
         )
 
     return pd.DataFrame(records)
+
+
+def plot_regression_residuals(predictions: pd.DataFrame, path: Path) -> None:
+    """Grafica residuos de regresion lineal agregada."""
+
+    fig, axes = plt.subplots(1, 2, figsize=(13, 5))
+
+    axes[0].scatter(
+        predictions["valor_predicho"],
+        predictions["residuo"],
+        color=PRIMARY_COLOR,
+        alpha=0.75,
+        edgecolor="white",
+        linewidth=0.6,
+    )
+    axes[0].axhline(0, color=SECONDARY_COLOR, linestyle="--", linewidth=1.2)
+    axes[0].set_title("Residuos vs valor predicho")
+    axes[0].set_xlabel("Tasa predicha de perdida definitiva")
+    axes[0].set_ylabel("Residuo")
+    axes[0].grid(color=GRID_COLOR, linewidth=0.8)
+
+    axes[1].scatter(
+        predictions["valor_real"],
+        predictions["valor_predicho"],
+        color=ACCENT_COLOR,
+        alpha=0.75,
+        edgecolor="white",
+        linewidth=0.6,
+    )
+    min_value = float(min(predictions["valor_real"].min(), predictions["valor_predicho"].min()))
+    max_value = float(max(predictions["valor_real"].max(), predictions["valor_predicho"].max()))
+    axes[1].plot([min_value, max_value], [min_value, max_value], color=SECONDARY_COLOR, linestyle="--", linewidth=1.2)
+    axes[1].set_title("Valor real vs valor predicho")
+    axes[1].set_xlabel("Tasa real de perdida definitiva")
+    axes[1].set_ylabel("Tasa predicha")
+    axes[1].grid(color=GRID_COLOR, linewidth=0.8)
+
+    fig.suptitle("Diagnostico visual de regresion lineal agregada", y=1.02)
+    _finish_figure(fig, path)

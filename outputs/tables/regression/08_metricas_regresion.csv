@@ -1,0 +1,2 @@
+modelo,modelo_nombre,target,unidad_analisis,n_total,n_train,n_test,test_size,random_state,r2,mae,rmse
+linear_regression,Regresion lineal agregada,tasa_perdida_definitiva,curso-periodo,89,66,23,0.25,2024,0.2162531840278068,0.03910150766045547,0.05378456372591705
