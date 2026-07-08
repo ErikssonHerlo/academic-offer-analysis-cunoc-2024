@@ -1,0 +1,91 @@
+codigo_curso,nombre_curso,semestre_pensum,pensum,tipo_curso,creditos,estado_curso
+028,Social Humanistica 1,1,2016-58,teorico,4,vigente
+119,Tecnica Complementaria 1,1,2016-58,teorico,3,vigente
+169,Matematica Basica 1,1,2016-58,teorico,7,vigente
+177,Deportes 1,1,2016-58,teorico,1,vigente
+216,Quimica 1,1,2016-58,teorico,3,vigente
+2666,Orientacion y Liderazgo,1,2016-58,teorico,1,vigente
+2792,Idioma Tecnico 1,1,2016-58,teorico,2,vigente
+029,Social Humanistica 2,2,2016-58,teorico,4,vigente
+072,Fisica Basica,2,2016-58,teorico,5,vigente
+170,Matematica Basica 2,2,2016-58,teorico,7,vigente
+178,Deportes 2,2,2016-58,teorico,2,vigente
+2667,Tecnicas de Investigacion y Estudio,2,2016-58,teorico,3,vigente
+2793,Idioma Tecnico 2,2,2016-58,teorico,2,vigente
+146,Fisica 1,3,2016-58,teorico,6,vigente
+290,Matematica Intermedia 1,3,2016-58,teorico,10,vigente
+2794,Idioma Tecnico 3,3,2016-58,teorico,2,vigente
+2795,Matematica de Computo 1,3,2016-58,teorico,5,vigente
+2796,Introduccion a la Programacion y Computacion 1,3,2016-58,mixto,4,vigente
+2797,Logica de Sistemas,3,2016-58,mixto,2,vigente
+085,Logica,4,2016-58,teorico,3,vigente
+147,Fisica 2,4,2016-58,teorico,6,vigente
+291,Matematica Intermedia 2,4,2016-58,teorico,5,vigente
+292,Matematica Intermedia 3,4,2016-58,teorico,5,vigente
+949,Estadistica 1,4,2016-58,teorico,5,vigente
+2798,Lenguajes Formales y de Programacion,4,2016-58,mixto,3,vigente
+2799,Matematica de Computo 2,4,2016-58,teorico,5,vigente
+2800,Introduccion a la Programacion y Computacion 2,4,2016-58,mixto,5,vigente
+2801,Idioma Tecnico 4,4,2016-58,teorico,2,vigente
+077,Filosofia de la Ciencia,5,2016-58,teorico,3,vigente
+094,Ecologia,5,2016-58,teorico,3,vigente
+673,Matematica Aplicada 1,5,2016-58,teorico,6,vigente
+674,Matematica Aplicada 3,5,2016-58,teorico,5,vigente
+694,Contabilidad 1,5,2016-58,teorico,3,vigente
+2802,Analisis Probabilistico,5,2016-58,mixto,4,vigente
+2803,Organizacion de Lenguajes y Compiladores 1,5,2016-58,mixto,4,vigente
+2804,Organizacion Computacional,5,2016-58,mixto,3,vigente
+2805,Estructura de Datos,5,2016-58,teorico,5,vigente
+2806,Principios De Metrologia,5,2016-58,teorico,3,vigente
+2807,Practica Inicial TI,5,2016-58,practico,0,vigente
+670,Ingenieria Electrica 1,6,2016-58,teorico,5,vigente
+685,Investigacion de Operaciones 1,6,2016-58,teorico,5,vigente
+779,Contabilidad 2,6,2016-58,teorico,3,vigente
+904,Matematica Aplicada 2,6,2016-58,teorico,6,vigente
+905,Matematica Aplicada 4,6,2016-58,teorico,4,vigente
+2670,Gestion de Desastres,6,2016-58,teorico,3,vigente
+2808,Teoria de Sistemas 1,6,2016-58,mixto,5,vigente
+2809,Economia,6,2016-58,teorico,4,vigente
+2810,Organizacion de Lenguajes y Compiladores 2,6,2016-58,mixto,5,vigente
+2811,Arquitectura de Computadores y Ensambladores 1,6,2016-58,mixto,5,vigente
+2812,Manejo e Implementacion de Archivos,6,2016-58,teorico,4,vigente
+795,Investigacion de Operaciones 2,7,2016-58,teorico,5,vigente
+919,Contabilidad 3,7,2016-58,teorico,3,vigente
+943,Administracion de Empresas 1,7,2016-58,teorico,5,vigente
+950,Estadistica 2,7,2016-58,teorico,5,vigente
+2813,Teoria de Sistemas 2,7,2016-58,mixto,5,vigente
+2814,Sistemas Operativos 1,7,2016-58,mixto,5,vigente
+2815,Arquitectura de Computadores y Ensambladores 2,7,2016-58,mixto,4,vigente
+2816,Redes de Computadoras 1,7,2016-58,mixto,4,vigente
+2817,Sistemas de Bases de Datos 1,7,2016-58,mixto,5,vigente
+2818,Practica Intemedia TI,7,2016-58,practico,0,vigente
+690,Ingenieria Economica 1,8,2016-58,teorico,5,vigente
+2819,Sistemas Operativos 2,8,2016-58,mixto,4,vigente
+2820,Redes de Computadoras 2,8,2016-58,mixto,4,vigente
+2821,Sistemas de Bases de Datos 2,8,2016-58,mixto,4,vigente
+2822,Analisis y Diseño de Sistemas 1,8,2016-58,mixto,5,vigente
+2823,Seminario de Sistemas 1,8,2016-58,practico,3,vigente
+922,Ingenieria Economica 2,9,2016-58,teorico,4,vigente
+2570,Etica Profesional,9,2016-58,teorico,4,vigente
+2672,Introduccion a la Evaluacion de Impacto Ambiental,9,2016-58,teorico,4,vigente
+2824,Modelacion y Simulacion 1,9,2016-58,teorico,5,vigente
+2825,Sistemas Organizacionales y Gerenciales 1,9,2016-58,mixto,4,vigente
+2826,Inteligencia Artificial 1,9,2016-58,teorico,4,vigente
+2827,Analisis y Diseño de Sistemas 2,9,2016-58,mixto,5,vigente
+2828,Seminario de Sistemas 2,9,2016-58,practico,3,vigente
+2829,Practica Final,9,2016-58,practico,0,vigente
+2830,Emprendedores de Negocios Informaticos,9,2016-58,teorico,4,vigente
+2831,Seguridad y Auditorias de Redes,9,2016-58,mixto,4,vigente
+2832,Sistemas Aplicados 1,9,2016-58,mixto,5,vigente
+2833,Bases de Datos Avanzadas,9,2016-58,teorico,5,vigente
+909,Preparacion y Evaluacion de Proyectos 1,10,2016-58,practico,4,vigente
+912,Planeamiento,10,2016-58,teorico,6,vigente
+2834,Sistemas Organizacionales y Gerenciales 2,10,2016-58,mixto,4,vigente
+2835,Modelacion y Simulacion 2,10,2016-58,teorico,5,vigente
+2836,Software Avanzado,10,2016-58,mixto,6,vigente
+2837,Seminario de Investigacion,10,2016-58,practico,3,vigente
+2838,Inteligencia Artificial 2,10,2016-58,teorico,4,vigente
+2839,Redes de Nueva Generacion,10,2016-58,mixto,4,vigente
+2840,Sistemas Aplicados 2,10,2016-58,mixto,6,vigente
+2841,Auditoria de Proyectos de Software,10,2016-58,practico,5,vigente
+2842,Seminario de Investigacion EPS,10,2016-58,practico,4,vigente

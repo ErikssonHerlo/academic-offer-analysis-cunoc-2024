@@ -1,0 +1,7 @@
+parametro,valor,descripcion,aplica_a,observaciones
+nota_minima_aprobacion,61,Nota minima para considerar aprobado un curso.,"examen_final,primera_recuperacion,segunda_recuperacion",Mismo umbral para evaluacion ordinaria y recuperaciones.
+zona_maxima,70,Puntaje maximo de zona acumulada antes del examen.,"examen_final,primera_recuperacion,segunda_recuperacion",La zona se conserva para el calculo de nota total.
+examen_maximo,30,Puntaje maximo del examen en cada oportunidad de evaluacion.,"examen_final,primera_recuperacion,segunda_recuperacion","Aplica igual para final, primera recuperacion y segunda recuperacion."
+nota_total_maxima,100,Puntaje maximo posible al sumar zona y examen.,"examen_final,primera_recuperacion,segunda_recuperacion",Escala total esperada para notas finales.
+estado_desasignacion,desasignado,Etiqueta para estudiantes que se desasignan del curso pero conservan registro.,"asignaciones_2024,resultados_2024",El registro no se elimina; se conserva con estado desasignado.
+resultado_no_se_presento,NSP,Etiqueta para examen final en el que el estudiante no se presento.,examen_final,"Si en el final aparece NSP, debe conservarse como atributo/resultado del registro."

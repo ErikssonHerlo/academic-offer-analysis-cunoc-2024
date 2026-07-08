@@ -1,0 +1,41 @@
+grupo_area,area_academica,codigo_curso,nombre_curso,curso_etiqueta,semestre_pensum,curso_bloqueante,cantidad_cursos_dependientes,nivel_bloqueo_curricular,perdidas_definitivas,perdidas_con_oferta_posterior_2024,recursamientos_observables,recursamientos_con_resultado,aprobaciones_posteriores,perdidas_sin_oferta_posterior_2024,tasa_perdidas_con_oferta_posterior,tasa_perdidas_sin_oferta_posterior,tasa_recursamiento_observable,tasa_aprobacion_al_recursar,tasa_aprobacion_posterior_sobre_perdidas
+Area profesional,Desarrollo de Software,2796,Introduccion a la Programacion y Computacion 1,2796 - Introduccion a la Programacion y Computacion 1,3,Si,4,alto,62,37,37,37,16,25,0.5967741935483871,0.4032258064516129,0.5967741935483871,0.43243243243243246,0.25806451612903225
+Area profesional,Ciencias de la Computacion,2798,Lenguajes Formales y de Programacion,2798 - Lenguajes Formales y de Programacion,4,Si,3,medio,13,0,0,0,0,13,0.0,1.0,0.0,,0.0
+Area profesional,Ciencias de la Computacion,2795,Matematica de Computo 1,2795 - Matematica de Computo 1,3,Si,3,medio,12,0,0,0,0,12,0.0,1.0,0.0,,0.0
+Area profesional,Metodologia de Sistemas,2797,Logica de Sistemas,2797 - Logica de Sistemas,3,Si,3,medio,12,0,0,0,0,12,0.0,1.0,0.0,,0.0
+Area profesional,Desarrollo de Software,2817,Sistemas de Bases de Datos 1,2817 - Sistemas de Bases de Datos 1,7,Si,2,medio,11,0,0,0,0,11,0.0,1.0,0.0,,0.0
+Area profesional,Ciencias de la Computacion,2814,Sistemas Operativos 1,2814 - Sistemas Operativos 1,7,Si,2,medio,10,0,0,0,0,10,0.0,1.0,0.0,,0.0
+Area profesional,Ciencias de la Computacion,2819,Sistemas Operativos 2,2819 - Sistemas Operativos 2,8,No,0,bajo,9,0,0,0,0,9,0.0,1.0,0.0,,0.0
+Area profesional,Ciencias de la Computacion,2799,Matematica de Computo 2,2799 - Matematica de Computo 2,4,Si,3,medio,8,0,0,0,0,8,0.0,1.0,0.0,,0.0
+Area profesional,EPS,2818,Practica Intemedia TI,2818 - Practica Intemedia TI,7,Si,1,medio,8,0,0,0,0,8,0.0,1.0,0.0,,0.0
+Area profesional,Metodologia de Sistemas,949,Estadistica 1,949 - Estadistica 1,4,Si,6,alto,20,13,13,13,8,7,0.65,0.35,0.65,0.6153846153846154,0.4
+Area profesional,Ciencias de la Computacion,2811,Arquitectura de Computadores y Ensambladores 1,2811 - Arquitectura de Computadores y Ensambladores 1,6,Si,5,alto,7,0,0,0,0,7,0.0,1.0,0.0,,0.0
+Area profesional,Desarrollo de Software,2805,Estructura de Datos,2805 - Estructura de Datos,5,Si,3,medio,7,0,0,0,0,7,0.0,1.0,0.0,,0.0
+Area profesional,Metodologia de Sistemas,2802,Analisis Probabilistico,2802 - Analisis Probabilistico,5,Si,2,medio,7,0,0,0,0,7,0.0,1.0,0.0,,0.0
+Area profesional,Metodologia de Sistemas,2813,Teoria de Sistemas 2,2813 - Teoria de Sistemas 2,7,Si,4,alto,7,0,0,0,0,7,0.0,1.0,0.0,,0.0
+Area profesional,Desarrollo de Software,2800,Introduccion a la Programacion y Computacion 2,2800 - Introduccion a la Programacion y Computacion 2,4,Si,5,alto,13,7,5,5,1,6,0.5384615384615384,0.46153846153846156,0.38461538461538464,0.2,0.07692307692307693
+Area profesional,Ciencias de la Computacion,2803,Organizacion de Lenguajes y Compiladores 1,2803 - Organizacion de Lenguajes y Compiladores 1,5,Si,5,alto,8,2,2,2,0,6,0.25,0.75,0.25,0.0,0.0
+Area profesional,Ciencias de la Computacion,2820,Redes de Computadoras 2,2820 - Redes de Computadoras 2,8,Si,1,medio,6,0,0,0,0,6,0.0,1.0,0.0,,0.0
+Area profesional,Desarrollo de Software,2812,Manejo e Implementacion de Archivos,2812 - Manejo e Implementacion de Archivos,6,Si,3,medio,6,0,0,0,0,6,0.0,1.0,0.0,,0.0
+Area profesional,Metodologia de Sistemas,2809,Economia,2809 - Economia,6,No,0,bajo,6,0,0,0,0,6,0.0,1.0,0.0,,0.0
+Area profesional,Ciencias de la Computacion,2804,Organizacion Computacional,2804 - Organizacion Computacional,5,No,0,bajo,5,0,0,0,0,5,0.0,1.0,0.0,,0.0
+Area profesional,EPS,2807,Practica Inicial TI,2807 - Practica Inicial TI,5,Si,2,medio,5,0,0,0,0,5,0.0,1.0,0.0,,0.0
+Area profesional,Desarrollo de Software,2821,Sistemas de Bases de Datos 2,2821 - Sistemas de Bases de Datos 2,8,Si,2,medio,4,0,0,0,0,4,0.0,1.0,0.0,,0.0
+Area profesional,Desarrollo de Software,2823,Seminario de Sistemas 1,2823 - Seminario de Sistemas 1,8,Si,1,medio,4,0,0,0,0,4,0.0,1.0,0.0,,0.0
+Area profesional,Desarrollo de Software,2836,Software Avanzado,2836 - Software Avanzado,10,No,0,bajo,4,0,0,0,0,4,0.0,1.0,0.0,,0.0
+Area profesional,Metodologia de Sistemas,2808,Teoria de Sistemas 1,2808 - Teoria de Sistemas 1,6,Si,2,medio,4,0,0,0,0,4,0.0,1.0,0.0,,0.0
+Area profesional,EPS,2829,Practica Final,2829 - Practica Final,9,No,0,bajo,5,2,2,2,1,3,0.4,0.6,0.4,0.5,0.2
+Area profesional,Ciencias de la Computacion,2810,Organizacion de Lenguajes y Compiladores 2,2810 - Organizacion de Lenguajes y Compiladores 2,6,Si,1,medio,3,0,0,0,0,3,0.0,1.0,0.0,,0.0
+Area profesional,Ciencias de la Computacion,2815,Arquitectura de Computadores y Ensambladores 2,2815 - Arquitectura de Computadores y Ensambladores 2,7,No,0,bajo,3,0,0,0,0,3,0.0,1.0,0.0,,0.0
+Area profesional,Ciencias de la Computacion,2826,Inteligencia Artificial 1,2826 - Inteligencia Artificial 1,9,Si,1,medio,3,0,0,0,0,3,0.0,1.0,0.0,,0.0
+Area profesional,Desarrollo de Software,2827,Analisis y Diseño de Sistemas 2,2827 - Analisis y Diseño de Sistemas 2,9,Si,3,medio,3,0,0,0,0,3,0.0,1.0,0.0,,0.0
+Area profesional,Metodologia de Sistemas,2825,Sistemas Organizacionales y Gerenciales 1,2825 - Sistemas Organizacionales y Gerenciales 1,9,Si,1,medio,3,0,0,0,0,3,0.0,1.0,0.0,,0.0
+Area profesional,Metodologia de Sistemas,2834,Sistemas Organizacionales y Gerenciales 2,2834 - Sistemas Organizacionales y Gerenciales 2,10,No,0,bajo,3,0,0,0,0,3,0.0,1.0,0.0,,0.0
+Area profesional,Metodologia de Sistemas,2835,Modelacion y Simulacion 2,2835 - Modelacion y Simulacion 2,10,No,0,bajo,3,0,0,0,0,3,0.0,1.0,0.0,,0.0
+Area profesional,Metodologia de Sistemas,685,Investigacion de Operaciones 1,685 - Investigacion de Operaciones 1,6,Si,3,medio,7,5,5,5,5,2,0.7142857142857143,0.2857142857142857,0.7142857142857143,1.0,0.7142857142857143
+Area profesional,Metodologia de Sistemas,795,Investigacion de Operaciones 2,795 - Investigacion de Operaciones 2,7,Si,1,medio,5,3,3,3,1,2,0.6,0.4,0.6,0.3333333333333333,0.2
+Area profesional,Metodologia de Sistemas,950,Estadistica 2,950 - Estadistica 2,7,No,0,bajo,4,2,2,2,0,2,0.5,0.5,0.5,0.0,0.0
+Area profesional,Desarrollo de Software,2828,Seminario de Sistemas 2,2828 - Seminario de Sistemas 2,9,Si,1,medio,2,0,0,0,0,2,0.0,1.0,0.0,,0.0
+Area profesional,Ciencias de la Computacion,2816,Redes de Computadoras 1,2816 - Redes de Computadoras 1,7,Si,1,medio,9,9,9,9,3,0,1.0,0.0,1.0,0.3333333333333333,0.3333333333333333
+Area profesional,Desarrollo de Software,2822,Analisis y Diseño de Sistemas 1,2822 - Analisis y Diseño de Sistemas 1,8,Si,3,medio,6,6,5,5,2,0,1.0,0.0,0.8333333333333334,0.4,0.3333333333333333
+Area profesional,Desarrollo de Software,943,Administracion de Empresas 1,943 - Administracion de Empresas 1,7,No,0,bajo,2,2,2,2,2,0,1.0,0.0,1.0,1.0,1.0

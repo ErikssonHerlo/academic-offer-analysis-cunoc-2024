@@ -1,0 +1,2 @@
+figura,pregunta_analitica,descripcion,interpretacion,conclusion,ruta
+08_regresion_residuos.png,Que tan alineadas estan las tasas reales y predichas de perdida definitiva?,Dispersion de residuos contra valores predichos y comparacion entre valor real y predicho.,El residuo absoluto promedio observado en prueba es 0.039 puntos de tasa.,"La grafica permite revisar errores agregados y detectar dispersion, sin afirmar causalidad.",outputs/figures/models/08_regresion_residuos.png

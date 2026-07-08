@@ -1,0 +1,93 @@
+dataset,columna,filas,valores_vacios,porcentaje_vacios,valores_unicos,ejemplos
+catalogo_cursos,codigo_curso,90,0,0.0,90,028; 119; 169; 177; 216; +85 mas
+catalogo_cursos,nombre_curso,90,0,0.0,90,Social Humanistica 1; Tecnica Complementaria 1; Matematica Basica 1; Deportes 1; Quimica 1; +85 mas
+catalogo_cursos,semestre_pensum,90,0,0.0,10,1; 2; 3; 4; 5; +5 mas
+catalogo_cursos,pensum,90,0,0.0,1,2016-58
+catalogo_cursos,tipo_curso,90,0,0.0,3,teorico; mixto; practico
+catalogo_cursos,creditos,90,0,0.0,9,4; 3; 7; 1; 2; +4 mas
+catalogo_cursos,estado_curso,90,0,0.0,1,vigente
+actas_notas,estudiante_id_ofuscado,3468,0,0.0,638,d1be5647-fdd8-53fe-8b3c-64441ddd5977; f1655cb7-00bc-5455-9379-254358e903cf; 17c7a9a2-f074-5a25-9c33-123c3f252a00; 4ca64fe3-739c-5549-9021-88056df3ce2c; b92068f4-3013-587a-8e70-ce58bab62301; +633 mas
+actas_notas,codigo_curso,3468,0,0.0,70,028; 072; 077; 085; 094; +65 mas
+actas_notas,periodo_academico,3468,0,0.0,4,S1; S2; V1; V2
+actas_notas,fecha_acta,3468,0,0.0,69,2024-05-14; 2024-05-27; 2024-05-09; 2024-05-28; 2024-05-08; +64 mas
+actas_notas,oportunidad_evaluacion,3468,0,0.0,4,Ordinario; Primera recuperacion; Segunda recuperacion; Equivalencia
+actas_notas,seccion,3468,0,0.0,6,A; B; C; D; E; +1 mas
+actas_notas,zona,3468,0,0.0,39,56; 40; 35; 61; 57; +34 mas
+actas_notas,nota_examen,3468,0,0.0,33,17; 0; 4; 23; 5; +28 mas
+actas_notas,nota_total,3468,0,0.0,69,73; 57; 35; 65; 80; +64 mas
+actas_notas,resultado,3468,0,0.0,3,Aprobado; Reprobado; NSP
+actas_notas,numero_acta,3468,0,0.0,444,ACTA-2024-S1-028-A-ORD; ACTA-2024-S1-028-A-REC1; ACTA-2024-S1-028-B-ORD; ACTA-2024-S1-028-B-REC1; ACTA-2024-S1-028-C-ORD; +439 mas
+actas_notas,estado_acta,3468,0,0.0,1,Normal
+asignaciones,estudiante_id_ofuscado,2879,0,0.0,640,d1be5647-fdd8-53fe-8b3c-64441ddd5977; f1655cb7-00bc-5455-9379-254358e903cf; 17c7a9a2-f074-5a25-9c33-123c3f252a00; 4ca64fe3-739c-5549-9021-88056df3ce2c; b92068f4-3013-587a-8e70-ce58bab62301; +635 mas
+asignaciones,codigo_curso,2879,0,0.0,70,028; 072; 077; 085; 094; +65 mas
+asignaciones,periodo_academico,2879,0,0.0,4,S1; S2; V1; V2
+asignaciones,seccion,2879,0,0.0,6,A; B; C; D; E; +1 mas
+asignaciones,fecha_asignacion,2879,0,0.0,47,2024-01-21; 2024-01-23; 2024-01-30; 2024-01-15; 2024-01-28; +42 mas
+asignaciones,estado_asignacion,2879,0,0.0,2,con nota; desasignado
+asignaciones,fecha_desasignacion,2879,2726,94.69,80,2024-03-20; 2024-04-13; 2024-03-19; 2024-03-28; 2024-03-25; +74 mas
+oferta_academica,periodo_academico,205,0,0.0,4,S1; V1; S2; V2
+oferta_academica,codigo_curso,205,0,0.0,70,028; 119; 169; 177; 216; +65 mas
+oferta_academica,nombre_curso,205,0,0.0,70,Social Humanistica 1; Tecnica Complementaria 1; Matematica Basica 1; Deportes 1; Quimica 1; +65 mas
+oferta_academica,seccion,205,0,0.0,6,A; B; C; E; F; +1 mas
+oferta_academica,curso_aperturado,205,0,0.0,1,Si
+oferta_academica,curso_cancelado,205,0,0.0,1,No
+oferta_academica,cupo_ofertado,205,0,0.0,5,20; 45; 30; 60; 100
+oferta_academica,estudiantes_asignados,205,0,0.0,41,2; 3; 5; 9; 4; +36 mas
+oferta_academica,estudiantes_con_nota,205,0,0.0,40,2; 3; 5; 9; 4; +35 mas
+oferta_academica,jornada,205,5,2.44,4,vespertina; matutina; nocturna
+oferta_academica,horario,205,5,2.44,34,17:00-17:50; 16:10-17:00; 13:40-14:30; 8:00-8:50; 18:40-19:30; 19:30-20:20; 20:20-21:10; +28 mas
+oferta_academica,salon,205,5,2.44,34,13; 9; 10; 6; Salón de Proyecciones; +28 mas
+oferta_academica,docente,205,22,10.73,78,7240 - Jorge Aparicio García Ixcot; 20020363 - Edgar Enrique Barrios Heredia; 20130481 - Carlos Eduardo Chavarria Alecio; 20161058 - Aura Skarleth Mauricio Rodríguez; 18402 - Marvin Juan José Maldonado De Leon; +72 mas
+oferta_academica,modalidad,205,0,0.0,1,presencial
+oferta_academica,fecha_inicio,205,0,0.0,4,2024-01-22; 2024-06-01; 2024-07-15; 2024-12-01
+oferta_academica,fecha_fin,205,0,0.0,4,2024-05-03; 2024-06-30; 2024-10-30/2024-10-31; 2024-12-31
+oferta_academica,fuente_archivo,205,0,0.0,5,Horario de Clases 01-2024-L-M-V - SD.pdf; Horario de Clases Escuela de Vacaciones Junio 2024 - Google Drive.html; Dias Cursos Segundo Semestre 2024.pdf; HORARIO EDV-Dic-2024 - Google Drive.html; Asignaciones Sistemas 2024.xlsx
+oferta_academica,metodo_match,205,0,0.0,4,codigo_pdf; nombre_html; nombre_html_aproximado; codigo_asignaciones
+oferta_academica,observaciones,205,151,73.66,8,docente omitido por contaminacion de texto de horario en extraccion PDF; Coincidencia por nombre desde horario de vacaciones; score=1.00; Coincidencia por nombre desde horario de vacaciones; score=0.94; Coincidencia por nombre desde horario de vacaciones; score=0.81; Coincidencia por nombre desde horario de vacaciones; score=0.97; +2 mas
+malla_prerrequisitos,codigo_curso,136,0,0.0,80,029; 072; 170; 178; 2793; +75 mas
+malla_prerrequisitos,nombre_curso,136,0,0.0,80,Social Humanistica 2; Fisica Basica; Matematica Basica 2; Deportes 2; Idioma Tecnico 2; +75 mas
+malla_prerrequisitos,codigo_prerrequisito,136,16,11.76,55,028; 169; 177; 2792; 170; +49 mas
+malla_prerrequisitos,nombre_prerrequisito,136,0,0.0,62,Social Humanistica 1; Matematica Basica 1; Deportes 1; Idioma Tecnico 1; Matematica Basica 2; +57 mas
+malla_prerrequisitos,tipo_requisito,136,0,0.0,2,prerrequisito; creditos
+malla_prerrequisitos,es_obligatorio,136,0,0.0,1,Si
+malla_prerrequisitos,semestre_curso,136,0,0.0,9,2; 3; 4; 5; 6; +4 mas
+malla_prerrequisitos,semestre_prerrequisito,136,16,11.76,10,1; 2; 3; 4; 5; +4 mas
+calendario_academico,periodo_academico,4,0,0.0,4,S1; V1; S2; V2
+calendario_academico,descripcion_periodo,4,0,0.0,4,Primer semestre 2024; Escuela de vacaciones junio 2024; Segundo semestre 2024; Escuela de vacaciones diciembre 2024
+calendario_academico,orden_periodo,4,0,0.0,4,1; 2; 3; 4
+calendario_academico,fecha_inicio_clases,4,0,0.0,4,2024-01-22; 2024-06-03; 2024-07-15; 2024-12-01
+calendario_academico,fecha_fin_clases,4,0,0.0,4,2024-05-03; 2024-06-28; 2024-10-31; 2024-12-31
+calendario_academico,fecha_examen_final,4,0,0.0,4,2024-05-06/2024-05-11; 2024-06-28; 2024-11-04/2024-11-09; 2024-12-30
+calendario_academico,fecha_primera_recuperacion,4,2,50.0,3,2024-05-20/2024-05-25; 2024-11-18/2024-11-23
+calendario_academico,fecha_segunda_recuperacion,4,2,50.0,3,2024-07-03/2024-07-09; 2025-01-10/2025-01-16
+parametros_academicos,parametro,6,0,0.0,6,nota_minima_aprobacion; zona_maxima; examen_maximo; nota_total_maxima; estado_desasignacion; +1 mas
+parametros_academicos,valor,6,0,0.0,6,61; 70; 30; 100; desasignado; +1 mas
+parametros_academicos,descripcion,6,0,0.0,6,Nota minima para considerar aprobado un curso.; Puntaje maximo de zona acumulada antes del examen.; Puntaje maximo del examen en cada oportunidad de evaluacion.; Puntaje maximo posible al sumar zona y examen.; Etiqueta para estudiantes que se desasignan del curso pero conservan registro.; +1 mas
+parametros_academicos,aplica_a,6,0,0.0,3,"examen_final,primera_recuperacion,segunda_recuperacion; asignaciones_2024,resultados_2024; examen_final"
+parametros_academicos,observaciones,6,0,0.0,6,"Mismo umbral para evaluacion ordinaria y recuperaciones.; La zona se conserva para el calculo de nota total.; Aplica igual para final, primera recuperacion y segunda recuperacion.; Escala total esperada para notas finales.; El registro no se elimina; se conserva con estado desasignado.; +1 mas"
+configuracion_cursos,codigo_curso,90,0,0.0,90,028; 119; 169; 177; 216; +85 mas
+configuracion_cursos,nombre_curso,90,0,0.0,90,Social Humanistica 1; Tecnica Complementaria 1; Matematica Basica 1; Deportes 1; Quimica 1; +85 mas
+configuracion_cursos,area_academica,90,0,0.0,5,Ciencias Basicas y Complementarias; Ciencias de la Computacion; Desarrollo de Software; Metodologia de Sistemas; EPS
+configuracion_cursos,tipo_curso_configurado,90,0,0.0,3,teorico; mixto; practico
+configuracion_cursos,requiere_laboratorio,90,0,0.0,2,No; Si
+configuracion_cursos,componente_practico,90,0,0.0,3,bajo; alto; medio
+configuracion_cursos,curso_obligatorio,90,0,0.0,2,Si; No
+configuracion_cursos,curso_base,90,0,0.0,2,No; Si
+configuracion_cursos,curso_bloqueante,90,0,0.0,2,Si; No
+configuracion_cursos,cantidad_cursos_dependientes,90,0,0.0,7,1; 0; 2; 6; 5; +2 mas
+configuracion_cursos,nivel_bloqueo_curricular,90,0,0.0,3,medio; bajo; alto
+configuracion_cursos,observaciones,90,0,0.0,2,Dependencias calculadas desde Pensum - Ciencias y Sistemas _ CICS App.pdf.; Sin cursos dependientes identificados en el pensum PDF.
+estudiantes_inscritos,estudiante_id_ofuscado,650,0,0.0,650,10f680ac-81d5-576f-82ba-d148f271a6ba; 1b7adb46-da25-57cc-ad1c-f57382ea2726; 2e00f910-0e59-5ab9-9e8b-a34bcab03f92; 6963f4f3-6802-5cdd-bd03-ae2ce6377118; 6af2858e-1d0c-505f-8272-789dcd0a9bf5; +645 mas
+estudiantes_inscritos,anio_academico,650,0,0.0,1,2024
+estudiantes_inscritos,periodo_inscripcion,650,0,0.0,1,S1
+estudiantes_inscritos,codigo_carrera,650,0,0.0,1,58
+estudiantes_inscritos,nombre_carrera,650,0,0.0,1,Ciencias y Sistemas
+estudiantes_inscritos,pensum,650,0,0.0,1,2016-58
+estudiantes_inscritos,cohorte_ingreso,650,0,0.0,9,2016; 2017; 2018; 2019; 2020; +4 mas
+inscritos_sistemas_anual,anio,3,0,0.0,3,2022; 2023; 2024
+inscritos_sistemas_anual,codigo_carrera,3,0,0.0,1,58
+inscritos_sistemas_anual,nombre_carrera,3,0,0.0,1,Ciencias y Sistemas
+inscritos_sistemas_anual,pensum,3,0,0.0,1,2016-58
+inscritos_sistemas_anual,estudiantes_inscritos,3,0,0.0,3,634; 535; 650
+inscritos_sistemas_anual,fecha_corte,3,0,0.0,3,2022-12-31; 2023-01-31; 2024-12-31
+inscritos_sistemas_anual,fuente,3,0,0.0,2,RYCA-CUNOC 007-2023; RYCA-CUNOC 003-2026

@@ -1,0 +1,6 @@
+grupo_area,area_academica,total_cursos_catalogo,cursos_con_oferta_2024,cursos_sin_oferta_2024,cursos_baja_continuidad,indice_continuidad_promedio,cursos_con_resultado,estudiantes_con_acta_ordinaria,perdida_definitiva,estudiantes_recuperacion,estudiantes_en_riesgo_retraso_curricular,tasa_perdida_definitiva,tasa_recuperacion
+Area comun,Ciencias Basicas y Complementarias,41,30,11,27,0.47560975609756095,30,1703,497,316,150,0.2918379330593071,0.18555490311215503
+Area profesional,Desarrollo de Software,16,12,4,15,0.265625,12,332,129,97,116,0.3885542168674699,0.2921686746987952
+Area profesional,Ciencias de la Computacion,16,13,3,16,0.234375,13,324,102,90,85,0.3148148148148148,0.2777777777777778
+Area profesional,Metodologia de Sistemas,14,12,2,12,0.32142857142857145,12,295,81,63,47,0.2745762711864407,0.2135593220338983
+Area profesional,EPS,3,3,0,3,0.3333333333333333,3,61,18,13,13,0.29508196721311475,0.21311475409836064
