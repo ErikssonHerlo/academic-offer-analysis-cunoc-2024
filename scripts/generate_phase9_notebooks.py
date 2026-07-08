@@ -230,17 +230,38 @@ hallazgos[["severidad", "dataset", "regla", "columna", "hallazgo", "cantidad"]]"
 
 ## Conclusiones del notebook
 
-La validacion inicial establece una base confiable para el analisis porque
-identifica estructura, completitud y reglas de calidad antes de transformar los
-datos. Los hallazgos no se ocultan: se documentan y se conectan con decisiones
-posteriores de ETL.
+La validacion inicial establece que el proyecto puede avanzar con una base
+institucional consistente, pero tambien muestra donde debe ponerse atencion
+antes de interpretar resultados. El catalogo de 90 cursos funciona como marco
+para medir oferta observada, cursos no ofertados y continuidad; por eso la
+calidad de ese catalogo es central para cualquier comparacion futura. En
+contraste, los hallazgos de oferta academica duplicada y campos operativos
+vacios no se tratan como errores menores: se documentan porque pueden afectar
+conteos de secciones, cupos, cursos aperturados y lectura de continuidad.
+
+Desde una perspectiva de toma de decisiones, esta fase permite separar dos
+cosas: problemas que requieren correccion tecnica y valores especiales que
+deben conservarse por significado academico. `NSP`, `EQ` y `desasignado` no
+son ruido; representan situaciones distintas del avance estudiantil. Si se
+eliminaran sin criterio, el analisis perderia capacidad para distinguir entre
+no presentarse, aprobar por equivalencia, retirarse administrativamente o tener
+un resultado evaluado.
 
 ## Conclusiones generales
 
-El proyecto parte de datos institucionales suficientes para analizar oferta,
-asignaciones y resultados de 2024. La lectura debe mantenerse descriptiva,
-agregada y metodologicamente prudente, sin inferir causalidad ni exponer casos
-individuales."""
+El valor practico de esta validacion es que evita construir indicadores sobre
+supuestos invisibles. Para planificacion academica futura, esto significa que
+las decisiones deben apoyarse en datos trazables: cuantos cursos existen en el
+catalogo, cuales se ofertaron, cuantos estudiantes aparecen con asignacion y
+que tipo de resultado academico se observa. La calidad de datos no resuelve el
+problema academico, pero define que tan confiable es la lectura posterior.
+
+La conclusion general es que el repositorio cuenta con datos suficientes para
+analizar oferta, asignaciones y resultados 2024, siempre que se mantenga una
+lectura agregada, descriptiva y prudente. Esta base permite estudiar diferencias
+entre cursos de area comun y cursos profesionales sin exponer casos
+individuales ni convertir problemas de registro en afirmaciones academicas no
+respaldadas."""
         ),
     ]
     write_notebook("01_validacion_y_calidad_datos.ipynb", cells)
@@ -325,15 +346,41 @@ targets"""
 
 ## Conclusiones del notebook
 
-La fase de ETL convierte archivos institucionales en datasets analiticos con
-unidades claras y decisiones explicitas. Esto reduce ambiguedad al interpretar
-indicadores, pruebas estadisticas y modelos.
+La fase de ETL aporta valor porque transforma registros institucionales en
+unidades analiticas comparables. El dataset maestro conserva 2879 registros a
+nivel estudiante-curso-periodo, mientras que el dataset de clasificacion queda
+en 2726 registros al excluir desasignados y variables con fuga de informacion.
+Esa separacion es importante: un estudiante desasignado forma parte del flujo
+administrativo, pero no debe mezclarse con quien tuvo una evaluacion final
+observable. Para decisiones futuras, esta distincion evita sobredimensionar o
+distorsionar indicadores de perdida, recuperacion o riesgo.
+
+Los targets tambien quedan definidos con alcance claro. `perdida_definitiva`
+aparece en 827 registros modelables, equivalente a 30.34%, y significa que el
+ultimo resultado observable no fue aprobado. `riesgo_retraso_potencial` aparece
+en 411 registros, equivalente a 15.08%, y agrega continuidad de oferta y
+condicion curricular. Esta diferencia ayuda a la toma de decisiones: no toda
+perdida implica el mismo nivel de vulnerabilidad academica. Una perdida en un
+curso con oferta frecuente no se comporta igual que una perdida en un curso
+profesional de baja continuidad.
 
 ## Conclusiones generales
 
-El proyecto cuenta con una base procesada reproducible. Las variables objetivo
-son utiles para priorizar patrones academicos, pero no deben interpretarse como
-diagnosticos individuales ni como evidencia causal."""
+La conclusion general es que la base procesada permite analizar el problema con
+mas precision que los archivos raw por separado. Para cursos de area comun, la
+alta cantidad de registros puede elevar los conteos absolutos de perdida; para
+cursos profesionales, la menor continuidad puede convertir una perdida en una
+espera academica mas larga dentro de la ventana observada. Por eso el proyecto
+no debe priorizar unicamente por volumen, sino por una combinacion de tasa,
+continuidad, dependencia curricular y flujo posterior observable.
+
+En terminos de comportamiento esperado, si un estudiante pierde un curso con
+oferta posterior observable, tiene mayor posibilidad institucional de intentar
+recursarlo dentro del mismo anio. Si pierde un curso sin oferta posterior
+observable, especialmente profesional y bloqueante, el comportamiento esperado
+es una interrupcion temporal del flujo curricular hasta la siguiente ventana de
+oferta. Esta lectura sigue siendo potencial y descriptiva, pero es mucho mas
+util para planificacion que un conteo aislado de perdidas."""
         ),
     ]
     write_notebook("02_etl_y_datasets_derivados.ipynb", cells)
@@ -488,17 +535,43 @@ catalogo_figuras[["figura", "pregunta_analitica", "ruta"]]"""
 
 ## Conclusiones del notebook
 
-El EDA muestra que la lectura academica debe combinar conteos, tasas,
-continuidad y grupo academico. Los cursos de area comun y area profesional no
-deben analizarse como si tuvieran la misma frecuencia de oferta ni el mismo
-volumen de registros.
+El EDA muestra que el analisis academico debe combinar conteos, tasas,
+continuidad y grupo academico. En 2024, S1 concentra 51 cursos ofertados y 1321
+asignaciones, mientras que las escuelas de vacaciones muestran ventanas mucho
+mas reducidas. Esto significa que la oportunidad de recursar no se distribuye
+de forma homogenea durante el anio. La oferta semestral sostiene la mayor parte
+del flujo academico; las vacaciones funcionan como una ventana adicional, pero
+no equivalente.
+
+La comparacion entre area comun y area profesional es el hallazgo estructural
+mas importante. Area comun registra 1703 estudiantes con acta ordinaria y 497
+perdidas definitivas, con tasa de perdida de 29.2% e indice de continuidad
+promedio de 47.6%. El area profesional, por su parte, presenta areas con menor
+continuidad promedio, como Ciencias de la Computacion con 23.4% y Desarrollo de
+Software con 26.6%. Esto cambia la lectura: Matematica Basica 1 puede liderar
+en conteo absoluto por volumen, pero cursos profesionales como Introduccion a la
+Programacion y Computacion 1 combinan tasa alta, volumen relevante y menor
+ventana de recursamiento que muchos cursos de area comun.
 
 ## Conclusiones generales
 
 La continuidad de oferta aparece como un eje descriptivo central para entender
-recursamiento y riesgo potencial. Aun asi, el analisis no demuestra causalidad:
-describe patrones observados que orientan preguntas para planificacion
-academica."""
+recursamiento y riesgo potencial. Despues de una perdida con ventana posterior,
+el area comun muestra 333 recursamientos observables de 435 perdidas, equivalente
+a 76.6%, y 203 aprobaciones posteriores. En area profesional se observan 85
+recursamientos de 319 perdidas, equivalente a 26.6%, con 39 aprobaciones
+posteriores. Esta brecha no prueba causalidad, pero si describe un flujo
+academico distinto: cuando la oferta posterior es mas limitada, el estudiante
+tiene menos oportunidades observables para reincorporarse al curso dentro del
+mismo anio.
+
+Para la toma de decisiones, el comportamiento esperado es claro a nivel
+agregado: cursos de area comun con oferta mas frecuente tienden a sostener mas
+recursamiento observable; cursos profesionales con oferta unica o baja
+continuidad tienden a concentrar riesgo de espera academica cuando se pierden.
+El proyecto no debe recomendar abrir cursos solo porque tienen perdidas, sino
+priorizar aquellos donde coinciden perdida relativa alta, baja continuidad,
+condicion bloqueante y bajo flujo posterior."""
         ),
     ]
     write_notebook("03_eda_indicadores_academicos.ipynb", cells)
@@ -616,15 +689,41 @@ sustituye el analisis por curso ni prueba mecanismos causales."""
 
 ## Conclusiones del notebook
 
-La fase estadistica y de modelos confirma que existen patrones observados
-coherentes entre continuidad, grupo academico, recursamiento y riesgo potencial.
-La evidencia es util para priorizar cursos y preguntas, no para afirmar causas.
+La fase estadistica y de modelos confirma que varios patrones observados en el
+EDA son consistentes con asociaciones medibles. No se observa evidencia
+estadistica suficiente de asociacion global entre grupo academico y perdida
+definitiva, pero si se observa asociacion entre grupo academico y riesgo de
+retraso potencial, recursamiento observable, aprobacion posterior al recursar y
+perdidas sin oferta posterior observable. Esta combinacion es importante para
+decisiones futuras: el problema no parece estar solamente en perder cursos, sino
+en que ocurre despues de perderlos segun continuidad y area academica.
+
+Los modelos de clasificacion ayudan a ordenar senales, no a dictar decisiones.
+Para `riesgo_retraso_potencial`, Random Forest obtiene F1 0.535 y recall 0.883,
+lo que indica capacidad exploratoria para capturar casos positivos observados,
+aunque con limitaciones de precision. Para `perdida_definitiva`, la regresion
+logistica logra F1 0.504. Estos valores muestran que los patrones existen, pero
+no son tan simples como para resolverlos con una sola variable. La decision
+academica debe apoyarse en el conjunto: continuidad, curso, area, semestre,
+zona previa disponible y condicion curricular.
 
 ## Conclusiones generales
 
-El analisis modelado complementa el EDA: ayuda a ordenar senales, medir
-asociaciones y comparar algoritmos. La interpretacion final debe permanecer
-agregada, academica y prudente."""
+El analisis modelado complementa el EDA al mostrar que el riesgo potencial esta
+mas vinculado con el contexto academico posterior que con una lectura global de
+perdida. Para un estudiante, la diferencia practica no es solo reprobar, sino
+si el curso perdido aparece nuevamente en una ventana cercana y si ese curso
+bloquea cursos posteriores. En area comun, la mayor continuidad observada puede
+mantener abierto el flujo de recursamiento; en area profesional, la baja
+frecuencia puede convertir una perdida en un cuello de botella temporal.
+
+La regresion lineal agregada obtiene R2 0.216, MAE 0.039 y RMSE 0.054. Esto
+aporta una lectura complementaria, pero tambien advierte que la perdida
+definitiva no se explica completamente con variables agregadas de oferta y
+estructura. Por tanto, el valor para la toma de decisiones esta en usar modelos
+como sistema de priorizacion y contraste, no como mecanismo automatico. Las
+acciones futuras deberian concentrarse en cursos donde coinciden senales
+estadisticas, baja continuidad y afectacion curricular potencial."""
         ),
     ]
     write_notebook("04_analisis_estadistico_y_modelos.ipynb", cells)
@@ -770,18 +869,505 @@ reglas.head(12)"""
 
 Los cursos criticos no deben definirse solo por el mayor conteo absoluto de
 perdidas. La lectura mas util combina tasa, continuidad, area academica,
-dependencia curricular, recursamiento observable y perfil de cluster.
+dependencia curricular, recursamiento observable y perfil de cluster. Por eso
+Introduccion a la Programacion y Computacion 1 es relevante no solo por sus 62
+perdidas definitivas, sino porque tambien presenta 43.1% de perdida definitiva,
+50.0% de continuidad y 25 perdidas sin oferta posterior observable dentro de
+2024. En un curso profesional inicial, ese patron puede afectar el ingreso del
+estudiante al bloque de cursos posteriores de programacion.
+
+Tambien se observan cursos profesionales con 100% de perdidas sin oferta
+posterior observable en la ventana 2024, como Lenguajes Formales, Matematica de
+Computo 1, Logica de Sistemas y Sistemas de Bases de Datos 1. La interpretacion
+no es que todos los estudiantes abandonen o que nunca puedan aprobar; el punto
+es que, dentro del anio observado, la perdida no encontro una nueva oferta
+posterior visible. Para planificacion, estos cursos merecen revision porque una
+perdida puede traducirse en espera hasta la siguiente apertura.
 
 ## Conclusiones generales
 
-La evidencia integrada apoya una hipotesis descriptiva: ampliar ventanas de
-oferta puede favorecer el flujo observable de recursamiento, especialmente en
-cursos profesionales. Sin embargo, mas oferta no garantiza aprobacion; por eso
-las decisiones deben considerar acompanamiento academico, dificultad del curso y
-continuidad curricular, siempre sin afirmar causalidad."""
+La evidencia integrada apoya una hipotesis descriptiva para toma de decisiones:
+ampliar o redistribuir ventanas de oferta puede mejorar el flujo observable de
+recursamiento en cursos profesionales vulnerables, pero no garantiza aprobacion.
+La comparacion con area comun es clave: cuando existen mas ventanas de oferta,
+se observa mas recursamiento posterior; cuando la oferta profesional es unica o
+limitada, la perdida tiende a convertirse en una espera academica dentro del
+anio observado.
+
+El comportamiento esperado para un estudiante que pierde un curso profesional
+bloqueante de baja continuidad es distinto al de un estudiante que pierde un
+curso de area comun con mayor oferta. En el primer caso, puede quedar limitado
+para avanzar en cursos dependientes hasta que el curso vuelva a abrirse. En el
+segundo, existe una mayor probabilidad observada de recursamiento cercano,
+aunque eso no asegure aprobacion. Por eso, una decision academica futura podria
+priorizar cursos profesionales donde coinciden cuatro senales: alta perdida
+relativa, baja continuidad, dependencia curricular y bajo recursamiento
+observable.
+
+La conclusion final no es abrir todos los cursos ni asumir que mas oferta
+resuelve por si sola el problema. La recomendacion analitica es construir una
+priorizacion institucional basada en evidencia: identificar cursos profesionales
+criticos, revisar su patron de oferta, evaluar si una ventana adicional es
+factible y acompanarla con estrategias academicas que atiendan dificultad,
+prerrequisitos y recuperacion. Esa es la forma en que el analisis aporta valor
+sin convertir patrones observados en afirmaciones causales."""
         ),
     ]
     write_notebook("05_cursos_criticos_y_hallazgos.ipynb", cells)
+
+
+def build_project_synthesis_notebook() -> None:
+    period = read_csv("outputs/tables/indicators/05_indicadores_periodo.csv")
+    area = read_csv("outputs/tables/indicators/05_indicadores_area.csv")
+    retake = read_csv("outputs/tables/indicators/05_recursamiento_observable.csv")
+    top_professional = read_csv("outputs/tables/indicators/05_cursos_profesionales_perdida_relativa.csv")
+    without_offer = read_csv("outputs/tables/indicators/05_cursos_profesionales_sin_oportunidad_posterior.csv")
+    tests = read_csv("outputs/tables/statistical_tests/06_resumen_pruebas_estadisticas.csv")
+    model_metrics = read_csv("outputs/tables/models/07_metricas_modelos.csv")
+    cluster_profile = read_csv("outputs/tables/clusters/08_perfil_clusters.csv")
+    regression_metrics = read_csv("outputs/tables/regression/08_metricas_regresion.csv")
+    eda_catalog = read_csv("outputs/tables/indicators/05_catalogo_figuras_eda.csv")
+    model_catalog = read_csv("outputs/tables/models/07_catalogo_figuras_modelos.csv")
+    cluster_catalog = read_csv("outputs/tables/clusters/08_catalogo_figuras_clustering.csv")
+    regression_catalog = read_csv("outputs/tables/regression/08_catalogo_figuras_regresion.csv")
+
+    period_summary = period[
+        [
+            "periodo_academico",
+            "cursos_ofertados",
+            "cursos_no_ofertados",
+            "estudiantes_asignados",
+            "estudiantes_con_nota",
+            "perdida_definitiva",
+            "tasa_perdida_definitiva",
+            "estudiantes_en_riesgo_retraso_curricular",
+        ]
+    ].copy()
+    period_summary["tasa_perdida_definitiva"] = period_summary["tasa_perdida_definitiva"].map(percent)
+
+    area_summary = area[
+        [
+            "grupo_area",
+            "area_academica",
+            "total_cursos_catalogo",
+            "indice_continuidad_promedio",
+            "estudiantes_con_acta_ordinaria",
+            "perdida_definitiva",
+            "tasa_perdida_definitiva",
+            "estudiantes_en_riesgo_retraso_curricular",
+        ]
+    ].copy()
+    area_summary["indice_continuidad_promedio"] = area_summary["indice_continuidad_promedio"].map(percent)
+    area_summary["tasa_perdida_definitiva"] = area_summary["tasa_perdida_definitiva"].map(percent)
+
+    retake_summary = retake[
+        [
+            "grupo_area",
+            "perdidas_definitivas",
+            "perdidas_con_oferta_posterior_2024",
+            "perdidas_sin_oferta_posterior_2024",
+            "recursamientos_observables",
+            "aprobaciones_posteriores",
+            "tasa_recursamiento_observable",
+            "tasa_aprobacion_al_recursar",
+        ]
+    ].copy()
+    for column in ["tasa_recursamiento_observable", "tasa_aprobacion_al_recursar"]:
+        retake_summary[column] = retake_summary[column].map(percent)
+
+    priority_courses = top_professional[
+        [
+            "curso_etiqueta",
+            "area_academica",
+            "estudiantes_con_acta_ordinaria",
+            "perdida_definitiva",
+            "tasa_perdida_definitiva",
+            "indice_continuidad_oferta",
+            "cantidad_cursos_dependientes",
+            "patron_oferta",
+        ]
+    ].head(10).copy()
+    for column in ["tasa_perdida_definitiva", "indice_continuidad_oferta"]:
+        priority_courses[column] = priority_courses[column].map(percent)
+
+    no_later_offer = without_offer[
+        [
+            "curso_etiqueta",
+            "perdidas_definitivas",
+            "perdidas_sin_oferta_posterior_2024",
+            "tasa_perdidas_sin_oferta_posterior",
+            "recursamientos_observables",
+            "aprobaciones_posteriores",
+        ]
+    ].head(10).copy()
+    no_later_offer["tasa_perdidas_sin_oferta_posterior"] = no_later_offer[
+        "tasa_perdidas_sin_oferta_posterior"
+    ].map(percent)
+
+    selected_tests = tests[
+        tests["prueba"].isin(
+            [
+                "grupo_area_vs_perdida_definitiva",
+                "grupo_area_vs_riesgo_retraso_potencial",
+                "recursamiento_area_comun_vs_profesional",
+                "aprobacion_al_recursar_area_comun_vs_profesional",
+                "sin_oferta_posterior_area_comun_vs_profesional",
+                "continuidad_area_comun_vs_profesional",
+            ]
+        )
+    ][["prueba", "p_value", "conclusion"]].copy()
+    selected_tests["p_value"] = selected_tests["p_value"].map(metric)
+
+    best_models = []
+    for _, group in model_metrics.groupby("target", observed=False):
+        best = group.sort_values(["f1", "recall", "roc_auc"], ascending=False).iloc[0]
+        best_models.append(
+            {
+                "target": best["target_descripcion"],
+                "modelo_destacado": best["modelo_nombre"],
+                "f1": metric(best["f1"]),
+                "recall": metric(best["recall"]),
+                "roc_auc": metric(best["roc_auc"]),
+            }
+        )
+    best_models_table = pd.DataFrame(best_models)
+
+    cluster_summary = cluster_profile[
+        [
+            "cluster",
+            "etiqueta_descriptiva",
+            "cursos",
+            "tasa_perdida_definitiva_2024_media",
+            "indice_continuidad_oferta_media",
+            "proporcion_area_profesional",
+            "estudiantes_en_riesgo_retraso_curricular_2024",
+        ]
+    ].copy()
+    for column in [
+        "tasa_perdida_definitiva_2024_media",
+        "indice_continuidad_oferta_media",
+        "proporcion_area_profesional",
+    ]:
+        cluster_summary[column] = cluster_summary[column].map(percent)
+
+    regression_summary = regression_metrics[["modelo_nombre", "n_total", "r2", "mae", "rmse"]].copy()
+    for column in ["r2", "mae", "rmse"]:
+        regression_summary[column] = regression_summary[column].map(metric)
+
+    recommendation_table = pd.DataFrame(
+        [
+            {
+                "prioridad": "Alta",
+                "linea_de_accion": "Revisar continuidad de cursos profesionales criticos",
+                "evidencia": "Area profesional tiene menor continuidad y 231 perdidas sin oferta posterior observable.",
+                "uso_para_decision": "Evaluar ventanas adicionales o redistribucion de oferta en cursos bloqueantes.",
+            },
+            {
+                "prioridad": "Alta",
+                "linea_de_accion": "Priorizar cursos con perdida relativa alta y dependencia curricular",
+                "evidencia": "IPC1 registra 62 perdidas, 43.1% de perdida definitiva y 25 perdidas sin oferta posterior.",
+                "uso_para_decision": "Construir lista corta de cursos para seguimiento academico y planificacion de oferta.",
+            },
+            {
+                "prioridad": "Media",
+                "linea_de_accion": "Diferenciar estrategia de area comun y profesional",
+                "evidencia": "Area comun observa 76.6% de recursamiento posterior; area profesional 26.6%.",
+                "uso_para_decision": "Evitar una politica unica basada solo en conteos absolutos de perdida.",
+            },
+            {
+                "prioridad": "Media",
+                "linea_de_accion": "Acompanamiento academico junto con oferta",
+                "evidencia": "Mas oferta no garantiza aprobacion; area profesional aprueba 45.9% entre quienes recursan.",
+                "uso_para_decision": "Combinar apertura de ventanas con apoyo en cursos de alta dificultad.",
+            },
+            {
+                "prioridad": "Media",
+                "linea_de_accion": "Monitorear indicadores anualmente",
+                "evidencia": "Los modelos son exploratorios y el R2 de regresion es 0.216.",
+                "uso_para_decision": "Usar el pipeline como tablero anual de priorizacion, no como regla automatica.",
+            },
+        ]
+    )
+
+    synthesis_figures = pd.concat(
+        [
+            eda_catalog[
+                eda_catalog["figura"].isin(
+                    [
+                        "05_oferta_por_grupo_area_periodo.png",
+                        "05_recursamiento_y_aprobacion_por_grupo.png",
+                        "05_cursos_profesionales_perdida_relativa.png",
+                        "05_profesional_perdida_sin_oferta_posterior.png",
+                    ]
+                )
+            ],
+            model_catalog[model_catalog["figura"].isin(["07_metricas_modelos.png"])],
+            cluster_catalog,
+            regression_catalog,
+        ],
+        ignore_index=True,
+    )
+
+    cells = [
+        md(
+            """# Sintesis de hallazgos y recomendaciones
+
+## Proposito del notebook
+
+Este notebook presenta la sintesis ejecutiva del proyecto `Academic Offer
+Analysis CUNOC 2024`. Integra calidad de datos, ETL, indicadores, inferencia,
+modelos, clustering, reglas de asociacion y regresion lineal agregada.
+
+Su objetivo no es repetir el procedimiento tecnico, sino responder que se
+aprendio, que cursos y patrones merecen atencion, como se interpreta la
+diferencia entre area comun y area profesional, y que decisiones futuras puede
+informar el analisis.
+
+El enfoque es descriptivo y exploratorio. No se afirma causalidad y no se
+presentan diagnosticos individuales."""
+        ),
+        code(SETUP_CODE),
+        md(
+            """## Resumen ejecutivo
+
+El proyecto muestra que la perdida academica no debe interpretarse solo como
+conteo de estudiantes que no aprobaron. El hallazgo mas importante es que el
+riesgo academico potencial depende de la combinacion entre perdida, continuidad
+de oferta, area academica y condicion curricular del curso.
+
+Los cursos de area comun suelen tener mas volumen y mayor continuidad. Por eso
+aparecen con conteos altos de perdida, pero tambien ofrecen mas ventanas
+observables de recursamiento. Los cursos profesionales, en cambio, pueden tener
+menor cantidad de registros, pero una perdida en ellos puede ser mas sensible
+cuando el curso es bloqueante y no vuelve a ofertarse dentro del mismo anio.
+
+La lectura integrada sugiere una linea de decision: priorizar cursos
+profesionales donde coinciden perdida relativa alta, baja continuidad, condicion
+bloqueante y bajo recursamiento observable. Esta priorizacion no implica abrir
+todos los cursos ni asumir que mas oferta garantiza aprobacion; implica usar
+evidencia para decidir donde revisar oferta, acompanamiento y flujo curricular."""
+        ),
+        md(
+            f"""## Evidencia por periodo
+
+{markdown_table(period_summary)}
+
+Interpretacion: los semestres concentran la mayor parte de la oferta y la
+actividad academica. S1 registra 51 cursos ofertados y 1321 asignaciones; S2
+registra 48 cursos y 1107 asignaciones. Las escuelas de vacaciones tienen una
+oferta mucho menor, por lo que funcionan como ventanas complementarias de
+recursamiento, no como sustituto equivalente de la oferta semestral.
+
+Conclusion: la planificacion academica debe considerar que el calendario no
+ofrece oportunidades homogeneas. Cuando un curso profesional se pierde en una
+ventana sin oferta posterior cercana, el estudiante puede enfrentar espera
+academica aunque el curso tenga pocos registros absolutos."""
+        ),
+        md(
+            f"""## Comparacion entre area comun y area profesional
+
+{markdown_table(area_summary)}
+
+Interpretacion: area comun concentra 1703 estudiantes con acta ordinaria y 497
+perdidas definitivas, con tasa de perdida de 29.2% e indice de continuidad
+promedio de 47.6%. En area profesional, Desarrollo de Software muestra 38.9% de
+perdida definitiva e indice de continuidad de 26.6%; Ciencias de la Computacion
+tiene 31.5% de perdida e indice de continuidad de 23.4%.
+
+Conclusion: el area comun puede dominar rankings por volumen, pero el area
+profesional concentra vulnerabilidad por menor continuidad. Para toma de
+decisiones, la comparacion correcta no es solo "que curso pierde mas", sino
+"que curso combina perdida, baja continuidad y bloqueo curricular"."""
+        ),
+        md(
+            f"""## Flujo posterior observable
+
+{markdown_table(retake_summary)}
+
+Interpretacion: despues de una perdida definitiva con ventana posterior dentro
+de 2024, area comun registra 333 recursamientos observables de 435 perdidas,
+equivalente a 76.6%. Area profesional registra 85 recursamientos de 319
+perdidas, equivalente a 26.6%. Tambien se observa menor aprobacion posterior en
+area profesional entre quienes recursan: 45.9% frente a 61.0% en area comun.
+
+Conclusion: el estudiante que pierde un curso profesional de baja continuidad
+tiene menos oportunidades observables de reincorporarse al mismo curso dentro
+del anio. Esto no prueba causalidad, pero si describe una diferencia relevante
+para planificacion academica."""
+        ),
+        md(
+            f"""## Cursos profesionales prioritarios
+
+{markdown_table(priority_courses)}
+
+Interpretacion: Introduccion a la Programacion y Computacion 1 concentra 62
+perdidas definitivas, una tasa de perdida de 43.1%, continuidad de 50.0% y
+cuatro cursos dependientes. Otros cursos como Bases de Datos 1, Estructura de
+Datos, Sistemas Operativos 1 y Lenguajes Formales combinan perdida relativa alta
+con continuidad de 25.0%.
+
+Conclusion: estos cursos deben revisarse como candidatos prioritarios porque
+pueden afectar la progresion profesional del estudiante. La prioridad no se
+deriva solo de la dificultad, sino de la relacion entre perdida, continuidad y
+dependencia curricular."""
+        ),
+        md(
+            f"""## Perdidas sin oferta posterior observable
+
+{markdown_table(no_later_offer)}
+
+Interpretacion: varios cursos profesionales muestran 100.0% de perdidas sin
+oferta posterior observable dentro de 2024. Esto significa que, en la ventana
+analizada, la perdida no tuvo una nueva oportunidad de cursarse posteriormente.
+No significa que el estudiante no pueda aprobar en otro anio, sino que el flujo
+2024 queda interrumpido para ese curso.
+
+Conclusion: estos cursos son criticos para revisar continuidad porque una
+perdida puede convertirse en espera academica. La decision futura podria ser
+evaluar si existe espacio para una ventana adicional, una seccion estrategica o
+acompanamiento academico antes de la siguiente apertura."""
+        ),
+        md(
+            f"""## Evidencia estadistica y modelos
+
+### Pruebas seleccionadas
+
+{markdown_table(selected_tests)}
+
+### Modelos destacados por target
+
+{markdown_table(best_models_table)}
+
+### Regresion lineal agregada
+
+{markdown_table(regression_summary)}
+
+Interpretacion: las pruebas no muestran evidencia suficiente de asociacion
+global entre grupo academico y perdida definitiva, pero si muestran asociacion
+con riesgo potencial, recursamiento observable, aprobacion posterior al recursar
+y perdida sin oferta posterior. Los modelos ayudan a ordenar senales:
+Random Forest destaca en targets de riesgo, mientras que la regresion lineal
+agregada muestra capacidad explicativa parcial con R2 0.216.
+
+Conclusion: la evidencia cuantitativa refuerza que la prioridad no debe
+centrarse solo en perder cursos. Debe centrarse en que ocurre despues de la
+perdida y en que cursos generan mayor vulnerabilidad curricular por baja
+continuidad."""
+        ),
+        md(
+            f"""## Perfil de cursos criticos por clustering
+
+{markdown_table(cluster_summary)}
+
+Interpretacion: el clustering identifica un perfil de alta perdida y baja
+continuidad profesional con 21 cursos, 90.5% de cursos de area profesional y
+154 registros en riesgo potencial curricular. Este perfil resume cursos donde
+la perdida se combina con menor continuidad y condicion curricular sensible.
+
+Conclusion: el clustering no crea categorias definitivas, pero ayuda a
+priorizar perfiles. Para toma de decisiones, ese cluster puede funcionar como
+lista inicial para revisar oferta, dependencia curricular y acompanamiento."""
+        ),
+        md("## Figuras ejecutivas e interpretacion\n\n" + figure_sections(synthesis_figures)),
+        md(
+            f"""## Recomendaciones para toma de decisiones
+
+{markdown_table(recommendation_table)}
+
+Estas recomendaciones son descriptivas. No proponen una solucion unica ni
+atribuyen causalidad. Su funcion es convertir los hallazgos en preguntas
+operativas para planificacion academica."""
+        ),
+        md(
+            """## Lectura del efecto esperado en estudiantes
+
+Desde la perspectiva del estudiante, el efecto esperado no se limita a aprobar
+o perder un curso. El punto critico es la continuidad del flujo curricular
+despues de una perdida.
+
+En cursos de area comun, la mayor continuidad observada permite mas
+recursamiento dentro del mismo anio. Esto no garantiza aprobacion, pero reduce
+la probabilidad de que la perdida se convierta inmediatamente en espera
+curricular prolongada. En cursos profesionales de baja continuidad, el
+estudiante puede quedar temporalmente detenido porque el curso perdido no se
+oferta nuevamente en la ventana observada y puede ser prerrequisito o base para
+cursos posteriores.
+
+El comportamiento esperado, por tanto, es distinto por grupo. En area comun se
+espera mas flujo de recursamiento; en area profesional se espera mayor
+vulnerabilidad ante perdida si el curso es bloqueante y tiene oferta limitada.
+Esta diferencia justifica que las decisiones futuras no traten todos los cursos
+con la misma regla."""
+        ),
+        md(
+            """## Analisis critico
+
+El proyecto aporta evidencia suficiente para construir una priorizacion
+academica, pero tambien muestra limites importantes. La perdida definitiva por
+si sola no explica todo el problema; tampoco la continuidad de oferta por si
+sola garantiza aprobacion. Un curso puede ofertarse nuevamente y aun asi tener
+bajo recursamiento o baja aprobacion posterior. Por eso, cualquier decision
+debe combinar oferta con apoyo academico, revision de prerrequisitos y lectura
+de dificultad propia del curso.
+
+Tambien debe evitarse una lectura simplista de rankings. Los cursos de area
+comun pueden aparecer arriba por volumen, mientras que cursos profesionales
+pueden ser mas sensibles por continuidad y bloqueo curricular. La decision mas
+defendible no es atender solamente el curso con mas perdidas, sino identificar
+la interseccion entre tasa alta, baja continuidad, volumen suficiente y
+afectacion curricular potencial.
+
+Finalmente, el analisis trabaja con 2024. Esto permite describir el flujo
+observable dentro del anio, pero no reconstruye trayectorias academicas
+completas. Por eso las conclusiones deben verse como insumo de planificacion y
+no como sentencia definitiva sobre estudiantes, cursos o resultados futuros."""
+        ),
+        md(
+            """## Conclusiones del notebook
+
+La sintesis del proyecto muestra que el principal valor analitico esta en
+pasar de conteos aislados a criterios de priorizacion. El analisis permite
+distinguir cursos con mucha perdida por volumen, cursos con alta perdida
+relativa, cursos con baja continuidad y cursos que pueden bloquear el avance
+curricular. Esa combinacion es la que aporta valor para decisiones futuras.
+
+La comparacion entre area comun y area profesional sostiene la lectura central:
+area comun concentra mas volumen y mas recursamiento observable; area
+profesional presenta menor continuidad y, cuando un curso se pierde, puede
+generar mayor espera dentro de la ventana 2024. Esta diferencia no prueba
+causalidad, pero si es suficientemente consistente para orientar revision de
+oferta y seguimiento academico.
+
+El caso de cursos profesionales iniciales y bloqueantes es especialmente
+relevante. Introduccion a la Programacion y Computacion 1, Bases de Datos 1,
+Estructura de Datos, Sistemas Operativos 1 y Lenguajes Formales aparecen como
+cursos donde conviene revisar no solo resultados, sino tambien continuidad,
+dependencias y oportunidades reales de recursamiento.
+
+## Conclusiones generales
+
+El proyecto concluye que una estrategia de planificacion academica basada en
+evidencia deberia priorizar cursos profesionales donde coinciden cuatro
+senales: perdida relativa alta, baja continuidad de oferta, condicion
+bloqueante o dependiente y bajo recursamiento observable. Esa priorizacion
+puede ayudar a decidir donde evaluar ventanas adicionales, secciones
+estrategicas o acompanamiento academico focalizado.
+
+Mas oferta no debe interpretarse como solucion automatica. La evidencia muestra
+que ampliar oportunidades puede favorecer el flujo observable de recursamiento,
+pero la aprobacion posterior depende tambien de dificultad, preparacion,
+prerrequisitos y apoyo academico. Por tanto, la decision futura mas robusta no
+es simplemente abrir mas cursos, sino abrir o redistribuir oferta donde el
+riesgo curricular sea mayor y acompanarla con acciones academicas.
+
+La conclusion final es que el analisis aporta un marco de decision: usar datos
+para identificar cursos vulnerables, diferenciar area comun de area
+profesional, medir continuidad y evaluar el flujo posterior despues de la
+perdida. Este marco permite discutir decisiones academicas con evidencia,
+manteniendo una lectura descriptiva, agregada y metodologicamente prudente."""
+        ),
+    ]
+    write_notebook("06_sintesis_hallazgos_y_recomendaciones.ipynb", cells)
 
 
 def main() -> None:
@@ -790,6 +1376,7 @@ def main() -> None:
     build_eda_notebook()
     build_stats_models_notebook()
     build_critical_courses_notebook()
+    build_project_synthesis_notebook()
     print("Notebooks de Fase 9 generados.")
 
 
